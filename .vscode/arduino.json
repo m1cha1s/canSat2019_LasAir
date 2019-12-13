@@ -1,0 +1,6 @@
+{
+    "sketch": "flightControl.ino",
+    "board": "arduino:avr:mega",
+    "port": "COM18",
+    "configuration": "cpu=atmega2560"
+}
