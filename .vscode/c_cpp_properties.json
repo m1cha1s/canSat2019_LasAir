@@ -3,6 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\schon\\OneDrive\\Dokumenty\\Arduino\\libraries\\MPU6050_tockn\\src",
+                "C:\\Users\\schon\\OneDrive\\Dokumenty\\Arduino\\libraries\\TinyGPS\\src",
                 "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src",
                 "C:\\Program Files (x86)\\Arduino\\tools\\**",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",

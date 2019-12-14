@@ -1,8 +1,13 @@
+#include <MPU6050_tockn.h>
+#include <TinyGPS.h>
 #include <SPI.h>
 #include <RH_RF95.h>
 #include <BME280I2C.h>
 #include <Wire.h>
 #include <SD.h>
+#include <SoftwareSerial.h>
+
+
 // #define MYDEBUG 1
 
 #define RFM95_CS 53
@@ -17,11 +22,17 @@ RH_RF95 rf95(RFM95_CS, RFM95_INT);
 
 BME280I2C bme;
 
+int chipSel = 4;
+
+MPU6050 imu(Wire);
+
 void setup()
 {
   serialINIT();
   loraINIT();
   bmeINIT();
+  sdINIT(chipSel);
+  mpu6050INIT();
 }
 
 int16_t packetnum = 0;  // packet counter, we increment per xmission
@@ -32,8 +43,8 @@ void loop()
   float temp(NAN), hum(NAN), pres(NAN);
   BME280::TempUnit tempUnit(BME280::TempUnit_Celsius);
   BME280::PresUnit presUnit(BME280::PresUnit_Pa);
+
   delay(1000); // Wait 1 second between transmits, could also 'sleep' here!
-  Serial.println("Transmitting..."); // Send a message to rf95_server
 
   bme.read(pres, temp, hum, tempUnit, presUnit);
 
@@ -45,16 +56,6 @@ void loop()
   Serial.println(temp);
   Serial.println(pres);
 
-  //int itemp = (int)(temp*100.0);
-  //int ipres = (int)(pres*100.0);
-
-  //sprintf(radiopacket, "%d, %d", ipres, itemp);
-
-  
-
- // itoa(packetnum++, radiopacket + 13, 10);
- // Serial.print("Sending ");  Serial.println(radiopacket);
- // radiopacket[39] = 0;
 
   Serial.println("Sending...");
   delay(10);
@@ -94,8 +95,24 @@ void loop()
 
 }
 
-void logData() {
+void logData(String dataString) {
+  File logFile = SD.open("flightLog.txt", FILE_WRITE);
 
+  if(logFile) {
+    logFile.println(dataString);
+    logFile.close();
+  }  
+}
+
+void sdINIT(int chipSelect) {
+  Serial.print("Initializing SD card...");
+
+  // see if the card is present and can be initialized:
+  if (!SD.begin(chipSelect)) {
+    Serial.println("Card failed, or not present");
+    while (1);
+  }
+  Serial.println("card initialized.");
 }
 
 void loraINIT() {
@@ -147,4 +164,10 @@ void serialINIT() {
   }
 
   delay(100);  
+}
+
+void mpu6050INIT() {
+  Wire.begin();
+  imu.begin();
+  imu.calcGyroOffsets(true);
 }
