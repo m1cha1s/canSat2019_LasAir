@@ -3,6 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\schon\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\schon\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\**",
                 "C:\\Users\\michal\\Documents\\Arduino\\libraries\\SDS011_sensor_Library",
                 "C:\\Users\\schon\\OneDrive\\Dokumenty\\Arduino\\libraries\\MPU6050_tockn\\src",
                 "C:\\Users\\schon\\OneDrive\\Dokumenty\\Arduino\\libraries\\TinyGPS\\src",
@@ -16,9 +18,7 @@
                 "C:\\Users\\schon\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\**",
                 "C:\\Users\\schon\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\**"
             ],
-            "forcedInclude": [
-                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
-            ],
+            "forcedInclude": [],
             "intelliSenseMode": "msvc-x64",
             "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
             "cStandard": "c11",
