@@ -14,7 +14,7 @@ struct CanSatPacket {
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float 03um, 05um, 10um, 25um, 50um, 100um;
+  float um03, um05, um10, um25, um50, um100;
 } packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 int packet_size = sizeof(packet);
 
@@ -98,12 +98,12 @@ void logAll() {
   logDataB("SatValid: ", packet.satValid);
   logDataB("AltValid: ", packet.altValid);
   logDataB("LocValid: ", packet.locValid);
-  logDataF("0.3 um: ", packet.03um);
-  logDataF("0.5 um: ", packet.05um);
-  logDataF("10 um: ", packet.10um);
-  logDataF("25 um: ", packet.25um);
-  logDataF("50 um: ", packet.50um);
-  logDataF("100 um: ", packet.100um);
+  logDataF("0.3 um: ", packet.um03);
+  logDataF("0.5 um: ", packet.um05);
+  logDataF("10 um: ", packet.um10);
+  logDataF("25 um: ", packet.um25);
+  logDataF("50 um: ", packet.um50);
+  logDataF("100 um: ", packet.um100);
   SerialUSB.println("");
   LOG.println("");
 }

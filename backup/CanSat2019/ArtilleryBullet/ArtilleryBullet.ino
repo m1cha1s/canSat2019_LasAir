@@ -19,7 +19,7 @@ struct CanSatPacket {
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float 03um, 05um, 10um, 25um, 50um, 100um;
+  float um03, um05, um10, um25, um50, um100;
 } packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 const int packet_size = sizeof(packet);
 
@@ -171,12 +171,12 @@ void logAll() {
   logDataB("SatValid: ", packet.satValid);
   logDataB("AltValid: ", packet.altValid);
   logDataB("LocValid: ", packet.locValid);
-  logDataF("0.3 um: ", packet.03um);
-  logDataF("0.5 um: ", packet.05um);
-  logDataF("10 um: ", packet.10um);
-  logDataF("25 um: ", packet.25um);
-  logDataF("50 um: ", packet.50um);
-  logDataF("100 um: ", packet.100um);
+  logDataF("0.3 um: ", packet.um03);
+  logDataF("0.5 um: ", packet.um05);
+  logDataF("10 um: ", packet.um10);
+  logDataF("25 um: ", packet.um25);
+  logDataF("50 um: ", packet.um50);
+  logDataF("100 um: ", packet.um100);
   SerialUSB.println("");
   LOG.println("");
 }
@@ -232,12 +232,12 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.03um = data.particles_03um;
-  packet.05um = data.particles_05um;
-  packet.10um = data.particles_10um;
-  packet.25um = data.particles_25um;
-  packet.50um = data.particles_50um;
-  packet.100um = data.particles_100um
+  packet.um03 = data.particles_03um;
+  packet.um05 = data.particles_05um;
+  packet.um10 = data.particles_10um;
+  packet.um25 = data.particles_25um;
+  packet.um50 = data.particles_50um;
+  packet.um100 = data.particles_100um
 
   radio.transmit((uint8_t *)(&packet), packet_size);
   radio.flush();
