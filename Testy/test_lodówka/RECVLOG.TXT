@@ -1,0 +1,11766 @@
+Packet ID: 1
+RSSI: -58
+Time: 7185
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.80
+Pressure: 1013.01
+AccX: 0.35
+AccY: -0.37
+AccZ: -0.96
+GyroX: -2.97
+GyroY: -11.65
+GyroZ: 12.18
+AccAngleX: -149.10
+AccAngleY: -149.62
+GyroAngleX: -21.08
+GyroAngleY: -82.67
+GyroAngleZ: 86.43
+AngleX: -23.64
+AngleY: -84.00
+AngleZ: 86.43
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 2
+RSSI: -57
+Time: 8912
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.81
+Pressure: 1013.00
+AccX: 0.27
+AccY: -0.34
+AccZ: -0.94
+GyroX: -2.54
+GyroY: -1.26
+GyroZ: 1.96
+AccAngleX: -153.11
+AccAngleY: -156.05
+GyroAngleX: -25.48
+GyroAngleY: -84.85
+GyroAngleZ: 89.82
+AngleX: -30.54
+AngleY: -87.59
+AngleZ: 89.82
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 3
+RSSI: -85
+Time: 10604
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.81
+Pressure: 1013.01
+AccX: 0.36
+AccY: -0.34
+AccZ: -0.99
+GyroX: 5.85
+GyroY: 12.40
+GyroZ: 1.83
+AccAngleX: -151.79
+AccAngleY: -151.22
+GyroAngleX: -15.57
+GyroAngleY: -63.87
+GyroAngleZ: 92.91
+AngleX: -23.26
+AngleY: -68.30
+AngleZ: 92.91
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 4
+RSSI: -71
+Time: 12296
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.79
+Pressure: 1013.00
+AccX: 0.44
+AccY: -0.45
+AccZ: -1.05
+GyroX: -38.89
+GyroY: 54.63
+GyroZ: 18.16
+AccAngleX: -143.58
+AccAngleY: -143.65
+GyroAngleX: -81.38
+GyroAngleY: 28.56
+GyroAngleZ: 123.64
+AngleX: -90.16
+AngleY: 20.78
+AngleZ: 123.64
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 5
+RSSI: -73
+Time: 13988
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.78
+Pressure: 1012.99
+AccX: 0.28
+AccY: -0.38
+AccZ: -0.88
+GyroX: 32.68
+GyroY: -23.46
+GyroZ: -22.89
+AccAngleX: -148.11
+AccAngleY: -151.19
+GyroAngleX: -26.09
+GyroAngleY: -11.14
+GyroAngleZ: 84.91
+AngleX: -37.13
+AngleY: -21.57
+AngleZ: 84.91
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 6
+RSSI: -76
+Time: 15680
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.78
+Pressure: 1012.99
+AccX: 0.43
+AccY: -0.39
+AccZ: -0.99
+GyroX: -42.57
+GyroY: -12.15
+GyroZ: 43.20
+AccAngleX: -145.01
+AccAngleY: -144.36
+GyroAngleX: -98.12
+GyroAngleY: -31.70
+GyroAngleZ: 158.01
+AngleX: -109.88
+AngleY: -44.17
+AngleZ: 158.01
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 7
+RSSI: -77
+Time: 17372
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.78
+Pressure: 1012.99
+AccX: 0.34
+AccY: -0.48
+AccZ: -1.02
+GyroX: -35.05
+GyroY: 101.56
+GyroZ: 55.14
+AccAngleX: -145.04
+AccAngleY: -148.11
+GyroAngleX: -157.42
+GyroAngleY: 140.14
+GyroAngleZ: 251.30
+AngleX: -168.70
+AngleY: 122.15
+AngleZ: 251.30
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 8
+RSSI: -90
+Time: 19064
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.77
+Pressure: 1012.99
+AccX: 0.36
+AccY: -0.39
+AccZ: -0.96
+GyroX: 23.99
+GyroY: -46.20
+GyroZ: -77.20
+AccAngleX: -146.77
+AccAngleY: -147.50
+GyroAngleX: -116.83
+GyroAngleY: 61.98
+GyroAngleZ: 120.68
+AngleX: -128.48
+AngleY: 40.16
+AngleZ: 120.68
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 9
+RSSI: -89
+Time: 20756
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1012.98
+AccX: 0.38
+AccY: -0.46
+AccZ: -0.92
+GyroX: 27.90
+GyroY: -18.23
+GyroZ: -125.99
+AccAngleX: -139.94
+AccAngleY: -140.82
+GyroAngleX: -69.62
+GyroAngleY: 31.14
+GyroAngleZ: -92.49
+AngleX: -82.44
+AngleY: 6.32
+AngleZ: -92.49
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 10
+RSSI: -81
+Time: 22448
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1012.96
+AccX: 0.35
+AccY: -0.50
+AccZ: -0.91
+GyroX: 31.64
+GyroY: -97.25
+GyroZ: -115.85
+AccAngleX: -137.90
+AccAngleY: -139.03
+GyroAngleX: -16.09
+GyroAngleY: -133.41
+GyroAngleZ: -288.52
+AngleX: -31.09
+AngleY: -157.85
+AngleZ: -288.52
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 11
+RSSI: -80
+Time: 24140
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1013.01
+AccX: 0.43
+AccY: -0.48
+AccZ: -0.88
+GyroX: 17.98
+GyroY: -26.65
+GyroZ: -55.87
+AccAngleX: -133.12
+AccAngleY: -132.92
+GyroAngleX: 14.33
+GyroAngleY: -178.51
+GyroAngleZ: -383.05
+AngleX: -3.32
+AngleY: -201.54
+AngleZ: -383.05
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 12
+RSSI: -82
+Time: 25832
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1013.02
+AccX: 0.40
+AccY: -0.43
+AccZ: -0.88
+GyroX: -0.07
+GyroY: 45.74
+GyroZ: 103.90
+AccAngleX: -137.99
+AccAngleY: -138.21
+GyroAngleX: 14.21
+GyroAngleY: -101.11
+GyroAngleZ: -207.25
+AngleX: -6.13
+AngleY: -124.43
+AngleZ: -207.25
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 13
+RSSI: -92
+Time: 27524
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1012.98
+AccX: 0.38
+AccY: -0.53
+AccZ: -0.86
+GyroX: -12.27
+GyroY: 16.14
+GyroZ: -5.84
+AccAngleX: -132.14
+AccAngleY: -130.97
+GyroAngleX: -6.54
+GyroAngleY: -73.80
+GyroAngleZ: -217.12
+AngleX: -28.99
+AngleY: -97.80
+AngleZ: -217.12
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 14
+RSSI: -93
+Time: 29216
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1013.01
+AccX: 0.42
+AccY: -0.47
+AccZ: -0.79
+GyroX: 20.63
+GyroY: -0.01
+GyroZ: -19.41
+AccAngleX: -128.85
+AccAngleY: -128.07
+GyroAngleX: 28.37
+GyroAngleY: -73.82
+GyroAngleZ: -249.97
+AngleX: 3.22
+AngleY: -98.42
+AngleZ: -249.97
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 15
+RSSI: -96
+Time: 30908
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.76
+Pressure: 1013.10
+AccX: 0.55
+AccY: -0.49
+AccZ: -0.86
+GyroX: -7.35
+GyroY: -58.21
+GyroZ: -56.57
+AccAngleX: -122.81
+AccAngleY: -124.12
+GyroAngleX: 15.93
+GyroAngleY: -172.31
+GyroAngleZ: -345.69
+AngleX: -11.49
+AngleY: -195.46
+AngleZ: -345.69
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 16
+RSSI: -95
+Time: 32600
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.74
+Pressure: 1013.06
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.77
+GyroY: 7.67
+GyroZ: 5.44
+AccAngleX: -132.84
+AccAngleY: -133.19
+GyroAngleX: 4.47
+GyroAngleY: -159.34
+GyroAngleZ: -336.47
+AngleX: -25.14
+AngleY: -181.50
+AngleZ: -336.47
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 17
+RSSI: -104
+Time: 34303
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.72
+Pressure: 1014.27
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.87
+GyroX: -5.92
+GyroY: 7.91
+GyroZ: 5.26
+AccAngleX: -134.46
+AccAngleY: -134.52
+GyroAngleX: -5.61
+GyroAngleY: -145.87
+GyroAngleZ: -327.51
+AngleX: -37.20
+AngleY: -167.36
+AngleZ: -327.51
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 18
+RSSI: -102
+Time: 35997
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.69
+Pressure: 1012.75
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.47
+GyroY: 7.94
+GyroZ: 6.12
+AccAngleX: -133.92
+AccAngleY: -134.12
+GyroAngleX: -14.88
+GyroAngleY: -132.42
+GyroAngleZ: -317.15
+AngleX: -48.23
+AngleY: -153.51
+AngleZ: -317.15
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 19
+RSSI: -103
+Time: 37691
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.66
+Pressure: 1012.77
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.90
+GyroX: -5.28
+GyroY: 7.27
+GyroZ: 5.95
+AccAngleX: -135.52
+AccAngleY: -135.45
+GyroAngleX: -23.82
+GyroAngleY: -120.10
+GyroAngleZ: -307.08
+AngleX: -58.73
+AngleY: -141.08
+AngleZ: -307.08
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 20
+RSSI: -101
+Time: 39385
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.61
+Pressure: 1012.86
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.53
+GyroY: 8.43
+GyroZ: 5.14
+AccAngleX: -134.27
+AccAngleY: -134.40
+GyroAngleX: -34.88
+GyroAngleY: -105.82
+GyroAngleZ: -298.37
+AngleX: -71.08
+AngleY: -126.95
+AngleZ: -298.37
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 21
+RSSI: -99
+Time: 41079
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.57
+Pressure: 1012.88
+AccX: 0.49
+AccY: -0.39
+AccZ: -0.87
+GyroX: -5.93
+GyroY: 7.21
+GyroZ: 6.38
+AccAngleX: -134.44
+AccAngleY: -134.55
+GyroAngleX: -44.92
+GyroAngleY: -93.61
+GyroAngleZ: -287.57
+AngleX: -82.19
+AngleY: -115.14
+AngleZ: -287.57
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 22
+RSSI: -100
+Time: 42773
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.53
+Pressure: 1012.92
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.11
+GyroY: 8.03
+GyroZ: 5.89
+AccAngleX: -135.91
+AccAngleY: -135.80
+GyroAngleX: -53.58
+GyroAngleY: -80.00
+GyroAngleZ: -277.60
+AngleX: -91.75
+AngleY: -102.21
+AngleZ: -277.60
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 23
+RSSI: -108
+Time: 44467
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.49
+Pressure: 1012.95
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.48
+GyroY: 8.52
+GyroZ: 5.06
+AccAngleX: -134.25
+AccAngleY: -134.37
+GyroAngleX: -64.56
+GyroAngleY: -65.57
+GyroAngleZ: -269.02
+AngleX: -103.36
+AngleY: -88.71
+AngleZ: -269.02
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 24
+RSSI: -101
+Time: 46161
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.46
+Pressure: 1012.97
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.87
+GyroX: -5.76
+GyroY: 7.10
+GyroZ: 6.18
+AccAngleX: -134.95
+AccAngleY: -134.96
+GyroAngleX: -74.32
+GyroAngleY: -53.54
+GyroAngleZ: -258.56
+AngleX: -113.56
+AngleY: -77.85
+AngleZ: -258.56
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 25
+RSSI: -104
+Time: 47855
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.41
+Pressure: 1012.99
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.91
+GyroX: -5.12
+GyroY: 8.35
+GyroZ: 5.93
+AccAngleX: -135.53
+AccAngleY: -135.46
+GyroAngleX: -83.00
+GyroAngleY: -39.39
+GyroAngleZ: -248.51
+AngleX: -122.50
+AngleY: -65.13
+AngleZ: -248.51
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 26
+RSSI: -102
+Time: 49549
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.37
+Pressure: 1012.97
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.50
+GyroY: 8.38
+GyroZ: 5.20
+AccAngleX: -134.93
+AccAngleY: -134.94
+GyroAngleX: -92.32
+GyroAngleY: -25.18
+GyroAngleZ: -239.70
+AngleX: -131.89
+AngleY: -52.61
+AngleZ: -239.70
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 27
+RSSI: -99
+Time: 51243
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.33
+Pressure: 1013.01
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.88
+GyroX: -6.47
+GyroY: 6.96
+GyroZ: 5.78
+AccAngleX: -135.84
+AccAngleY: -135.69
+GyroAngleX: -103.28
+GyroAngleY: -13.39
+GyroAngleZ: -229.91
+AngleX: -142.70
+AngleY: -42.71
+AngleZ: -229.91
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 28
+RSSI: -101
+Time: 52937
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.30
+Pressure: 1013.04
+AccX: 0.49
+AccY: -0.43
+AccZ: -0.90
+GyroX: -5.54
+GyroY: 8.17
+GyroZ: 5.95
+AccAngleX: -134.37
+AccAngleY: -134.45
+GyroAngleX: -112.66
+GyroAngleY: 0.46
+GyroAngleZ: -219.83
+AngleX: -151.73
+AngleY: -30.98
+AngleZ: -219.83
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 29
+RSSI: -103
+Time: 54631
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.27
+Pressure: 1013.03
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.30
+GyroY: 8.60
+GyroZ: 5.20
+AccAngleX: -135.04
+AccAngleY: -135.03
+GyroAngleX: -123.33
+GyroAngleY: 15.02
+GyroAngleZ: -211.03
+AngleX: -161.85
+AngleY: -18.79
+AngleZ: -211.03
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 30
+RSSI: -102
+Time: 56325
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.24
+Pressure: 1013.05
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.89
+GyroX: -5.83
+GyroY: 7.03
+GyroZ: 6.21
+AccAngleX: -135.86
+AccAngleY: -135.70
+GyroAngleX: -133.19
+GyroAngleY: 26.92
+GyroAngleZ: -200.51
+AngleX: -171.00
+AngleY: -9.46
+AngleZ: -200.51
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 31
+RSSI: -102
+Time: 58019
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.20
+Pressure: 1013.04
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.90
+GyroX: -5.18
+GyroY: 8.41
+GyroZ: 5.40
+AccAngleX: -135.92
+AccAngleY: -135.80
+GyroAngleX: -141.98
+GyroAngleY: 41.18
+GyroAngleZ: -191.37
+AngleX: -178.90
+AngleY: 1.98
+AngleZ: -191.37
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 32
+RSSI: -103
+Time: 59713
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.15
+Pressure: 1013.04
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.24
+GyroY: 9.19
+GyroZ: 4.82
+AccAngleX: -135.41
+AccAngleY: -135.35
+GyroAngleX: -152.54
+GyroAngleY: 56.75
+GyroAngleZ: -183.20
+AngleX: -188.39
+AngleY: 14.50
+AngleZ: -183.20
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 33
+RSSI: -103
+Time: 61418
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.10
+Pressure: 1013.01
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.61
+GyroY: 9.18
+GyroZ: 4.62
+AccAngleX: -135.53
+AccAngleY: -135.47
+GyroAngleX: -162.11
+GyroAngleY: 72.40
+GyroAngleZ: -175.33
+AngleX: -196.71
+AngleY: 26.83
+AngleZ: -175.33
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 34
+RSSI: -104
+Time: 63112
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 22.04
+Pressure: 1013.02
+AccX: 0.50
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.05
+GyroY: 8.26
+GyroZ: 5.89
+AccAngleX: -133.27
+AccAngleY: -133.60
+GyroAngleX: -172.36
+GyroAngleY: 86.39
+GyroAngleZ: -165.35
+AngleX: -205.49
+AngleY: 37.34
+AngleZ: -165.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 35
+RSSI: -102
+Time: 64806
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.98
+Pressure: 1013.03
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.89
+GyroX: -5.67
+GyroY: 6.89
+GyroZ: 6.50
+AccAngleX: -136.12
+AccAngleY: -135.97
+GyroAngleX: -181.97
+GyroAngleY: 98.06
+GyroAngleZ: -154.35
+AngleX: -213.52
+AngleY: 45.31
+AngleZ: -154.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 36
+RSSI: -104
+Time: 66500
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.93
+Pressure: 1013.01
+AccX: 0.47
+AccY: -0.43
+AccZ: -0.89
+GyroX: -5.58
+GyroY: 9.68
+GyroZ: 4.93
+AccAngleX: -134.15
+AccAngleY: -134.23
+GyroAngleX: -191.43
+GyroAngleY: 114.46
+GyroAngleZ: -146.00
+AngleX: -221.20
+AngleY: 57.79
+AngleZ: -146.00
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 37
+RSSI: -102
+Time: 68194
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.88
+Pressure: 1013.02
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.21
+GyroY: 8.48
+GyroZ: 5.06
+AccAngleX: -134.02
+AccAngleY: -134.17
+GyroAngleX: -201.94
+GyroAngleY: 128.82
+GyroAngleZ: -137.43
+AngleX: -229.76
+AngleY: 68.02
+AngleZ: -137.43
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 38
+RSSI: -99
+Time: 69888
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.82
+Pressure: 1012.99
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.70
+GyroY: 7.07
+GyroZ: 6.10
+AccAngleX: -136.03
+AccAngleY: -135.88
+GyroAngleX: -211.60
+GyroAngleY: 140.80
+GyroAngleZ: -127.09
+AngleX: -237.35
+AngleY: 75.68
+AngleZ: -127.09
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 39
+RSSI: -100
+Time: 71582
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.77
+Pressure: 1013.03
+AccX: 0.48
+AccY: -0.43
+AccZ: -0.89
+GyroX: -5.17
+GyroY: 9.61
+GyroZ: 5.23
+AccAngleX: -133.79
+AccAngleY: -133.92
+GyroAngleX: -220.36
+GyroAngleY: 157.07
+GyroAngleZ: -118.23
+AngleX: -243.86
+AngleY: 87.44
+AngleZ: -118.23
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 0.00
+0.5 um: 0.00
+10 um: 0.00
+25 um: 0.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 40
+RSSI: -97
+Time: 73276
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.71
+Pressure: 1013.03
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.36
+GyroY: 8.67
+GyroZ: 5.44
+AccAngleX: -133.65
+AccAngleY: -133.88
+GyroAngleX: -231.13
+GyroAngleY: 171.77
+GyroAngleZ: -109.01
+AngleX: -252.21
+AngleY: 97.41
+AngleZ: -109.01
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1278.00
+0.5 um: 426.00
+10 um: 121.00
+25 um: 7.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 41
+RSSI: -98
+Time: 74970
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.64
+Pressure: 1013.05
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.93
+GyroY: 7.36
+GyroZ: 5.87
+AccAngleX: -135.85
+AccAngleY: -135.72
+GyroAngleX: -241.18
+GyroAngleY: 184.24
+GyroAngleZ: -99.06
+AngleX: -259.74
+AngleY: 104.97
+AngleZ: -99.06
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 42
+RSSI: -99
+Time: 76664
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.57
+Pressure: 1013.03
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.50
+GyroY: 8.48
+GyroZ: 5.44
+AccAngleX: -135.53
+AccAngleY: -135.46
+GyroAngleX: -250.51
+GyroAngleY: 198.59
+GyroAngleZ: -89.84
+AngleX: -266.39
+AngleY: 114.23
+AngleZ: -89.84
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 43
+RSSI: -94
+Time: 78358
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.52
+Pressure: 1013.04
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.24
+GyroY: 8.63
+GyroZ: 5.06
+AccAngleX: -135.49
+AccAngleY: -135.42
+GyroAngleX: -261.07
+GyroAngleY: 213.21
+GyroAngleZ: -81.27
+AngleX: -274.13
+AngleY: 123.56
+AngleZ: -81.27
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 44
+RSSI: -93
+Time: 80052
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.45
+Pressure: 1013.01
+AccX: 0.49
+AccY: -0.39
+AccZ: -0.90
+GyroX: -5.46
+GyroY: 8.25
+GyroZ: 6.02
+AccAngleX: -136.51
+AccAngleY: -136.23
+GyroAngleX: -270.32
+GyroAngleY: 227.18
+GyroAngleZ: -71.06
+AngleX: -280.44
+AngleY: 132.06
+AngleZ: -71.06
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 45
+RSSI: -101
+Time: 81746
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.38
+Pressure: 1013.02
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.31
+GyroY: 7.77
+GyroZ: 5.38
+AccAngleX: -135.51
+AccAngleY: -135.44
+GyroAngleX: -279.31
+GyroAngleY: 240.35
+GyroAngleZ: -61.94
+AngleX: -286.35
+AngleY: 139.61
+AngleZ: -61.94
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 46
+RSSI: -103
+Time: 83440
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.32
+Pressure: 1013.00
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.04
+GyroY: 9.27
+GyroZ: 4.76
+AccAngleX: -133.50
+AccAngleY: -133.71
+GyroAngleX: -289.54
+GyroAngleY: 256.05
+GyroAngleZ: -53.88
+AngleX: -293.32
+AngleY: 149.54
+AngleZ: -53.88
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 47
+RSSI: -98
+Time: 85134
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.25
+Pressure: 1013.00
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.05
+GyroY: 7.99
+GyroZ: 5.44
+AccAngleX: -134.14
+AccAngleY: -134.29
+GyroAngleX: -299.80
+GyroAngleY: 269.58
+GyroAngleZ: -44.66
+AngleX: -300.18
+AngleY: 157.12
+AngleZ: -44.66
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 48
+RSSI: -98
+Time: 86828
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.21
+Pressure: 1013.07
+AccX: 0.46
+AccY: -0.40
+AccZ: -0.89
+GyroX: -5.67
+GyroY: 7.59
+GyroZ: 5.80
+AccAngleX: -136.53
+AccAngleY: -136.33
+GyroAngleX: -309.40
+GyroAngleY: 282.44
+GyroAngleZ: -34.84
+AngleX: -306.33
+AngleY: 163.85
+AngleZ: -34.84
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 49
+RSSI: -98
+Time: 88531
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.15
+Pressure: 1013.06
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.01
+GyroY: 7.96
+GyroZ: 5.40
+AccAngleX: -134.19
+AccAngleY: -134.33
+GyroAngleX: -319.64
+GyroAngleY: 295.99
+GyroAngleZ: -25.65
+AngleX: -312.91
+AngleY: 171.17
+AngleZ: -25.65
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 50
+RSSI: -95
+Time: 90225
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 21.06
+Pressure: 1013.03
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.99
+GyroY: 6.98
+GyroZ: 5.93
+AccAngleX: -135.75
+AccAngleY: -135.65
+GyroAngleX: -329.79
+GyroAngleY: 307.81
+GyroAngleZ: -15.60
+AngleX: -319.32
+AngleY: 176.62
+AngleZ: -15.60
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 51
+RSSI: -101
+Time: 91919
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.99
+Pressure: 1013.07
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.46
+GyroY: 9.56
+GyroZ: 4.79
+AccAngleX: -134.38
+AccAngleY: -134.45
+GyroAngleX: -339.04
+GyroAngleY: 324.01
+GyroAngleZ: -7.49
+AngleX: -324.68
+AngleY: 186.27
+AngleZ: -7.49
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 52
+RSSI: -99
+Time: 93613
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.92
+Pressure: 1013.07
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.01
+GyroY: 7.97
+GyroZ: 5.34
+AccAngleX: -134.19
+AccAngleY: -134.33
+GyroAngleX: -349.22
+GyroAngleY: 337.51
+GyroAngleZ: 1.55
+AngleX: -330.85
+AngleY: 193.09
+AngleZ: 1.55
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 53
+RSSI: -98
+Time: 95307
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.85
+Pressure: 1013.07
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.39
+GyroY: 7.44
+GyroZ: 5.86
+AccAngleX: -135.11
+AccAngleY: -135.09
+GyroAngleX: -360.04
+GyroAngleY: 350.11
+GyroAngleZ: 11.47
+AngleX: -337.54
+AngleY: 198.87
+AngleZ: 11.47
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 54
+RSSI: -100
+Time: 97001
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.79
+Pressure: 1013.10
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.91
+GyroX: -5.32
+GyroY: 8.83
+GyroZ: 5.92
+AccAngleX: -136.17
+AccAngleY: -136.02
+GyroAngleX: -369.05
+GyroAngleY: 365.07
+GyroAngleZ: 21.50
+AngleX: -342.35
+AngleY: 206.83
+AngleZ: 21.50
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 55
+RSSI: -99
+Time: 98695
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.73
+Pressure: 1013.05
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.69
+GyroY: 8.89
+GyroZ: 5.05
+AccAngleX: -134.28
+AccAngleY: -134.38
+GyroAngleX: -378.69
+GyroAngleY: 380.12
+GyroAngleZ: 30.05
+AngleX: -347.63
+AngleY: 214.76
+AngleZ: 30.05
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 56
+RSSI: -98
+Time: 100389
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.68
+Pressure: 1013.07
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.10
+GyroY: 8.43
+GyroZ: 5.41
+AccAngleX: -134.32
+AccAngleY: -134.45
+GyroAngleX: -389.02
+GyroAngleY: 394.40
+GyroAngleZ: 39.22
+AngleX: -353.49
+AngleY: 221.77
+AngleZ: 39.22
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 57
+RSSI: -98
+Time: 102083
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.61
+Pressure: 1013.10
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.10
+GyroY: 7.06
+GyroZ: 5.95
+AccAngleX: -135.05
+AccAngleY: -135.04
+GyroAngleX: -399.36
+GyroAngleY: 406.36
+GyroAngleZ: 49.29
+AngleX: -359.25
+AngleY: 226.35
+AngleZ: 49.29
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 58
+RSSI: -96
+Time: 103777
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.55
+Pressure: 1013.08
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.34
+GyroY: 9.13
+GyroZ: 4.73
+AccAngleX: -134.61
+AccAngleY: -134.66
+GyroAngleX: -408.40
+GyroAngleY: 421.83
+GyroAngleZ: 57.30
+AngleX: -363.61
+AngleY: 234.29
+AngleZ: 57.30
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 59
+RSSI: -96
+Time: 105475
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.48
+Pressure: 1013.07
+AccX: 0.50
+AccY: -0.39
+AccZ: -0.88
+GyroX: -6.50
+GyroY: 7.44
+GyroZ: 5.35
+AccAngleX: -134.03
+AccAngleY: -134.23
+GyroAngleX: -419.43
+GyroAngleY: 434.45
+GyroAngleZ: 66.39
+AngleX: -369.83
+AngleY: 239.29
+AngleZ: 66.39
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 60
+RSSI: -97
+Time: 107169
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.41
+Pressure: 1013.09
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.08
+GyroY: 7.62
+GyroZ: 5.57
+AccAngleX: -135.29
+AccAngleY: -135.25
+GyroAngleX: -429.74
+GyroAngleY: 447.36
+GyroAngleZ: 75.82
+AngleX: -375.24
+AngleY: 244.46
+AngleZ: 75.82
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 61
+RSSI: -97
+Time: 108863
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.35
+Pressure: 1013.09
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.60
+GyroY: 9.67
+GyroZ: 4.89
+AccAngleX: -134.95
+AccAngleY: -134.96
+GyroAngleX: -439.22
+GyroAngleY: 463.74
+GyroAngleZ: 84.11
+AngleX: -379.73
+AngleY: 252.91
+AngleZ: 84.11
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 62
+RSSI: -97
+Time: 110557
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.29
+Pressure: 1013.12
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.90
+GyroY: 8.61
+GyroZ: 5.35
+AccAngleX: -133.67
+AccAngleY: -133.89
+GyroAngleX: -449.21
+GyroAngleY: 478.33
+GyroAngleZ: 93.18
+AngleX: -384.60
+AngleY: 259.48
+AngleZ: 93.18
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 63
+RSSI: -96
+Time: 112251
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.24
+Pressure: 1013.10
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.89
+GyroX: -5.84
+GyroY: 7.58
+GyroZ: 6.27
+AccAngleX: -135.78
+AccAngleY: -135.65
+GyroAngleX: -459.11
+GyroAngleY: 491.16
+GyroAngleZ: 103.80
+AngleX: -389.32
+AngleY: 264.15
+AngleZ: 103.80
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 64
+RSSI: -97
+Time: 113956
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.20
+Pressure: 1013.09
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.36
+GyroY: 7.70
+GyroZ: 5.03
+AccAngleX: -133.95
+AccAngleY: -134.15
+GyroAngleX: -469.95
+GyroAngleY: 504.29
+GyroAngleZ: 112.38
+AngleX: -394.84
+AngleY: 269.05
+AngleZ: 112.38
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 65
+RSSI: -99
+Time: 115650
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.14
+Pressure: 1013.10
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.52
+GyroY: 7.85
+GyroZ: 5.81
+AccAngleX: -135.14
+AccAngleY: -135.12
+GyroAngleX: -479.30
+GyroAngleY: 517.58
+GyroAngleZ: 122.22
+AngleX: -398.81
+AngleY: 273.99
+AngleZ: 122.22
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 66
+RSSI: -97
+Time: 117344
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.09
+Pressure: 1013.11
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.34
+GyroY: 9.45
+GyroZ: 5.05
+AccAngleX: -134.50
+AccAngleY: -134.55
+GyroAngleX: -488.34
+GyroAngleY: 533.60
+GyroAngleZ: 130.77
+AngleX: -402.39
+AngleY: 281.52
+AngleZ: 130.77
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 67
+RSSI: -94
+Time: 119038
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 20.04
+Pressure: 1013.15
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.34
+GyroY: 8.72
+GyroZ: 5.37
+AccAngleX: -134.19
+AccAngleY: -134.33
+GyroAngleX: -499.09
+GyroAngleY: 548.37
+GyroAngleZ: 139.86
+AngleX: -407.55
+AngleY: 287.68
+AngleZ: 139.86
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 68
+RSSI: -97
+Time: 120732
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.99
+Pressure: 1013.11
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.88
+GyroX: -6.10
+GyroY: 7.79
+GyroZ: 6.19
+AccAngleX: -135.61
+AccAngleY: -135.50
+GyroAngleX: -509.42
+GyroAngleY: 561.56
+GyroAngleZ: 150.35
+AngleX: -412.24
+AngleY: 292.14
+AngleZ: 150.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 69
+RSSI: -97
+Time: 122426
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.92
+Pressure: 1013.14
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.12
+GyroY: 8.72
+GyroZ: 5.41
+AccAngleX: -134.57
+AccAngleY: -134.63
+GyroAngleX: -519.78
+GyroAngleY: 576.33
+GyroAngleZ: 159.52
+AngleX: -416.84
+AngleY: 298.08
+AngleZ: 159.52
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 70
+RSSI: -96
+Time: 124120
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.85
+Pressure: 1013.14
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.84
+GyroY: 8.93
+GyroZ: 5.02
+AccAngleX: -134.47
+AccAngleY: -134.53
+GyroAngleX: -529.68
+GyroAngleY: 591.47
+GyroAngleZ: 168.02
+AngleX: -420.89
+AngleY: 304.26
+AngleZ: 168.02
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 71
+RSSI: -97
+Time: 125814
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.79
+Pressure: 1013.14
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.60
+GyroY: 8.43
+GyroZ: 5.51
+AccAngleX: -133.96
+AccAngleY: -134.13
+GyroAngleX: -539.16
+GyroAngleY: 605.75
+GyroAngleZ: 177.35
+AngleX: -424.44
+AngleY: 309.49
+AngleZ: 177.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1284.00
+0.5 um: 428.00
+10 um: 139.00
+25 um: 10.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 0
+
+Packet ID: 72
+RSSI: -96
+Time: 127508
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.73
+Pressure: 1013.14
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.78
+GyroY: 7.88
+GyroZ: 5.72
+AccAngleX: -134.11
+AccAngleY: -134.23
+GyroAngleX: -548.95
+GyroAngleY: 619.10
+GyroAngleZ: 187.03
+AngleX: -428.23
+AngleY: 313.70
+AngleZ: 187.03
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 24.00
+0.5 um: 1368.00
+10 um: 456.00
+25 um: 140.00
+50 um: 9.00
+100 um: 1.00
+pmValid: 0
+
+Packet ID: 73
+RSSI: -97
+Time: 129202
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.68
+Pressure: 1013.15
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.91
+GyroX: -5.54
+GyroY: 9.15
+GyroZ: 5.31
+AccAngleX: -135.58
+AccAngleY: -135.51
+GyroAngleX: -558.32
+GyroAngleY: 634.59
+GyroAngleZ: 196.02
+AngleX: -431.57
+AngleY: 319.90
+AngleZ: 196.02
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 24.00
+0.5 um: 1368.00
+10 um: 456.00
+25 um: 140.00
+50 um: 9.00
+100 um: 1.00
+pmValid: 0
+
+Packet ID: 74
+RSSI: -97
+Time: 130896
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.64
+Pressure: 1013.15
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.92
+GyroY: 8.75
+GyroZ: 4.65
+AccAngleX: -134.62
+AccAngleY: -134.68
+GyroAngleX: -568.35
+GyroAngleY: 649.42
+GyroAngleZ: 203.90
+AngleX: -435.45
+AngleY: 325.33
+AngleZ: 203.90
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 24.00
+0.5 um: 1368.00
+10 um: 456.00
+25 um: 140.00
+50 um: 9.00
+100 um: 1.00
+pmValid: 0
+
+Packet ID: 75
+RSSI: -97
+Time: 132590
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.60
+Pressure: 1013.12
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.21
+GyroY: 8.78
+GyroZ: 5.38
+AccAngleX: -133.25
+AccAngleY: -133.55
+GyroAngleX: -578.86
+GyroAngleY: 664.29
+GyroAngleZ: 213.02
+AngleX: -439.71
+AngleY: 330.73
+AngleZ: 213.02
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1521.00
+0.5 um: 437.00
+10 um: 140.00
+25 um: 14.00
+50 um: 2.00
+100 um: 1.00
+pmValid: 1
+
+Packet ID: 76
+RSSI: -98
+Time: 134284
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.57
+Pressure: 1013.14
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.66
+GyroY: 8.08
+GyroZ: 6.10
+AccAngleX: -135.28
+AccAngleY: -135.24
+GyroAngleX: -588.44
+GyroAngleY: 677.98
+GyroAngleZ: 223.35
+AngleX: -443.01
+AngleY: 334.83
+AngleZ: 223.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1551.00
+0.5 um: 447.00
+10 um: 143.00
+25 um: 19.00
+50 um: 2.00
+100 um: 1.00
+pmValid: 1
+
+Packet ID: 77
+RSSI: -96
+Time: 135978
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.53
+Pressure: 1013.12
+AccX: 0.48
+AccY: -0.43
+AccZ: -0.90
+GyroX: -5.66
+GyroY: 9.36
+GyroZ: 4.93
+AccAngleX: -134.42
+AccAngleY: -134.49
+GyroAngleX: -598.03
+GyroAngleY: 693.84
+GyroAngleZ: 231.70
+AngleX: -446.23
+AngleY: 340.98
+AngleZ: 231.70
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1545.00
+0.5 um: 445.00
+10 um: 154.00
+25 um: 17.00
+50 um: 2.00
+100 um: 1.00
+pmValid: 1
+
+Packet ID: 78
+RSSI: -96
+Time: 137672
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.48
+Pressure: 1013.11
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.04
+GyroY: 9.22
+GyroZ: 5.09
+AccAngleX: -133.92
+AccAngleY: -134.08
+GyroAngleX: -608.26
+GyroAngleY: 709.46
+GyroAngleZ: 240.33
+AngleX: -450.01
+AngleY: 346.79
+AngleZ: 240.33
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 79
+RSSI: -99
+Time: 139366
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.43
+Pressure: 1013.11
+AccX: 0.50
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.99
+GyroY: 8.09
+GyroZ: 5.55
+AccAngleX: -132.66
+AccAngleY: -133.11
+GyroAngleX: -618.41
+GyroAngleY: 723.17
+GyroAngleZ: 249.73
+AngleX: -453.61
+AngleY: 350.63
+AngleZ: 249.73
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 80
+RSSI: -104
+Time: 141069
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.37
+Pressure: 1013.10
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.86
+GyroY: 9.12
+GyroZ: 4.71
+AccAngleX: -134.70
+AccAngleY: -134.73
+GyroAngleX: -628.38
+GyroAngleY: 738.70
+GyroAngleZ: 257.75
+AngleX: -457.01
+AngleY: 356.14
+AngleZ: 257.75
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 81
+RSSI: -106
+Time: 142763
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.32
+Pressure: 1013.12
+AccX: 0.50
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.10
+GyroY: 8.58
+GyroZ: 5.38
+AccAngleX: -132.77
+AccAngleY: -133.15
+GyroAngleX: -638.72
+GyroAngleY: 753.24
+GyroAngleZ: 266.87
+AngleX: -460.65
+AngleY: 360.60
+AngleZ: 266.87
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 82
+RSSI: -103
+Time: 144457
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.27
+Pressure: 1013.13
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.10
+GyroY: 7.87
+GyroZ: 5.76
+AccAngleX: -134.88
+AccAngleY: -134.90
+GyroAngleX: -649.05
+GyroAngleY: 766.56
+GyroAngleZ: 276.64
+AngleX: -464.26
+AngleY: 363.75
+AngleZ: 276.64
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 83
+RSSI: -104
+Time: 146151
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.23
+Pressure: 1013.11
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.55
+GyroY: 9.22
+GyroZ: 5.26
+AccAngleX: -134.60
+AccAngleY: -134.65
+GyroAngleX: -658.45
+GyroAngleY: 782.19
+GyroAngleZ: 285.55
+AngleX: -466.88
+AngleY: 369.10
+AngleZ: 285.55
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 84
+RSSI: -105
+Time: 147845
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.17
+Pressure: 1013.08
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.86
+GyroY: 9.30
+GyroZ: 4.79
+AccAngleX: -135.00
+AccAngleY: -135.00
+GyroAngleX: -668.37
+GyroAngleY: 797.94
+GyroAngleZ: 293.66
+AngleX: -469.97
+AngleY: 374.45
+AngleZ: 293.66
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 85
+RSSI: -105
+Time: 149539
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.13
+Pressure: 1013.11
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.27
+GyroY: 8.17
+GyroZ: 5.17
+AccAngleX: -133.80
+AccAngleY: -133.98
+GyroAngleX: -678.99
+GyroAngleY: 811.78
+GyroAngleZ: 302.42
+AngleX: -473.65
+AngleY: 377.85
+AngleZ: 302.42
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 86
+RSSI: -105
+Time: 151246
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.08
+Pressure: 1013.12
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.45
+GyroY: 8.31
+GyroZ: 5.26
+AccAngleX: -134.70
+AccAngleY: -134.75
+GyroAngleX: -690.00
+GyroAngleY: 825.96
+GyroAngleZ: 311.40
+AngleX: -477.66
+AngleY: 381.49
+AngleZ: 311.40
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 87
+RSSI: -106
+Time: 152940
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 19.03
+Pressure: 1013.15
+AccX: 0.50
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.76
+GyroY: 8.29
+GyroZ: 5.61
+AccAngleX: -133.92
+AccAngleY: -134.14
+GyroAngleX: -699.77
+GyroAngleY: 840.01
+GyroAngleZ: 320.90
+AngleX: -480.36
+AngleY: 384.95
+AngleZ: 320.90
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 88
+RSSI: -104
+Time: 154634
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.97
+Pressure: 1013.15
+AccX: 0.46
+AccY: -0.40
+AccZ: -0.86
+GyroX: -5.78
+GyroY: 7.64
+GyroZ: 6.01
+AccAngleX: -134.96
+AccAngleY: -134.97
+GyroAngleX: -709.56
+GyroAngleY: 852.95
+GyroAngleZ: 331.08
+AngleX: -483.04
+AngleY: 387.23
+AngleZ: 331.08
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 89
+RSSI: -104
+Time: 156328
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.92
+Pressure: 1013.15
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.03
+GyroY: 9.73
+GyroZ: 4.89
+AccAngleX: -135.03
+AccAngleY: -135.03
+GyroAngleX: -718.08
+GyroAngleY: 869.43
+GyroAngleZ: 339.37
+AngleX: -484.44
+AngleY: 392.93
+AngleZ: 339.37
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 90
+RSSI: -104
+Time: 158022
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.88
+Pressure: 1013.14
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.05
+GyroY: 9.38
+GyroZ: 4.91
+AccAngleX: -134.55
+AccAngleY: -134.62
+GyroAngleX: -728.34
+GyroAngleY: 885.31
+GyroAngleZ: 347.69
+AngleX: -487.49
+AngleY: 397.95
+AngleZ: 347.69
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 91
+RSSI: -102
+Time: 159716
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.83
+Pressure: 1013.15
+AccX: 0.50
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.05
+GyroY: 7.97
+GyroZ: 5.57
+AccAngleX: -133.84
+AccAngleY: -134.07
+GyroAngleX: -738.59
+GyroAngleY: 898.81
+GyroAngleZ: 357.12
+AngleX: -490.47
+AngleY: 400.54
+AngleZ: 357.12
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 92
+RSSI: -104
+Time: 161410
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.80
+Pressure: 1013.16
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.72
+GyroY: 7.83
+GyroZ: 5.51
+AccAngleX: -135.15
+AccAngleY: -135.14
+GyroAngleX: -748.28
+GyroAngleY: 912.09
+GyroAngleZ: 366.45
+AngleX: -492.85
+AngleY: 402.83
+AngleZ: 366.45
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 93
+RSSI: -105
+Time: 163104
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.76
+Pressure: 1013.18
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.91
+GyroX: -5.35
+GyroY: 9.32
+GyroZ: 5.18
+AccAngleX: -135.30
+AccAngleY: -135.26
+GyroAngleX: -757.35
+GyroAngleY: 927.87
+GyroAngleZ: 375.23
+AngleX: -494.59
+AngleY: 407.54
+AngleZ: 375.23
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 94
+RSSI: -103
+Time: 164798
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.71
+Pressure: 1013.18
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.16
+GyroY: 9.32
+GyroZ: 4.67
+AccAngleX: -134.11
+AccAngleY: -134.23
+GyroAngleX: -767.78
+GyroAngleY: 943.65
+GyroAngleZ: 383.13
+AngleX: -497.61
+AngleY: 412.17
+AngleZ: 383.13
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 95
+RSSI: -103
+Time: 166500
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.66
+Pressure: 1013.18
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.98
+GyroY: 8.34
+GyroZ: 5.23
+AccAngleX: -135.20
+AccAngleY: -135.18
+GyroAngleX: -777.96
+GyroAngleY: 957.84
+GyroAngleZ: 392.04
+AngleX: -500.33
+AngleY: 415.13
+AngleZ: 392.04
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 96
+RSSI: -101
+Time: 168194
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.60
+Pressure: 1013.15
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.81
+GyroY: 9.97
+GyroZ: 4.97
+AccAngleX: -134.08
+AccAngleY: -134.18
+GyroAngleX: -787.80
+GyroAngleY: 974.73
+GyroAngleZ: 400.46
+AngleX: -502.65
+AngleY: 420.70
+AngleZ: 400.46
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 97
+RSSI: -100
+Time: 169888
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.55
+Pressure: 1013.15
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.86
+GyroY: 8.55
+GyroZ: 5.67
+AccAngleX: -133.48
+AccAngleY: -133.72
+GyroAngleX: -797.72
+GyroAngleY: 989.22
+GyroAngleZ: 410.07
+AngleX: -504.99
+AngleY: 423.80
+AngleZ: 410.07
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 98
+RSSI: -101
+Time: 171582
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.51
+Pressure: 1013.18
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.95
+GyroY: 8.22
+GyroZ: 5.72
+AccAngleX: -135.65
+AccAngleY: -135.57
+GyroAngleX: -807.79
+GyroAngleY: 1003.14
+GyroAngleZ: 419.75
+AngleX: -507.47
+AngleY: 426.26
+AngleZ: 419.75
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 99
+RSSI: -100
+Time: 173276
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.46
+Pressure: 1013.17
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.63
+GyroY: 8.81
+GyroZ: 5.51
+AccAngleX: -135.73
+AccAngleY: -135.64
+GyroAngleX: -817.33
+GyroAngleY: 1018.06
+GyroAngleZ: 429.08
+AngleX: -509.38
+AngleY: 429.65
+AngleZ: 429.08
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 100
+RSSI: -101
+Time: 174970
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.42
+Pressure: 1013.20
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.07
+GyroY: 9.58
+GyroZ: 4.71
+AccAngleX: -134.73
+AccAngleY: -134.76
+GyroAngleX: -827.61
+GyroAngleY: 1034.28
+GyroAngleZ: 437.06
+AngleX: -511.96
+AngleY: 434.25
+AngleZ: 437.06
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 101
+RSSI: -101
+Time: 176664
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.37
+Pressure: 1013.16
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.96
+GyroY: 8.16
+GyroZ: 5.35
+AccAngleX: -133.82
+AccAngleY: -134.00
+GyroAngleX: -837.71
+GyroAngleY: 1048.10
+GyroAngleZ: 446.13
+AngleX: -514.30
+AngleY: 436.43
+AngleZ: 446.13
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 102
+RSSI: -101
+Time: 178362
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.31
+Pressure: 1013.16
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.89
+GyroX: -5.67
+GyroY: 8.17
+GyroZ: 5.70
+AccAngleX: -136.39
+AccAngleY: -136.17
+GyroAngleX: -847.33
+GyroAngleY: 1061.96
+GyroAngleZ: 455.81
+AngleX: -516.18
+AngleY: 438.56
+AngleZ: 455.81
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 103
+RSSI: -100
+Time: 180056
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.24
+Pressure: 1013.16
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.41
+GyroY: 9.50
+GyroZ: 4.53
+AccAngleX: -134.45
+AccAngleY: -134.52
+GyroAngleX: -856.50
+GyroAngleY: 1078.06
+GyroAngleZ: 463.48
+AngleX: -517.53
+AngleY: 442.87
+AngleZ: 463.48
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 104
+RSSI: -101
+Time: 181750
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.19
+Pressure: 1013.16
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.79
+GyroY: 8.72
+GyroZ: 5.15
+AccAngleX: -133.63
+AccAngleY: -133.83
+GyroAngleX: -866.32
+GyroAngleY: 1092.83
+GyroAngleZ: 472.21
+AngleX: -519.47
+AngleY: 445.81
+AngleZ: 472.21
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 105
+RSSI: -101
+Time: 183444
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.12
+Pressure: 1013.16
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.01
+GyroY: 8.57
+GyroZ: 5.89
+AccAngleX: -134.47
+AccAngleY: -134.57
+GyroAngleX: -876.50
+GyroAngleY: 1107.34
+GyroAngleZ: 482.18
+AngleX: -521.74
+AngleY: 448.43
+AngleZ: 482.18
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 106
+RSSI: -100
+Time: 185138
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.06
+Pressure: 1013.17
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.36
+GyroY: 8.19
+GyroZ: 5.57
+AccAngleX: -135.80
+AccAngleY: -135.68
+GyroAngleX: -887.27
+GyroAngleY: 1121.21
+GyroAngleZ: 491.61
+AngleX: -524.58
+AngleY: 450.34
+AngleZ: 491.61
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 107
+RSSI: -101
+Time: 186832
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 18.00
+Pressure: 1013.18
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.06
+GyroY: 10.14
+GyroZ: 4.74
+AccAngleX: -134.95
+AccAngleY: -134.96
+GyroAngleX: -895.85
+GyroAngleY: 1138.38
+GyroAngleZ: 499.64
+AngleX: -525.19
+AngleY: 455.46
+AngleZ: 499.64
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 108
+RSSI: -100
+Time: 188526
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.94
+Pressure: 1013.17
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.01
+GyroY: 9.13
+GyroZ: 5.31
+AccAngleX: -134.81
+AccAngleY: -134.84
+GyroAngleX: -906.02
+GyroAngleY: 1153.85
+GyroAngleZ: 508.63
+AngleX: -527.36
+AngleY: 458.82
+AngleZ: 508.63
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 109
+RSSI: -101
+Time: 190220
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.89
+Pressure: 1013.17
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.05
+GyroY: 8.64
+GyroZ: 5.72
+AccAngleX: -134.10
+AccAngleY: -134.26
+GyroAngleX: -916.28
+GyroAngleY: 1168.50
+GyroAngleZ: 518.32
+AngleX: -529.55
+AngleY: 461.31
+AngleZ: 518.32
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 110
+RSSI: -102
+Time: 191923
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.83
+Pressure: 1013.20
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.25
+GyroY: 9.19
+GyroZ: 5.09
+AccAngleX: -133.61
+AccAngleY: -133.82
+GyroAngleX: -926.93
+GyroAngleY: 1184.15
+GyroAngleZ: 526.99
+AngleX: -532.06
+AngleY: 464.75
+AngleZ: 526.99
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 2571.00
+0.5 um: 501.00
+10 um: 73.00
+25 um: 3.00
+50 um: 1.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 111
+RSSI: -99
+Time: 193617
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.79
+Pressure: 1013.18
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.78
+GyroY: 8.49
+GyroZ: 4.96
+AccAngleX: -134.09
+AccAngleY: -134.25
+GyroAngleX: -936.72
+GyroAngleY: 1198.54
+GyroAngleZ: 535.39
+AngleX: -533.70
+AngleY: 466.86
+AngleZ: 535.39
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 112
+RSSI: -98
+Time: 195311
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.74
+Pressure: 1013.18
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.63
+GyroY: 8.06
+GyroZ: 5.83
+AccAngleX: -134.84
+AccAngleY: -134.87
+GyroAngleX: -946.25
+GyroAngleY: 1212.20
+GyroAngleZ: 545.26
+AngleX: -535.06
+AngleY: 468.22
+AngleZ: 545.26
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 113
+RSSI: -97
+Time: 197005
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.69
+Pressure: 1013.19
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.54
+GyroY: 9.54
+GyroZ: 4.91
+AccAngleX: -134.93
+AccAngleY: -134.94
+GyroAngleX: -955.63
+GyroAngleY: 1228.36
+GyroAngleZ: 553.58
+AngleX: -536.25
+AngleY: 472.00
+AngleZ: 553.58
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 114
+RSSI: -99
+Time: 198699
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.62
+Pressure: 1013.17
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.07
+GyroY: 9.27
+GyroZ: 4.54
+AccAngleX: -134.88
+AccAngleY: -134.90
+GyroAngleX: -965.91
+GyroAngleY: 1244.07
+GyroAngleZ: 561.27
+AngleX: -538.30
+AngleY: 475.25
+AngleZ: 561.27
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 115
+RSSI: -98
+Time: 200393
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.56
+Pressure: 1013.18
+AccX: 0.50
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.08
+GyroY: 8.54
+GyroZ: 4.94
+AccAngleX: -133.12
+AccAngleY: -133.47
+GyroAngleX: -976.22
+GyroAngleY: 1258.53
+GyroAngleZ: 569.64
+AngleX: -540.30
+AngleY: 477.25
+AngleZ: 569.64
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 116
+RSSI: -101
+Time: 202087
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.50
+Pressure: 1013.20
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.50
+GyroY: 8.11
+GyroZ: 5.44
+AccAngleX: -135.09
+AccAngleY: -135.07
+GyroAngleX: -987.22
+GyroAngleY: 1272.27
+GyroAngleZ: 578.86
+AngleX: -542.98
+AngleY: 478.46
+AngleZ: 578.86
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 117
+RSSI: -100
+Time: 203781
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.44
+Pressure: 1013.21
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.31
+GyroY: 9.50
+GyroZ: 5.29
+AccAngleX: -135.17
+AccAngleY: -135.15
+GyroAngleX: -996.21
+GyroAngleY: 1288.36
+GyroAngleZ: 587.83
+AngleX: -543.63
+AngleY: 481.96
+AngleZ: 587.83
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 118
+RSSI: -98
+Time: 205479
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.39
+Pressure: 1013.19
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.04
+GyroY: 8.35
+GyroZ: 5.18
+AccAngleX: -133.04
+AccAngleY: -133.35
+GyroAngleX: -1006.46
+GyroAngleY: 1302.53
+GyroAngleZ: 596.63
+AngleX: -545.46
+AngleY: 483.55
+AngleZ: 596.63
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 119
+RSSI: -96
+Time: 207173
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.32
+Pressure: 1013.19
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.08
+GyroY: 8.02
+GyroZ: 5.92
+AccAngleX: -134.51
+AccAngleY: -134.59
+GyroAngleX: -1016.77
+GyroAngleY: 1316.12
+GyroAngleZ: 606.65
+AngleX: -547.34
+AngleY: 484.49
+AngleZ: 606.65
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 120
+RSSI: -98
+Time: 208867
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.27
+Pressure: 1013.18
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.61
+GyroY: 8.28
+GyroZ: 5.49
+AccAngleX: -135.41
+AccAngleY: -135.35
+GyroAngleX: -1026.27
+GyroAngleY: 1330.14
+GyroAngleZ: 615.95
+AngleX: -548.42
+AngleY: 485.84
+AngleZ: 615.95
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 121
+RSSI: -97
+Time: 210561
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.21
+Pressure: 1013.22
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.39
+GyroY: 9.76
+GyroZ: 4.21
+AccAngleX: -134.92
+AccAngleY: -134.93
+GyroAngleX: -1037.10
+GyroAngleY: 1346.67
+GyroAngleZ: 623.08
+AngleX: -550.76
+AngleY: 489.62
+AngleZ: 623.08
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 122
+RSSI: -97
+Time: 212255
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.16
+Pressure: 1013.23
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.13
+GyroY: 8.81
+GyroZ: 5.63
+AccAngleX: -133.72
+AccAngleY: -133.91
+GyroAngleX: -1047.48
+GyroAngleY: 1361.60
+GyroAngleZ: 632.61
+AngleX: -552.60
+AngleY: 491.78
+AngleZ: 632.61
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 123
+RSSI: -98
+Time: 213949
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.11
+Pressure: 1013.24
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.93
+GyroY: 8.26
+GyroZ: 5.64
+AccAngleX: -135.25
+AccAngleY: -135.20
+GyroAngleX: -1057.53
+GyroAngleY: 1375.59
+GyroAngleZ: 642.17
+AngleX: -554.10
+AngleY: 492.96
+AngleZ: 642.17
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 124
+RSSI: -97
+Time: 215643
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 17.05
+Pressure: 1013.25
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.89
+GyroX: -5.76
+GyroY: 8.46
+GyroZ: 5.69
+AccAngleX: -136.33
+AccAngleY: -136.14
+GyroAngleX: -1067.30
+GyroAngleY: 1389.92
+GyroAngleZ: 651.81
+AngleX: -555.31
+AngleY: 494.42
+AngleZ: 651.81
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 125
+RSSI: -98
+Time: 217345
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.99
+Pressure: 1013.23
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.10
+GyroY: 8.29
+GyroZ: 5.23
+AccAngleX: -134.20
+AccAngleY: -134.33
+GyroAngleX: -1077.68
+GyroAngleY: 1404.04
+GyroAngleZ: 660.71
+AngleX: -557.06
+AngleY: 495.68
+AngleZ: 660.71
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 126
+RSSI: -97
+Time: 219039
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.94
+Pressure: 1013.24
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.70
+GyroY: 8.55
+GyroZ: 5.69
+AccAngleX: -135.56
+AccAngleY: -135.49
+GyroAngleX: -1087.34
+GyroAngleY: 1418.52
+GyroAngleZ: 670.34
+AngleX: -558.10
+AngleY: 497.25
+AngleZ: 670.34
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 127
+RSSI: -99
+Time: 220733
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.88
+Pressure: 1013.24
+AccX: 0.48
+AccY: -0.43
+AccZ: -0.91
+GyroX: -5.40
+GyroY: 9.53
+GyroZ: 5.41
+AccAngleX: -134.98
+AccAngleY: -134.99
+GyroAngleX: -1096.48
+GyroAngleY: 1434.67
+GyroAngleZ: 679.51
+AngleX: -558.60
+AngleY: 500.43
+AngleZ: 679.51
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 128
+RSSI: -98
+Time: 222436
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.83
+Pressure: 1013.23
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.81
+GyroY: 8.37
+GyroZ: 5.52
+AccAngleX: -135.42
+AccAngleY: -135.35
+GyroAngleX: -1106.38
+GyroAngleY: 1448.92
+GyroAngleZ: 688.92
+AngleX: -559.83
+AngleY: 501.68
+AngleZ: 688.92
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 129
+RSSI: -98
+Time: 224130
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.79
+Pressure: 1013.23
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.05
+GyroY: 8.28
+GyroZ: 5.29
+AccAngleX: -135.98
+AccAngleY: -135.84
+GyroAngleX: -1116.63
+GyroAngleY: 1462.94
+GyroAngleZ: 697.88
+AngleX: -561.41
+AngleY: 502.67
+AngleZ: 697.88
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 130
+RSSI: -97
+Time: 225824
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.74
+Pressure: 1013.24
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.83
+GyroY: 9.58
+GyroZ: 4.30
+AccAngleX: -134.49
+AccAngleY: -134.55
+GyroAngleX: -1126.50
+GyroAngleY: 1479.16
+GyroAngleZ: 705.16
+AngleX: -562.54
+AngleY: 505.82
+AngleZ: 705.16
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 131
+RSSI: -98
+Time: 227518
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.67
+Pressure: 1013.24
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.86
+GyroX: -6.16
+GyroY: 8.51
+GyroZ: 5.09
+AccAngleX: -132.25
+AccAngleY: -132.73
+GyroAngleX: -1136.94
+GyroAngleY: 1493.57
+GyroAngleZ: 713.79
+AngleX: -564.16
+AngleY: 507.17
+AngleZ: 713.79
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 132
+RSSI: -98
+Time: 229212
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.63
+Pressure: 1013.25
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.89
+GyroX: -6.33
+GyroY: 8.16
+GyroZ: 5.38
+AccAngleX: -135.91
+AccAngleY: -135.78
+GyroAngleX: -1147.66
+GyroAngleY: 1507.39
+GyroAngleZ: 722.91
+AngleX: -566.10
+AngleY: 507.85
+AngleZ: 722.91
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 133
+RSSI: -98
+Time: 230910
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.57
+Pressure: 1013.24
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.79
+GyroY: 10.34
+GyroZ: 4.45
+AccAngleX: -134.14
+AccAngleY: -134.24
+GyroAngleX: -1157.50
+GyroAngleY: 1524.94
+GyroAngleZ: 730.47
+AngleX: -567.11
+AngleY: 512.21
+AngleZ: 730.47
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 134
+RSSI: -97
+Time: 232604
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.52
+Pressure: 1013.23
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.37
+GyroY: 8.63
+GyroZ: 4.94
+AccAngleX: -133.76
+AccAngleY: -133.96
+GyroAngleX: -1168.30
+GyroAngleY: 1539.56
+GyroAngleZ: 738.84
+AngleX: -569.02
+AngleY: 513.61
+AngleZ: 738.84
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 135
+RSSI: -97
+Time: 234298
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.46
+Pressure: 1013.25
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.93
+GyroY: 8.72
+GyroZ: 5.38
+AccAngleX: -134.44
+AccAngleY: -134.53
+GyroAngleX: -1178.35
+GyroAngleY: 1554.33
+GyroAngleZ: 747.96
+AngleX: -570.18
+AngleY: 515.13
+AngleZ: 747.96
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 136
+RSSI: -98
+Time: 235992
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.41
+Pressure: 1013.25
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -5.63
+GyroY: 8.87
+GyroZ: 5.86
+AccAngleX: -135.52
+AccAngleY: -135.45
+GyroAngleX: -1187.88
+GyroAngleY: 1569.36
+GyroAngleZ: 757.88
+AngleX: -570.83
+AngleY: 516.84
+AngleZ: 757.88
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 137
+RSSI: -98
+Time: 237686
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.35
+Pressure: 1013.28
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.35
+GyroY: 9.53
+GyroZ: 4.88
+AccAngleX: -134.76
+AccAngleY: -134.79
+GyroAngleX: -1196.95
+GyroAngleY: 1585.50
+GyroAngleZ: 766.14
+AngleX: -570.99
+AngleY: 519.63
+AngleZ: 766.14
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 138
+RSSI: -98
+Time: 239380
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.31
+Pressure: 1013.32
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.02
+GyroY: 8.72
+GyroZ: 5.38
+AccAngleX: -133.12
+AccAngleY: -133.44
+GyroAngleX: -1207.15
+GyroAngleY: 1600.27
+GyroAngleZ: 775.26
+AngleX: -572.23
+AngleY: 521.05
+AngleZ: 775.26
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 139
+RSSI: -97
+Time: 241074
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.25
+Pressure: 1013.30
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.05
+GyroY: 8.43
+GyroZ: 5.60
+AccAngleX: -134.91
+AccAngleY: -134.93
+GyroAngleX: -1217.41
+GyroAngleY: 1614.55
+GyroAngleZ: 784.74
+AngleX: -573.54
+AngleY: 521.92
+AngleZ: 784.74
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 140
+RSSI: -98
+Time: 242777
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.20
+Pressure: 1013.27
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.44
+GyroY: 9.24
+GyroZ: 5.12
+AccAngleX: -134.18
+AccAngleY: -134.31
+GyroAngleX: -1228.37
+GyroAngleY: 1630.29
+GyroAngleZ: 793.47
+AngleX: -575.49
+AngleY: 524.22
+AngleZ: 793.47
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 141
+RSSI: -97
+Time: 244471
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.14
+Pressure: 1013.29
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.31
+GyroY: 9.12
+GyroZ: 5.40
+AccAngleX: -133.80
+AccAngleY: -134.01
+GyroAngleX: -1239.06
+GyroAngleY: 1645.73
+GyroAngleZ: 802.61
+AngleX: -577.14
+AngleY: 526.19
+AngleZ: 802.61
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 142
+RSSI: -101
+Time: 246165
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.09
+Pressure: 1013.27
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.08
+GyroY: 8.54
+GyroZ: 5.25
+AccAngleX: -134.93
+AccAngleY: -134.94
+GyroAngleX: -1249.37
+GyroAngleY: 1660.19
+GyroAngleZ: 811.50
+AngleX: -578.40
+AngleY: 527.14
+AngleZ: 811.50
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 51.00
+0.5 um: 16353.00
+10 um: 2063.00
+25 um: 123.00
+50 um: 2.00
+100 um: 2.00
+pmValid: 0
+
+Packet ID: 143
+RSSI: -97
+Time: 247859
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.05
+Pressure: 1013.28
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.91
+GyroX: -5.66
+GyroY: 8.87
+GyroZ: 5.09
+AccAngleX: -136.13
+AccAngleY: -135.98
+GyroAngleX: -1258.95
+GyroAngleY: 1675.22
+GyroAngleZ: 820.13
+AngleX: -578.94
+AngleY: 528.60
+AngleZ: 820.13
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 51.00
+0.5 um: 16353.00
+10 um: 2063.00
+25 um: 123.00
+50 um: 2.00
+100 um: 2.00
+pmValid: 0
+
+Packet ID: 144
+RSSI: -98
+Time: 249553
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 16.00
+Pressure: 1013.29
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.87
+GyroX: -5.90
+GyroY: 10.00
+GyroZ: 4.44
+AccAngleX: -133.74
+AccAngleY: -133.88
+GyroAngleX: -1268.95
+GyroAngleY: 1692.17
+GyroAngleZ: 827.64
+AngleX: -579.84
+AngleY: 531.96
+AngleZ: 827.64
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 51.00
+0.5 um: 16353.00
+10 um: 2063.00
+25 um: 123.00
+50 um: 2.00
+100 um: 2.00
+pmValid: 0
+
+Packet ID: 145
+RSSI: -103
+Time: 251247
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.96
+Pressure: 1013.30
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.87
+GyroY: 8.93
+GyroZ: 5.11
+AccAngleX: -134.35
+AccAngleY: -134.44
+GyroAngleX: -1278.90
+GyroAngleY: 1707.30
+GyroAngleZ: 836.30
+AngleX: -580.67
+AngleY: 533.46
+AngleZ: 836.30
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16182.00
+0.5 um: 2129.00
+10 um: 119.00
+25 um: 2.00
+50 um: 2.00
+100 um: 1.00
+pmValid: 1
+
+Packet ID: 146
+RSSI: -97
+Time: 252941
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.93
+Pressure: 1013.29
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.15
+GyroY: 8.57
+GyroZ: 5.80
+AccAngleX: -134.77
+AccAngleY: -134.81
+GyroAngleX: -1289.31
+GyroAngleY: 1721.82
+GyroAngleZ: 846.11
+AngleX: -581.96
+AngleY: 534.32
+AngleZ: 846.11
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16182.00
+0.5 um: 2129.00
+10 um: 119.00
+25 um: 2.00
+50 um: 2.00
+100 um: 1.00
+pmValid: 1
+
+Packet ID: 147
+RSSI: -97
+Time: 254635
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.89
+Pressure: 1013.30
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.25
+GyroY: 8.87
+GyroZ: 5.61
+AccAngleX: -135.17
+AccAngleY: -135.15
+GyroAngleX: -1299.90
+GyroAngleY: 1736.85
+GyroAngleZ: 855.62
+AngleX: -583.40
+AngleY: 535.66
+AngleZ: 855.62
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16080.00
+0.5 um: 2092.00
+10 um: 116.00
+25 um: 2.00
+50 um: 2.00
+100 um: 1.00
+pmValid: 1
+
+Packet ID: 148
+RSSI: -98
+Time: 256329
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.85
+Pressure: 1013.30
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.91
+GyroX: -5.83
+GyroY: 9.76
+GyroZ: 4.94
+AccAngleX: -135.41
+AccAngleY: -135.37
+GyroAngleX: -1309.77
+GyroAngleY: 1753.38
+GyroAngleZ: 863.99
+AngleX: -584.11
+AngleY: 538.44
+AngleZ: 863.99
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 149
+RSSI: -97
+Time: 258023
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.80
+Pressure: 1013.30
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.87
+GyroX: -6.02
+GyroY: 10.08
+GyroZ: 4.62
+AccAngleX: -133.88
+AccAngleY: -134.01
+GyroAngleX: -1319.97
+GyroAngleY: 1770.45
+GyroAngleZ: 871.81
+AngleX: -585.11
+AngleY: 541.72
+AngleZ: 871.81
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 150
+RSSI: -98
+Time: 259717
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.75
+Pressure: 1013.28
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.01
+GyroY: 9.09
+GyroZ: 5.09
+AccAngleX: -134.14
+AccAngleY: -134.28
+GyroAngleX: -1330.15
+GyroAngleY: 1785.84
+GyroAngleZ: 880.44
+AngleX: -586.06
+AngleY: 543.29
+AngleZ: 880.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 151
+RSSI: -98
+Time: 261415
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.70
+Pressure: 1013.27
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.93
+GyroY: 8.09
+GyroZ: 5.87
+AccAngleX: -135.38
+AccAngleY: -135.33
+GyroAngleX: -1340.22
+GyroAngleY: 1799.58
+GyroAngleZ: 890.41
+AngleX: -586.92
+AngleY: 543.18
+AngleZ: 890.41
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 152
+RSSI: -100
+Time: 263109
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.64
+Pressure: 1013.28
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.08
+GyroY: 8.17
+GyroZ: 5.55
+AccAngleX: -135.22
+AccAngleY: -135.19
+GyroAngleX: -1350.53
+GyroAngleY: 1813.42
+GyroAngleZ: 899.81
+AngleX: -587.98
+AngleY: 543.17
+AngleZ: 899.81
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 153
+RSSI: -99
+Time: 264803
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.59
+Pressure: 1013.26
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.76
+GyroY: 10.08
+GyroZ: 4.65
+AccAngleX: -135.05
+AccAngleY: -135.04
+GyroAngleX: -1360.29
+GyroAngleY: 1830.49
+GyroAngleZ: 907.69
+AngleX: -588.49
+AngleY: 546.34
+AngleZ: 907.69
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 154
+RSSI: -98
+Time: 266497
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.54
+Pressure: 1013.31
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.33
+GyroY: 9.22
+GyroZ: 4.45
+AccAngleX: -134.35
+AccAngleY: -134.43
+GyroAngleX: -1371.01
+GyroAngleY: 1846.12
+GyroAngleZ: 915.23
+AngleX: -589.92
+AngleY: 548.04
+AngleZ: 915.23
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 155
+RSSI: -99
+Time: 268199
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.48
+Pressure: 1013.29
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.86
+GyroX: -6.22
+GyroY: 8.69
+GyroZ: 5.72
+AccAngleX: -133.57
+AccAngleY: -133.76
+GyroAngleX: -1381.60
+GyroAngleY: 1860.91
+GyroAngleZ: 924.96
+AngleX: -591.17
+AngleY: 548.90
+AngleZ: 924.96
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 156
+RSSI: -98
+Time: 269893
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.41
+Pressure: 1013.26
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.93
+GyroY: 8.83
+GyroZ: 5.60
+AccAngleX: -135.60
+AccAngleY: -135.52
+GyroAngleX: -1391.65
+GyroAngleY: 1875.86
+GyroAngleZ: 934.44
+AngleX: -591.91
+AngleY: 549.86
+AngleZ: 934.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 157
+RSSI: -97
+Time: 271587
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.36
+Pressure: 1013.29
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.55
+GyroY: 8.89
+GyroZ: 5.00
+AccAngleX: -135.22
+AccAngleY: -135.19
+GyroAngleX: -1401.05
+GyroAngleY: 1890.92
+GyroAngleZ: 942.92
+AngleX: -591.99
+AngleY: 550.92
+AngleZ: 942.92
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 158
+RSSI: -98
+Time: 273281
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.31
+Pressure: 1013.31
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.21
+GyroY: 10.41
+GyroZ: 4.77
+AccAngleX: -134.39
+AccAngleY: -134.47
+GyroAngleX: -1409.89
+GyroAngleY: 1908.56
+GyroAngleZ: 951.00
+AngleX: -591.49
+AngleY: 554.50
+AngleZ: 951.00
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 159
+RSSI: -97
+Time: 274975
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.25
+Pressure: 1013.34
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.84
+GyroY: 9.82
+GyroZ: 4.53
+AccAngleX: -134.70
+AccAngleY: -134.73
+GyroAngleX: -1419.78
+GyroAngleY: 1925.19
+GyroAngleZ: 958.67
+AngleX: -592.05
+AngleY: 557.02
+AngleZ: 958.67
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 160
+RSSI: -97
+Time: 276669
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.20
+Pressure: 1013.30
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.42
+GyroY: 9.25
+GyroZ: 4.67
+AccAngleX: -133.67
+AccAngleY: -133.87
+GyroAngleX: -1430.66
+GyroAngleY: 1940.87
+GyroAngleZ: 966.57
+AngleX: -593.54
+AngleY: 558.56
+AngleZ: 966.57
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 161
+RSSI: -98
+Time: 278363
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.14
+Pressure: 1013.31
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.27
+GyroY: 8.81
+GyroZ: 4.77
+AccAngleX: -132.75
+AccAngleY: -133.10
+GyroAngleX: -1441.27
+GyroAngleY: 1955.80
+GyroAngleZ: 974.66
+AngleX: -594.73
+AngleY: 559.36
+AngleZ: 974.66
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 162
+RSSI: -98
+Time: 280057
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.09
+Pressure: 1013.33
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -6.86
+GyroY: 8.41
+GyroZ: 5.03
+AccAngleX: -134.05
+AccAngleY: -134.24
+GyroAngleX: -1452.90
+GyroAngleY: 1970.05
+GyroAngleZ: 983.18
+AngleX: -596.91
+AngleY: 559.45
+AngleZ: 983.18
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 163
+RSSI: -97
+Time: 281751
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.04
+Pressure: 1013.31
+AccX: 0.47
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.19
+GyroY: 8.83
+GyroZ: 5.28
+AccAngleX: -134.76
+AccAngleY: -134.79
+GyroAngleX: -1463.39
+GyroAngleY: 1985.01
+GyroAngleZ: 992.12
+AngleX: -597.95
+AngleY: 560.22
+AngleZ: 992.12
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 164
+RSSI: -98
+Time: 283445
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 15.00
+Pressure: 1013.31
+AccX: 0.46
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.83
+GyroY: 8.00
+GyroZ: 5.63
+AccAngleX: -135.89
+AccAngleY: -135.77
+GyroAngleX: -1473.26
+GyroAngleY: 1998.56
+GyroAngleZ: 1001.65
+AngleX: -598.38
+AngleY: 559.59
+AngleZ: 1001.65
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 165
+RSSI: -97
+Time: 285139
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.96
+Pressure: 1013.32
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.55
+GyroY: 9.07
+GyroZ: 5.00
+AccAngleX: -135.60
+AccAngleY: -135.53
+GyroAngleX: -1482.66
+GyroAngleY: 2013.93
+GyroAngleZ: 1010.13
+AngleX: -598.34
+AngleY: 560.75
+AngleZ: 1010.13
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 166
+RSSI: -98
+Time: 286837
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.91
+Pressure: 1013.33
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.87
+GyroX: -5.86
+GyroY: 9.32
+GyroZ: 5.29
+AccAngleX: -134.01
+AccAngleY: -134.18
+GyroAngleX: -1492.60
+GyroAngleY: 2029.75
+GyroAngleZ: 1019.11
+AngleX: -598.80
+AngleY: 562.35
+AngleZ: 1019.11
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 167
+RSSI: -99
+Time: 288531
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.86
+Pressure: 1013.32
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.04
+GyroY: 9.19
+GyroZ: 5.51
+AccAngleX: -134.11
+AccAngleY: -134.26
+GyroAngleX: -1502.83
+GyroAngleY: 2045.32
+GyroAngleZ: 1028.44
+AngleX: -599.53
+AngleY: 563.68
+AngleZ: 1028.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 168
+RSSI: -97
+Time: 290225
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.82
+Pressure: 1013.30
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.53
+GyroY: 9.13
+GyroZ: 4.79
+AccAngleX: -133.85
+AccAngleY: -134.05
+GyroAngleX: -1513.89
+GyroAngleY: 2060.79
+GyroAngleZ: 1036.55
+AngleX: -601.05
+AngleY: 564.88
+AngleZ: 1036.55
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 169
+RSSI: -98
+Time: 291929
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.77
+Pressure: 1013.29
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.69
+GyroY: 9.82
+GyroZ: 5.06
+AccAngleX: -134.22
+AccAngleY: -134.32
+GyroAngleX: -1523.58
+GyroAngleY: 2077.52
+GyroAngleZ: 1045.17
+AngleX: -601.21
+AngleY: 567.30
+AngleZ: 1045.17
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 170
+RSSI: -100
+Time: 293632
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.74
+Pressure: 1013.36
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.86
+GyroX: -5.67
+GyroY: 9.01
+GyroZ: 5.81
+AccAngleX: -134.14
+AccAngleY: -134.29
+GyroAngleX: -1533.24
+GyroAngleY: 2092.87
+GyroAngleZ: 1055.07
+AngleX: -601.34
+AngleY: 568.30
+AngleZ: 1055.07
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 171
+RSSI: -97
+Time: 295326
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.71
+Pressure: 1013.05
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -7.05
+GyroY: 7.82
+GyroZ: 5.05
+AccAngleX: -134.81
+AccAngleY: -134.84
+GyroAngleX: -1545.18
+GyroAngleY: 2106.11
+GyroAngleZ: 1063.62
+AngleX: -603.71
+AngleY: 567.22
+AngleZ: 1063.62
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 172
+RSSI: -95
+Time: 297020
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.65
+Pressure: 1013.35
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.70
+GyroY: 9.70
+GyroZ: 5.31
+AccAngleX: -134.57
+AccAngleY: -134.64
+GyroAngleX: -1554.84
+GyroAngleY: 2122.54
+GyroAngleZ: 1072.61
+AngleX: -603.79
+AngleY: 569.28
+AngleZ: 1072.61
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 173
+RSSI: -108
+Time: 298714
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.61
+Pressure: 1013.33
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.50
+GyroY: 8.35
+GyroZ: 5.14
+AccAngleX: -133.44
+AccAngleY: -133.65
+GyroAngleX: -1564.17
+GyroAngleY: 2136.69
+GyroAngleZ: 1081.31
+AngleX: -603.52
+AngleY: 569.09
+AngleZ: 1081.31
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 174
+RSSI: -101
+Time: 300408
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.58
+Pressure: 1013.56
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.76
+GyroY: 8.19
+GyroZ: 5.06
+AccAngleX: -134.37
+AccAngleY: -134.45
+GyroAngleX: -1575.61
+GyroAngleY: 2150.56
+GyroAngleZ: 1089.89
+AngleX: -605.36
+AngleY: 568.61
+AngleZ: 1089.89
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 175
+RSSI: -103
+Time: 302102
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.56
+Pressure: 1012.45
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.25
+GyroY: 9.12
+GyroZ: 5.38
+AccAngleX: -133.24
+AccAngleY: -133.49
+GyroAngleX: -1584.50
+GyroAngleY: 2166.00
+GyroAngleZ: 1099.01
+AngleX: -604.62
+AngleY: 569.70
+AngleZ: 1099.01
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 176
+RSSI: -100
+Time: 303796
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.53
+Pressure: 1012.41
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.69
+GyroY: 9.51
+GyroZ: 4.80
+AccAngleX: -134.30
+AccAngleY: -134.42
+GyroAngleX: -1594.13
+GyroAngleY: 2182.12
+GyroAngleZ: 1107.15
+AngleX: -604.66
+AngleY: 571.42
+AngleZ: 1107.15
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 177
+RSSI: -104
+Time: 305490
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.49
+Pressure: 1012.66
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.19
+GyroY: 9.39
+GyroZ: 4.94
+AccAngleX: -134.16
+AccAngleY: -134.26
+GyroAngleX: -1604.62
+GyroAngleY: 2198.03
+GyroAngleZ: 1115.51
+AngleX: -605.53
+AngleY: 572.89
+AngleZ: 1115.51
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 178
+RSSI: -102
+Time: 307184
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.46
+Pressure: 1012.98
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.28
+GyroY: 8.92
+GyroZ: 4.96
+AccAngleX: -133.80
+AccAngleY: -133.95
+GyroAngleX: -1615.27
+GyroAngleY: 2213.14
+GyroAngleZ: 1123.91
+AngleX: -606.52
+AngleY: 573.56
+AngleZ: 1123.91
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 179
+RSSI: -103
+Time: 308878
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.41
+Pressure: 1013.12
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.90
+GyroX: -6.44
+GyroY: 9.44
+GyroZ: 4.86
+AccAngleX: -134.88
+AccAngleY: -134.90
+GyroAngleX: -1626.17
+GyroAngleY: 2229.12
+GyroAngleZ: 1132.15
+AngleX: -607.77
+AngleY: 575.06
+AngleZ: 1132.15
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 1602.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 180
+RSSI: -104
+Time: 310572
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.37
+Pressure: 1013.20
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.10
+GyroY: 9.10
+GyroZ: 5.49
+AccAngleX: -133.62
+AccAngleY: -133.82
+GyroAngleX: -1636.50
+GyroAngleY: 2244.54
+GyroAngleZ: 1141.45
+AngleX: -608.42
+AngleY: 575.99
+AngleZ: 1141.45
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 23820.00
+0.5 um: 3402.00
+10 um: 83.00
+25 um: 4.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 181
+RSSI: -93
+Time: 312270
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.33
+Pressure: 1013.25
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.61
+GyroY: 9.76
+GyroZ: 5.12
+AccAngleX: -133.43
+AccAngleY: -133.69
+GyroAngleX: -1646.03
+GyroAngleY: 2261.11
+GyroAngleZ: 1150.15
+AngleX: -608.26
+AngleY: 578.04
+AngleZ: 1150.15
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 182
+RSSI: -89
+Time: 313964
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.28
+Pressure: 1013.36
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.87
+GyroX: -5.87
+GyroY: 9.36
+GyroZ: 5.38
+AccAngleX: -134.28
+AccAngleY: -134.40
+GyroAngleX: -1655.98
+GyroAngleY: 2276.97
+GyroAngleZ: 1159.27
+AngleX: -608.52
+AngleY: 579.33
+AngleZ: 1159.27
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 183
+RSSI: -87
+Time: 315658
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.23
+Pressure: 1013.36
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.42
+GyroY: 9.22
+GyroZ: 4.83
+AccAngleX: -135.92
+AccAngleY: -135.82
+GyroAngleX: -1666.85
+GyroAngleY: 2292.59
+GyroAngleZ: 1167.46
+AngleX: -609.73
+AngleY: 580.34
+AngleZ: 1167.46
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 184
+RSSI: -93
+Time: 317352
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.20
+Pressure: 1013.37
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.28
+GyroY: 9.48
+GyroZ: 4.67
+AccAngleX: -134.61
+AccAngleY: -134.66
+GyroAngleX: -1677.50
+GyroAngleY: 2308.66
+GyroAngleZ: 1175.36
+AngleX: -610.66
+AngleY: 581.78
+AngleZ: 1175.36
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 185
+RSSI: -94
+Time: 319058
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.17
+Pressure: 1013.34
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.67
+GyroY: 9.28
+GyroZ: 5.32
+AccAngleX: -133.90
+AccAngleY: -134.10
+GyroAngleX: -1687.17
+GyroAngleY: 2324.50
+GyroAngleZ: 1184.44
+AngleX: -610.61
+AngleY: 582.99
+AngleZ: 1184.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 186
+RSSI: -105
+Time: 320752
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.13
+Pressure: 1013.38
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.86
+GyroX: -5.89
+GyroY: 9.06
+GyroZ: 5.06
+AccAngleX: -133.72
+AccAngleY: -133.87
+GyroAngleX: -1697.14
+GyroAngleY: 2339.84
+GyroAngleZ: 1193.01
+AngleX: -610.84
+AngleY: 583.69
+AngleZ: 1193.01
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 187
+RSSI: -109
+Time: 322446
+Temp RAW: 84217856.00
+Temp1: 325.92
+Temp2: 14.10
+Pressure: 1013.35
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.41
+GyroY: 9.59
+GyroZ: 4.59
+AccAngleX: -134.45
+AccAngleY: -134.51
+GyroAngleX: -1708.00
+GyroAngleY: 2356.09
+GyroAngleZ: 1200.79
+AngleX: -611.95
+AngleY: 585.24
+AngleZ: 1200.79
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 188
+RSSI: -109
+Time: 324140
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.06
+Pressure: 1013.01
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.22
+GyroY: 9.09
+GyroZ: 5.18
+AccAngleX: -133.94
+AccAngleY: -134.11
+GyroAngleX: -1718.54
+GyroAngleY: 2371.48
+GyroAngleZ: 1209.57
+AngleX: -612.72
+AngleY: 585.94
+AngleZ: 1209.57
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 189
+RSSI: -106
+Time: 325834
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.04
+Pressure: 1013.09
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.15
+GyroY: 9.01
+GyroZ: 5.17
+AccAngleX: -135.09
+AccAngleY: -135.07
+GyroAngleX: -1728.95
+GyroAngleY: 2386.74
+GyroAngleZ: 1218.33
+AngleX: -613.37
+AngleY: 586.48
+AngleZ: 1218.33
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 190
+RSSI: -98
+Time: 327528
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 14.01
+Pressure: 1013.17
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.99
+GyroY: 9.15
+GyroZ: 5.20
+AccAngleX: -135.29
+AccAngleY: -135.25
+GyroAngleX: -1739.10
+GyroAngleY: 2402.24
+GyroAngleZ: 1227.14
+AngleX: -613.76
+AngleY: 587.23
+AngleZ: 1227.14
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 191
+RSSI: -100
+Time: 329222
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.98
+Pressure: 1013.20
+AccX: 0.49
+AccY: -0.42
+AccZ: -0.87
+GyroX: -5.49
+GyroY: 9.15
+GyroZ: 5.17
+AccAngleX: -133.05
+AccAngleY: -133.34
+GyroAngleX: -1748.40
+GyroAngleY: 2417.73
+GyroAngleZ: 1235.89
+AngleX: -613.25
+AngleY: 588.00
+AngleZ: 1235.89
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 192
+RSSI: -97
+Time: 330916
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.93
+Pressure: 1013.27
+AccX: 0.50
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.63
+GyroY: 9.48
+GyroZ: 4.99
+AccAngleX: -133.53
+AccAngleY: -133.79
+GyroAngleX: -1757.93
+GyroAngleY: 2433.80
+GyroAngleZ: 1244.34
+AngleX: -613.00
+AngleY: 589.31
+AngleZ: 1244.34
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 193
+RSSI: -98
+Time: 332610
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.89
+Pressure: 1013.27
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.27
+GyroY: 8.99
+GyroZ: 5.15
+AccAngleX: -133.86
+AccAngleY: -134.01
+GyroAngleX: -1768.55
+GyroAngleY: 2449.04
+GyroAngleZ: 1253.07
+AngleX: -613.82
+AngleY: 589.78
+AngleZ: 1253.07
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 194
+RSSI: -97
+Time: 334304
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.85
+Pressure: 1013.31
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.54
+GyroY: 8.84
+GyroZ: 4.96
+AccAngleX: -135.02
+AccAngleY: -135.01
+GyroAngleX: -1779.63
+GyroAngleY: 2464.01
+GyroAngleZ: 1261.47
+AngleX: -615.11
+AngleY: 589.96
+AngleZ: 1261.47
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 195
+RSSI: -103
+Time: 335998
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.82
+Pressure: 1013.30
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.22
+GyroY: 8.72
+GyroZ: 5.18
+AccAngleX: -135.27
+AccAngleY: -135.23
+GyroAngleX: -1790.17
+GyroAngleY: 2478.79
+GyroAngleZ: 1270.25
+AngleX: -615.84
+AngleY: 589.93
+AngleZ: 1270.25
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 196
+RSSI: -103
+Time: 337696
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.79
+Pressure: 1013.34
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.58
+GyroY: 8.99
+GyroZ: 5.20
+AccAngleX: -134.80
+AccAngleY: -134.82
+GyroAngleX: -1799.65
+GyroAngleY: 2494.06
+GyroAngleZ: 1279.08
+AngleX: -615.51
+AngleY: 590.41
+AngleZ: 1279.08
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 197
+RSSI: -96
+Time: 339390
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.76
+Pressure: 1013.34
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.34
+GyroY: 9.91
+GyroZ: 5.44
+AccAngleX: -133.81
+AccAngleY: -133.98
+GyroAngleX: -1808.69
+GyroAngleY: 2510.85
+GyroAngleZ: 1288.30
+AngleX: -614.73
+AngleY: 592.37
+AngleZ: 1288.30
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 198
+RSSI: -96
+Time: 341084
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.72
+Pressure: 1013.34
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.89
+GyroY: 8.75
+GyroZ: 5.03
+AccAngleX: -134.35
+AccAngleY: -134.46
+GyroAngleX: -1818.66
+GyroAngleY: 2525.67
+GyroAngleZ: 1296.82
+AngleX: -614.90
+AngleY: 592.36
+AngleZ: 1296.82
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 199
+RSSI: -95
+Time: 342778
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.69
+Pressure: 1013.35
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.57
+GyroY: 9.22
+GyroZ: 5.03
+AccAngleX: -135.35
+AccAngleY: -135.32
+GyroAngleX: -1829.80
+GyroAngleY: 2541.30
+GyroAngleZ: 1305.35
+AngleX: -616.22
+AngleY: 593.12
+AngleZ: 1305.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 200
+RSSI: -104
+Time: 344481
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.65
+Pressure: 1013.34
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.67
+GyroY: 8.66
+GyroZ: 5.58
+AccAngleX: -134.08
+AccAngleY: -134.20
+GyroAngleX: -1839.46
+GyroAngleY: 2556.04
+GyroAngleZ: 1314.85
+AngleX: -616.04
+AngleY: 593.03
+AngleZ: 1314.85
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 201
+RSSI: -100
+Time: 346175
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.61
+Pressure: 1013.33
+AccX: 0.50
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.92
+GyroY: 9.77
+GyroZ: 5.25
+AccAngleX: -133.06
+AccAngleY: -133.40
+GyroAngleX: -1849.48
+GyroAngleY: 2572.60
+GyroAngleZ: 1323.74
+AngleX: -616.21
+AngleY: 594.72
+AngleZ: 1323.74
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 202
+RSSI: -104
+Time: 347869
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.57
+Pressure: 1013.36
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.63
+GyroY: 9.32
+GyroZ: 5.20
+AccAngleX: -134.34
+AccAngleY: -134.44
+GyroAngleX: -1859.01
+GyroAngleY: 2588.38
+GyroAngleZ: 1332.55
+AngleX: -615.91
+AngleY: 595.61
+AngleZ: 1332.55
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 203
+RSSI: -103
+Time: 349563
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.54
+Pressure: 1013.37
+AccX: 0.45
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.02
+GyroY: 9.45
+GyroZ: 5.25
+AccAngleX: -135.89
+AccAngleY: -135.81
+GyroAngleX: -1869.22
+GyroAngleY: 2604.39
+GyroAngleZ: 1341.44
+AngleX: -616.31
+AngleY: 596.67
+AngleZ: 1341.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 204
+RSSI: -105
+Time: 351257
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.50
+Pressure: 1013.38
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.22
+GyroY: 9.04
+GyroZ: 4.73
+AccAngleX: -133.82
+AccAngleY: -133.98
+GyroAngleX: -1879.76
+GyroAngleY: 2619.71
+GyroAngleZ: 1349.44
+AngleX: -616.99
+AngleY: 597.07
+AngleZ: 1349.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 205
+RSSI: -105
+Time: 352960
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.46
+Pressure: 1013.38
+AccX: 0.49
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.76
+GyroY: 9.44
+GyroZ: 5.12
+AccAngleX: -133.30
+AccAngleY: -133.55
+GyroAngleX: -1889.57
+GyroAngleY: 2635.78
+GyroAngleZ: 1358.17
+AngleX: -616.94
+AngleY: 598.20
+AngleZ: 1358.17
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 206
+RSSI: -101
+Time: 354685
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.42
+Pressure: 1013.37
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.57
+GyroY: 9.39
+GyroZ: 5.17
+AccAngleX: -134.44
+AccAngleY: -134.53
+GyroAngleX: -1900.91
+GyroAngleY: 2651.98
+GyroAngleZ: 1367.08
+AngleX: -618.40
+AngleY: 599.43
+AngleZ: 1367.08
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 207
+RSSI: -103
+Time: 356379
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.38
+Pressure: 1013.42
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.79
+GyroY: 9.16
+GyroZ: 5.31
+AccAngleX: -134.64
+AccAngleY: -134.69
+GyroAngleX: -1910.73
+GyroAngleY: 2667.50
+GyroAngleZ: 1376.07
+AngleX: -618.34
+AngleY: 599.96
+AngleZ: 1376.07
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 208
+RSSI: -99
+Time: 358073
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.33
+Pressure: 1013.39
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.12
+GyroY: 8.98
+GyroZ: 5.23
+AccAngleX: -134.76
+AccAngleY: -134.79
+GyroAngleX: -1921.09
+GyroAngleY: 2682.72
+GyroAngleZ: 1384.93
+AngleX: -618.82
+AngleY: 600.17
+AngleZ: 1384.93
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 209
+RSSI: -108
+Time: 359767
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.30
+Pressure: 1013.42
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.26
+GyroY: 9.25
+GyroZ: 5.15
+AccAngleX: -134.45
+AccAngleY: -134.53
+GyroAngleX: -1930.00
+GyroAngleY: 2698.39
+GyroAngleZ: 1393.67
+AngleX: -617.87
+AngleY: 600.84
+AngleZ: 1393.67
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 210
+RSSI: -99
+Time: 361465
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.24
+Pressure: 1013.41
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.78
+GyroY: 9.47
+GyroZ: 5.20
+AccAngleX: -135.34
+AccAngleY: -135.29
+GyroAngleX: -1939.81
+GyroAngleY: 2714.46
+GyroAngleZ: 1402.49
+AngleX: -617.83
+AngleY: 601.86
+AngleZ: 1402.49
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 211
+RSSI: -106
+Time: 363159
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.20
+Pressure: 1013.42
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.27
+GyroY: 9.28
+GyroZ: 4.42
+AccAngleX: -133.91
+AccAngleY: -134.05
+GyroAngleX: -1950.42
+GyroAngleY: 2730.19
+GyroAngleZ: 1409.98
+AngleX: -618.56
+AngleY: 602.56
+AngleZ: 1409.98
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 17108.00
+pmValid: 0
+
+Packet ID: 212
+RSSI: -102
+Time: 364853
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.16
+Pressure: 1013.43
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.56
+GyroY: 8.92
+GyroZ: 5.08
+AccAngleX: -134.35
+AccAngleY: -134.43
+GyroAngleX: -1961.53
+GyroAngleY: 2745.30
+GyroAngleZ: 1418.58
+AngleX: -619.76
+AngleY: 602.62
+AngleZ: 1418.58
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 27.00
+0.5 um: 7668.00
+10 um: 947.00
+25 um: 96.00
+50 um: 6.00
+100 um: 1.00
+pmValid: 0
+
+Packet ID: 213
+RSSI: -99
+Time: 366547
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.12
+Pressure: 1013.43
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.50
+GyroY: 9.53
+GyroZ: 5.09
+AccAngleX: -134.45
+AccAngleY: -134.53
+GyroAngleX: -1972.54
+GyroAngleY: 2761.44
+GyroAngleZ: 1427.21
+AngleX: -620.84
+AngleY: 603.70
+AngleZ: 1427.21
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 27.00
+0.5 um: 7668.00
+10 um: 947.00
+25 um: 96.00
+50 um: 6.00
+100 um: 1.00
+pmValid: 0
+
+Packet ID: 214
+RSSI: -98
+Time: 368241
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.07
+Pressure: 1013.45
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.19
+GyroY: 8.87
+GyroZ: 5.20
+AccAngleX: -133.90
+AccAngleY: -134.08
+GyroAngleX: -1983.03
+GyroAngleY: 2776.47
+GyroAngleZ: 1436.02
+AngleX: -621.38
+AngleY: 603.67
+AngleZ: 1436.02
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 27.00
+0.5 um: 7668.00
+10 um: 947.00
+25 um: 96.00
+50 um: 6.00
+100 um: 1.00
+pmValid: 0
+
+Packet ID: 215
+RSSI: -100
+Time: 369943
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 13.02
+Pressure: 1013.44
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.84
+GyroY: 9.24
+GyroZ: 5.61
+AccAngleX: -133.06
+AccAngleY: -133.41
+GyroAngleX: -1992.97
+GyroAngleY: 2792.19
+GyroAngleZ: 1445.57
+AngleX: -621.36
+AngleY: 604.34
+AngleZ: 1445.57
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 8043.00
+0.5 um: 960.00
+10 um: 93.00
+25 um: 3.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 216
+RSSI: -99
+Time: 371637
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.97
+Pressure: 1013.41
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.16
+GyroY: 9.36
+GyroZ: 5.15
+AccAngleX: -134.98
+AccAngleY: -134.99
+GyroAngleX: -2003.40
+GyroAngleY: 2808.05
+GyroAngleZ: 1454.30
+AngleX: -621.86
+AngleY: 605.10
+AngleZ: 1454.30
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7944.00
+0.5 um: 955.00
+10 um: 91.00
+25 um: 4.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 217
+RSSI: -102
+Time: 373331
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.92
+Pressure: 1013.46
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.19
+GyroY: 9.48
+GyroZ: 5.05
+AccAngleX: -134.22
+AccAngleY: -134.32
+GyroAngleX: -2013.89
+GyroAngleY: 2824.12
+GyroAngleZ: 1462.85
+AngleX: -622.38
+AngleY: 606.05
+AngleZ: 1462.85
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7944.00
+0.5 um: 955.00
+10 um: 91.00
+25 um: 4.00
+50 um: 0.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 218
+RSSI: -101
+Time: 375025
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.88
+Pressure: 1013.45
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -6.13
+GyroY: 8.92
+GyroZ: 5.14
+AccAngleX: -133.87
+AccAngleY: -134.03
+GyroAngleX: -2024.28
+GyroAngleY: 2839.23
+GyroAngleZ: 1471.56
+AngleX: -622.79
+AngleY: 606.06
+AngleZ: 1471.56
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 219
+RSSI: -102
+Time: 376719
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.84
+Pressure: 1013.46
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.50
+GyroY: 9.19
+GyroZ: 4.88
+AccAngleX: -134.50
+AccAngleY: -134.57
+GyroAngleX: -2035.28
+GyroAngleY: 2854.80
+GyroAngleZ: 1479.82
+AngleX: -623.81
+AngleY: 606.51
+AngleZ: 1479.82
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 220
+RSSI: -101
+Time: 378413
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.78
+Pressure: 1013.44
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.30
+GyroY: 9.28
+GyroZ: 5.22
+AccAngleX: -134.32
+AccAngleY: -134.43
+GyroAngleX: -2045.95
+GyroAngleY: 2870.53
+GyroAngleZ: 1488.66
+AngleX: -624.48
+AngleY: 607.10
+AngleZ: 1488.66
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 221
+RSSI: -98
+Time: 380107
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.73
+Pressure: 1013.46
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.28
+GyroY: 8.92
+GyroZ: 4.99
+AccAngleX: -134.93
+AccAngleY: -134.94
+GyroAngleX: -2056.60
+GyroAngleY: 2885.64
+GyroAngleZ: 1497.10
+AngleX: -625.12
+AngleY: 607.07
+AngleZ: 1497.10
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 222
+RSSI: -102
+Time: 381801
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.69
+Pressure: 1013.47
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.30
+GyroY: 8.99
+GyroZ: 4.94
+AccAngleX: -134.04
+AccAngleY: -134.18
+GyroAngleX: -2067.27
+GyroAngleY: 2900.87
+GyroAngleZ: 1505.47
+AngleX: -625.75
+AngleY: 607.17
+AngleZ: 1505.47
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 223
+RSSI: -97
+Time: 383495
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.63
+Pressure: 1013.46
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.52
+GyroY: 9.21
+GyroZ: 5.54
+AccAngleX: -134.60
+AccAngleY: -134.66
+GyroAngleX: -2076.62
+GyroAngleY: 2916.47
+GyroAngleZ: 1514.85
+AngleX: -625.09
+AngleY: 607.63
+AngleZ: 1514.85
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 224
+RSSI: -98
+Time: 385189
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.59
+Pressure: 1013.50
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.15
+GyroY: 9.38
+GyroZ: 5.35
+AccAngleX: -134.64
+AccAngleY: -134.70
+GyroAngleX: -2085.35
+GyroAngleY: 2932.36
+GyroAngleZ: 1523.92
+AngleX: -623.84
+AngleY: 608.35
+AngleZ: 1523.92
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 225
+RSSI: -102
+Time: 386883
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.54
+Pressure: 1013.49
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.64
+GyroY: 9.73
+GyroZ: 5.52
+AccAngleX: -133.88
+AccAngleY: -134.05
+GyroAngleX: -2094.91
+GyroAngleY: 2948.83
+GyroAngleZ: 1533.27
+AngleX: -623.41
+AngleY: 609.65
+AngleZ: 1533.27
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 226
+RSSI: -96
+Time: 388577
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.50
+Pressure: 1013.51
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.61
+GyroY: 9.79
+GyroZ: 4.93
+AccAngleX: -134.02
+AccAngleY: -134.18
+GyroAngleX: -2104.41
+GyroAngleY: 2965.42
+GyroAngleZ: 1541.61
+AngleX: -622.93
+AngleY: 611.02
+AngleZ: 1541.61
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 227
+RSSI: -97
+Time: 390275
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.46
+Pressure: 1013.47
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.54
+GyroY: 8.98
+GyroZ: 5.00
+AccAngleX: -134.93
+AccAngleY: -134.94
+GyroAngleX: -2115.52
+GyroAngleY: 2980.66
+GyroAngleZ: 1550.10
+AngleX: -624.06
+AngleY: 611.04
+AngleZ: 1550.10
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 228
+RSSI: -98
+Time: 391969
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.42
+Pressure: 1013.51
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.16
+GyroY: 9.28
+GyroZ: 5.18
+AccAngleX: -133.34
+AccAngleY: -133.59
+GyroAngleX: -2125.96
+GyroAngleY: 2996.39
+GyroAngleZ: 1558.89
+AngleX: -624.48
+AngleY: 611.57
+AngleZ: 1558.89
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 229
+RSSI: -98
+Time: 393663
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.36
+Pressure: 1013.48
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.89
+GyroX: -6.79
+GyroY: 9.22
+GyroZ: 4.96
+AccAngleX: -134.64
+AccAngleY: -134.69
+GyroAngleX: -2137.46
+GyroAngleY: 3012.02
+GyroAngleZ: 1567.28
+AngleX: -625.95
+AngleY: 611.95
+AngleZ: 1567.28
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 230
+RSSI: -100
+Time: 395366
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.31
+Pressure: 1013.53
+AccX: 0.49
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.89
+GyroY: 9.42
+GyroZ: 4.99
+AccAngleX: -133.48
+AccAngleY: -133.72
+GyroAngleX: -2147.48
+GyroAngleY: 3028.06
+GyroAngleZ: 1575.77
+AngleX: -625.92
+AngleY: 612.76
+AngleZ: 1575.77
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 231
+RSSI: -99
+Time: 397060
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.27
+Pressure: 1013.51
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.04
+GyroY: 9.48
+GyroZ: 5.18
+AccAngleX: -133.51
+AccAngleY: -133.75
+GyroAngleX: -2157.71
+GyroAngleY: 3044.13
+GyroAngleZ: 1584.56
+AngleX: -626.10
+AngleY: 613.58
+AngleZ: 1584.56
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 232
+RSSI: -98
+Time: 398754
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.22
+Pressure: 1013.51
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.22
+GyroY: 9.96
+GyroZ: 4.86
+AccAngleX: -133.66
+AccAngleY: -133.85
+GyroAngleX: -2168.25
+GyroAngleY: 3061.00
+GyroAngleZ: 1592.79
+AngleX: -626.58
+AngleY: 615.16
+AngleZ: 1592.79
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 233
+RSSI: -99
+Time: 400448
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.18
+Pressure: 1013.50
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.54
+GyroY: 9.58
+GyroZ: 5.03
+AccAngleX: -133.75
+AccAngleY: -133.91
+GyroAngleX: -2179.33
+GyroAngleY: 3077.22
+GyroAngleZ: 1601.32
+AngleX: -627.58
+AngleY: 616.07
+AngleZ: 1601.32
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 234
+RSSI: -100
+Time: 402142
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.14
+Pressure: 1013.53
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.41
+GyroY: 9.15
+GyroZ: 4.91
+AccAngleX: -134.73
+AccAngleY: -134.76
+GyroAngleX: -2190.19
+GyroAngleY: 3092.71
+GyroAngleZ: 1609.64
+AngleX: -628.36
+AngleY: 616.24
+AngleZ: 1609.64
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 235
+RSSI: -101
+Time: 403836
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.11
+Pressure: 1013.53
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.59
+GyroY: 8.96
+GyroZ: 4.89
+AccAngleX: -134.43
+AccAngleY: -134.50
+GyroAngleX: -2201.35
+GyroAngleY: 3107.90
+GyroAngleZ: 1617.93
+AngleX: -629.42
+AngleY: 616.11
+AngleZ: 1617.93
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 236
+RSSI: -98
+Time: 405530
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.06
+Pressure: 1013.51
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.45
+GyroY: 9.09
+GyroZ: 4.76
+AccAngleX: -134.54
+AccAngleY: -134.60
+GyroAngleX: -2212.28
+GyroAngleY: 3123.29
+GyroAngleZ: 1625.99
+AngleX: -630.23
+AngleY: 616.18
+AngleZ: 1625.99
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 237
+RSSI: -108
+Time: 407224
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 12.02
+Pressure: 1013.50
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.22
+GyroY: 9.18
+GyroZ: 4.83
+AccAngleX: -134.59
+AccAngleY: -134.65
+GyroAngleX: -2222.82
+GyroAngleY: 3138.84
+GyroAngleZ: 1634.17
+AngleX: -630.65
+AngleY: 616.40
+AngleZ: 1634.17
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 238
+RSSI: -98
+Time: 408918
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.98
+Pressure: 1013.49
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.21
+GyroY: 8.99
+GyroZ: 4.82
+AccAngleX: -133.99
+AccAngleY: -134.13
+GyroAngleX: -2233.33
+GyroAngleY: 3154.08
+GyroAngleZ: 1642.34
+AngleX: -631.02
+AngleY: 616.32
+AngleZ: 1642.34
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 239
+RSSI: -96
+Time: 410612
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.94
+Pressure: 1013.50
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.72
+GyroY: 9.30
+GyroZ: 5.20
+AccAngleX: -135.09
+AccAngleY: -135.07
+GyroAngleX: -2243.02
+GyroAngleY: 3169.83
+GyroAngleZ: 1651.15
+AngleX: -630.60
+AngleY: 616.73
+AngleZ: 1651.15
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 240
+RSSI: -96
+Time: 412306
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.90
+Pressure: 1013.50
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.84
+GyroY: 9.30
+GyroZ: 5.11
+AccAngleX: -134.37
+AccAngleY: -134.46
+GyroAngleX: -2252.91
+GyroAngleY: 3185.58
+GyroAngleZ: 1659.80
+AngleX: -630.37
+AngleY: 617.15
+AngleZ: 1659.80
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 241
+RSSI: -96
+Time: 414004
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.86
+Pressure: 1013.51
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.93
+GyroY: 9.62
+GyroZ: 5.28
+AccAngleX: -134.20
+AccAngleY: -134.32
+GyroAngleX: -2262.98
+GyroAngleY: 3201.91
+GyroAngleZ: 1668.75
+AngleX: -630.31
+AngleY: 618.12
+AngleZ: 1668.75
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 242
+RSSI: -97
+Time: 415698
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.82
+Pressure: 1013.47
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.28
+GyroY: 9.22
+GyroZ: 5.08
+AccAngleX: -134.05
+AccAngleY: -134.16
+GyroAngleX: -2273.62
+GyroAngleY: 3217.54
+GyroAngleZ: 1677.35
+AngleX: -630.81
+AngleY: 618.39
+AngleZ: 1677.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 243
+RSSI: -97
+Time: 417392
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.78
+Pressure: 1013.48
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.53
+GyroY: 9.28
+GyroZ: 4.77
+AccAngleX: -134.44
+AccAngleY: -134.52
+GyroAngleX: -2284.68
+GyroAngleY: 3233.27
+GyroAngleZ: 1685.44
+AngleX: -631.72
+AngleY: 618.74
+AngleZ: 1685.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 244
+RSSI: -98
+Time: 419086
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.73
+Pressure: 1013.49
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.34
+GyroY: 9.12
+GyroZ: 4.96
+AccAngleX: -134.08
+AccAngleY: -134.22
+GyroAngleX: -2295.43
+GyroAngleY: 3248.71
+GyroAngleZ: 1693.83
+AngleX: -632.30
+AngleY: 618.82
+AngleZ: 1693.83
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 245
+RSSI: -97
+Time: 420788
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.69
+Pressure: 1013.47
+AccX: 0.49
+AccY: -0.42
+AccZ: -0.89
+GyroX: -5.40
+GyroY: 9.73
+GyroZ: 5.64
+AccAngleX: -133.91
+AccAngleY: -134.07
+GyroAngleX: -2304.61
+GyroAngleY: 3265.27
+GyroAngleZ: 1703.44
+AngleX: -631.34
+AngleY: 619.99
+AngleZ: 1703.44
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 246
+RSSI: -97
+Time: 422482
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.65
+Pressure: 1013.53
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.63
+GyroY: 9.77
+GyroZ: 5.18
+AccAngleX: -133.51
+AccAngleY: -133.73
+GyroAngleX: -2314.15
+GyroAngleY: 3281.82
+GyroAngleZ: 1712.22
+AngleX: -630.72
+AngleY: 621.14
+AngleZ: 1712.22
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 247
+RSSI: -97
+Time: 424176
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.61
+Pressure: 1013.51
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.83
+GyroY: 9.74
+GyroZ: 5.02
+AccAngleX: -134.18
+AccAngleY: -134.31
+GyroAngleX: -2324.01
+GyroAngleY: 3298.33
+GyroAngleZ: 1720.72
+AngleX: -630.46
+AngleY: 622.20
+AngleZ: 1720.72
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 248
+RSSI: -96
+Time: 425870
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.58
+Pressure: 1013.53
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.16
+GyroY: 9.35
+GyroZ: 5.09
+AccAngleX: -134.36
+AccAngleY: -134.45
+GyroAngleX: -2334.45
+GyroAngleY: 3314.16
+GyroAngleZ: 1729.35
+AngleX: -630.77
+AngleY: 622.59
+AngleZ: 1729.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 249
+RSSI: -98
+Time: 427564
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.55
+Pressure: 1013.51
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.31
+GyroY: 9.42
+GyroZ: 4.39
+AccAngleX: -134.44
+AccAngleY: -134.50
+GyroAngleX: -2345.15
+GyroAngleY: 3330.12
+GyroAngleZ: 1736.78
+AngleX: -631.32
+AngleY: 623.09
+AngleZ: 1736.78
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 250
+RSSI: -97
+Time: 429258
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.52
+Pressure: 1013.53
+AccX: 0.47
+AccY: -0.42
+AccZ: -0.87
+GyroX: -6.24
+GyroY: 9.28
+GyroZ: 4.82
+AccAngleX: -133.73
+AccAngleY: -133.88
+GyroAngleX: -2355.71
+GyroAngleY: 3345.85
+GyroAngleZ: 1744.95
+AngleX: -631.73
+AngleY: 623.36
+AngleZ: 1744.95
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 1662.00
+0.5 um: 492.00
+10 um: 106.00
+25 um: 10.00
+50 um: 3.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 251
+RSSI: -97
+Time: 430952
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.48
+Pressure: 1013.52
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.39
+GyroY: 9.18
+GyroZ: 5.12
+AccAngleX: -134.78
+AccAngleY: -134.81
+GyroAngleX: -2366.54
+GyroAngleY: 3361.40
+GyroAngleZ: 1753.62
+AngleX: -632.40
+AngleY: 623.43
+AngleZ: 1753.62
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 252
+RSSI: -97
+Time: 432646
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.43
+Pressure: 1013.53
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.45
+GyroY: 9.39
+GyroZ: 4.88
+AccAngleX: -134.93
+AccAngleY: -134.94
+GyroAngleX: -2377.47
+GyroAngleY: 3377.31
+GyroAngleZ: 1761.89
+AngleX: -633.16
+AngleY: 623.86
+AngleZ: 1761.89
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 253
+RSSI: -97
+Time: 434350
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.38
+Pressure: 1013.52
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.98
+GyroY: 9.39
+GyroZ: 5.03
+AccAngleX: -134.97
+AccAngleY: -134.97
+GyroAngleX: -2387.65
+GyroAngleY: 3393.31
+GyroAngleZ: 1770.46
+AngleX: -633.18
+AngleY: 624.37
+AngleZ: 1770.46
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 254
+RSSI: -96
+Time: 436044
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.33
+Pressure: 1013.52
+AccX: 0.46
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.08
+GyroY: 9.94
+GyroZ: 5.31
+AccAngleX: -134.78
+AccAngleY: -134.80
+GyroAngleX: -2397.96
+GyroAngleY: 3410.15
+GyroAngleZ: 1779.45
+AngleX: -633.31
+AngleY: 625.69
+AngleZ: 1779.45
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 255
+RSSI: -97
+Time: 437738
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.29
+Pressure: 1013.52
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.39
+GyroY: 9.53
+GyroZ: 4.77
+AccAngleX: -133.81
+AccAngleY: -133.96
+GyroAngleX: -2408.78
+GyroAngleY: 3426.29
+GyroAngleZ: 1787.54
+AngleX: -633.93
+AngleY: 626.31
+AngleZ: 1787.54
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 256
+RSSI: -98
+Time: 439445
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.25
+Pressure: 1013.53
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.72
+GyroY: 9.85
+GyroZ: 5.32
+AccAngleX: -133.43
+AccAngleY: -133.71
+GyroAngleX: -2418.55
+GyroAngleY: 3443.11
+GyroAngleZ: 1796.62
+AngleX: -633.48
+AngleY: 627.59
+AngleZ: 1796.62
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 257
+RSSI: -97
+Time: 441139
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.21
+Pressure: 1013.53
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.89
+GyroY: 9.71
+GyroZ: 4.97
+AccAngleX: -133.81
+AccAngleY: -133.99
+GyroAngleX: -2428.52
+GyroAngleY: 3459.56
+GyroAngleZ: 1805.04
+AngleX: -633.26
+AngleY: 628.48
+AngleZ: 1805.04
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 258
+RSSI: -103
+Time: 442833
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.17
+Pressure: 1013.54
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.19
+GyroY: 9.51
+GyroZ: 5.14
+AccAngleX: -134.64
+AccAngleY: -134.69
+GyroAngleX: -2439.01
+GyroAngleY: 3475.68
+GyroAngleZ: 1813.75
+AngleX: -633.57
+AngleY: 629.01
+AngleZ: 1813.75
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 259
+RSSI: -98
+Time: 444527
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.13
+Pressure: 1013.57
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.86
+GyroX: -6.42
+GyroY: 9.59
+GyroZ: 4.99
+AccAngleX: -133.98
+AccAngleY: -134.10
+GyroAngleX: -2449.88
+GyroAngleY: 3491.92
+GyroAngleZ: 1822.20
+AngleX: -634.24
+AngleY: 629.67
+AngleZ: 1822.20
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 260
+RSSI: -99
+Time: 446230
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.08
+Pressure: 1013.56
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.70
+GyroY: 9.09
+GyroZ: 5.23
+AccAngleX: -134.37
+AccAngleY: -134.45
+GyroAngleX: -2459.59
+GyroAngleY: 3507.40
+GyroAngleZ: 1831.10
+AngleX: -633.76
+AngleY: 629.55
+AngleZ: 1831.10
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 261
+RSSI: -98
+Time: 447924
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.05
+Pressure: 1013.55
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.47
+GyroY: 9.94
+GyroZ: 5.23
+AccAngleX: -134.53
+AccAngleY: -134.61
+GyroAngleX: -2468.87
+GyroAngleY: 3524.24
+GyroAngleZ: 1839.96
+AngleX: -632.86
+AngleY: 630.78
+AngleZ: 1839.96
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 262
+RSSI: -100
+Time: 449618
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.02
+Pressure: 1013.57
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.52
+GyroY: 9.99
+GyroZ: 5.09
+AccAngleX: -133.33
+AccAngleY: -133.61
+GyroAngleX: -2478.22
+GyroAngleY: 3541.16
+GyroAngleZ: 1848.59
+AngleX: -632.03
+AngleY: 632.07
+AngleZ: 1848.59
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 263
+RSSI: -95
+Time: 451312
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.99
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.87
+GyroY: 9.67
+GyroZ: 4.82
+AccAngleX: -134.48
+AccAngleY: -134.56
+GyroAngleX: -2488.16
+GyroAngleY: 3557.53
+GyroAngleZ: 1856.75
+AngleX: -631.83
+AngleY: 632.78
+AngleZ: 1856.75
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 264
+RSSI: -103
+Time: 453006
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.94
+Pressure: 1013.56
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.18
+GyroY: 9.62
+GyroZ: 5.05
+AccAngleX: -134.57
+AccAngleY: -134.62
+GyroAngleX: -2498.63
+GyroAngleY: 3573.83
+GyroAngleZ: 1865.30
+AngleX: -632.14
+AngleY: 633.41
+AngleZ: 1865.30
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 265
+RSSI: -98
+Time: 454700
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.91
+Pressure: 1013.55
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.86
+GyroX: -5.99
+GyroY: 9.28
+GyroZ: 4.71
+AccAngleX: -133.48
+AccAngleY: -133.69
+GyroAngleX: -2508.78
+GyroAngleY: 3589.56
+GyroAngleZ: 1873.28
+AngleX: -632.11
+AngleY: 633.48
+AngleZ: 1873.28
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 266
+RSSI: -97
+Time: 456394
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.88
+Pressure: 1013.53
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.34
+GyroY: 9.12
+GyroZ: 4.89
+AccAngleX: -134.39
+AccAngleY: -134.49
+GyroAngleX: -2519.53
+GyroAngleY: 3605.00
+GyroAngleZ: 1881.58
+AngleX: -632.69
+AngleY: 633.26
+AngleZ: 1881.58
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 267
+RSSI: -96
+Time: 458088
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.84
+Pressure: 1013.55
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -6.22
+GyroY: 9.41
+GyroZ: 4.97
+AccAngleX: -133.71
+AccAngleY: -133.89
+GyroAngleX: -2530.07
+GyroAngleY: 3620.94
+GyroAngleZ: 1890.00
+AngleX: -633.04
+AngleY: 633.53
+AngleZ: 1890.00
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 268
+RSSI: -99
+Time: 459782
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.81
+Pressure: 1013.57
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.02
+GyroY: 9.21
+GyroZ: 5.09
+AccAngleX: -135.39
+AccAngleY: -135.34
+GyroAngleX: -2540.27
+GyroAngleY: 3636.54
+GyroAngleZ: 1898.62
+AngleX: -633.09
+AngleY: 633.44
+AngleZ: 1898.62
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 269
+RSSI: -97
+Time: 461476
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.77
+Pressure: 1013.56
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.39
+GyroY: 9.13
+GyroZ: 5.05
+AccAngleX: -134.33
+AccAngleY: -134.42
+GyroAngleX: -2551.10
+GyroAngleY: 3652.01
+GyroAngleZ: 1907.17
+AngleX: -633.72
+AngleY: 633.24
+AngleZ: 1907.17
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 270
+RSSI: -97
+Time: 463174
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.73
+Pressure: 1013.55
+AccX: 0.49
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.75
+GyroY: 9.41
+GyroZ: 5.18
+AccAngleX: -133.53
+AccAngleY: -133.76
+GyroAngleX: -2560.85
+GyroAngleY: 3667.97
+GyroAngleZ: 1915.97
+AngleX: -633.28
+AngleY: 633.55
+AngleZ: 1915.97
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 271
+RSSI: -97
+Time: 464868
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.69
+Pressure: 1013.55
+AccX: 0.49
+AccY: -0.40
+AccZ: -0.88
+GyroX: -5.69
+GyroY: 9.54
+GyroZ: 4.74
+AccAngleX: -133.87
+AccAngleY: -134.06
+GyroAngleX: -2570.49
+GyroAngleY: 3684.14
+GyroAngleZ: 1924.01
+AngleX: -632.73
+AngleY: 634.04
+AngleZ: 1924.01
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 272
+RSSI: -97
+Time: 466562
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.66
+Pressure: 1013.57
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.13
+GyroY: 9.82
+GyroZ: 5.26
+AccAngleX: -133.77
+AccAngleY: -133.94
+GyroAngleX: -2580.87
+GyroAngleY: 3700.77
+GyroAngleZ: 1932.92
+AngleX: -632.93
+AngleY: 634.98
+AngleZ: 1932.92
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 273
+RSSI: -97
+Time: 468256
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.63
+Pressure: 1013.57
+AccX: 0.46
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.15
+GyroY: 9.51
+GyroZ: 4.68
+AccAngleX: -134.86
+AccAngleY: -134.88
+GyroAngleX: -2591.28
+GyroAngleY: 3716.89
+GyroAngleZ: 1940.85
+AngleX: -633.17
+AngleY: 635.38
+AngleZ: 1940.85
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 274
+RSSI: -97
+Time: 469950
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.60
+Pressure: 1013.58
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.88
+GyroX: -6.42
+GyroY: 9.70
+GyroZ: 5.18
+AccAngleX: -135.31
+AccAngleY: -135.27
+GyroAngleX: -2602.16
+GyroAngleY: 3733.32
+GyroAngleZ: 1949.63
+AngleX: -633.87
+AngleY: 636.06
+AngleZ: 1949.63
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 275
+RSSI: -99
+Time: 471652
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.57
+Pressure: 1013.55
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -6.08
+GyroY: 9.12
+GyroZ: 5.11
+AccAngleX: -135.41
+AccAngleY: -135.35
+GyroAngleX: -2612.52
+GyroAngleY: 3748.84
+GyroAngleZ: 1958.32
+AngleX: -634.05
+AngleY: 635.84
+AngleZ: 1958.32
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 276
+RSSI: -102
+Time: 473346
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.54
+Pressure: 1013.58
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.79
+GyroY: 9.27
+GyroZ: 5.09
+AccAngleX: -134.44
+AccAngleY: -134.52
+GyroAngleX: -2622.33
+GyroAngleY: 3764.54
+GyroAngleZ: 1966.95
+AngleX: -633.68
+AngleY: 635.82
+AngleZ: 1966.95
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 277
+RSSI: -97
+Time: 475040
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.50
+Pressure: 1013.56
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.89
+GyroX: -5.49
+GyroY: 9.74
+GyroZ: 5.40
+AccAngleX: -133.71
+AccAngleY: -133.91
+GyroAngleX: -2631.63
+GyroAngleY: 3781.04
+GyroAngleZ: 1976.10
+AngleX: -632.80
+AngleY: 636.60
+AngleZ: 1976.10
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 278
+RSSI: -102
+Time: 476734
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.47
+Pressure: 1013.57
+AccX: 0.49
+AccY: -0.41
+AccZ: -0.88
+GyroX: -5.87
+GyroY: 9.61
+GyroZ: 4.88
+AccAngleX: -133.63
+AccAngleY: -133.86
+GyroAngleX: -2641.58
+GyroAngleY: 3797.31
+GyroAngleZ: 1984.36
+AngleX: -632.56
+AngleY: 637.14
+AngleZ: 1984.36
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 279
+RSSI: -101
+Time: 478428
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.43
+Pressure: 1013.58
+AccX: 0.48
+AccY: -0.40
+AccZ: -0.87
+GyroX: -6.02
+GyroY: 9.41
+GyroZ: 5.03
+AccAngleX: -133.58
+AccAngleY: -133.82
+GyroAngleX: -2651.78
+GyroAngleY: 3813.25
+GyroAngleZ: 1992.89
+AngleX: -632.58
+AngleY: 637.34
+AngleZ: 1992.89
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 280
+RSSI: -100
+Time: 480122
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.40
+Pressure: 1013.56
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -5.98
+GyroY: 9.68
+GyroZ: 5.26
+AccAngleX: -134.60
+AccAngleY: -134.65
+GyroAngleX: -2661.91
+GyroAngleY: 3829.65
+GyroAngleZ: 2001.80
+AngleX: -632.54
+AngleY: 637.97
+AngleZ: 2001.80
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 281
+RSSI: -106
+Time: 481816
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.37
+Pressure: 1013.56
+AccX: 0.46
+AccY: -0.42
+AccZ: -0.87
+GyroX: -6.13
+GyroY: 9.65
+GyroZ: 4.83
+AccAngleX: -134.63
+AccAngleY: -134.67
+GyroAngleX: -2672.29
+GyroAngleY: 3846.00
+GyroAngleZ: 2009.99
+AngleX: -632.76
+AngleY: 638.54
+AngleZ: 2009.99
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 282
+RSSI: -92
+Time: 1073963190
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.34
+Pressure: 1013.57
+AccX: 0.47
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.05
+GyroY: 9.73
+GyroZ: 4.97
+AccAngleX: -134.64
+AccAngleY: -134.69
+GyroAngleX: -2682.55
+GyroAngleY: 3862.48
+GyroAngleZ: 2018.41
+AngleX: -632.85
+AngleY: 639.23
+AngleZ: 2018.41
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 25.00
+0.5 um: 2403.00
+10 um: 672.00
+25 um: 129.00
+50 um: 4.00
+100 um: 2.00
+pmValid: 0
+
+Packet ID: 283
+RSSI: -90
+Time: 485204
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.30
+Pressure: 1013.57
+AccX: 0.48
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.19
+GyroY: 9.32
+GyroZ: 4.65
+AccAngleX: -133.51
+AccAngleY: -133.72
+GyroAngleX: -2693.04
+GyroAngleY: 3878.26
+GyroAngleZ: 2026.28
+AngleX: -633.14
+AngleY: 639.23
+AngleZ: 2026.28
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 25.00
+0.5 um: 2403.00
+10 um: 672.00
+25 um: 129.00
+50 um: 4.00
+100 um: 2.00
+pmValid: 0
+
+Packet ID: 284
+RSSI: -103
+Time: 486898
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.28
+Pressure: 1013.56
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.90
+GyroX: -5.52
+GyroY: 10.45
+GyroZ: 4.67
+AccAngleX: -134.31
+AccAngleY: -134.40
+GyroAngleX: -2702.39
+GyroAngleY: 3895.95
+GyroAngleZ: 2034.19
+AngleX: -632.33
+AngleY: 641.10
+AngleZ: 2034.19
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 25.00
+0.5 um: 2403.00
+10 um: 672.00
+25 um: 129.00
+50 um: 4.00
+100 um: 2.00
+pmValid: 0
+
+Packet ID: 285
+RSSI: -93
+Time: 488592
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.27
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.42
+AccZ: -0.88
+GyroX: -5.84
+GyroY: 10.16
+GyroZ: 4.41
+AccAngleX: -133.56
+AccAngleY: -133.72
+GyroAngleX: -2712.28
+GyroAngleY: 3913.16
+GyroAngleZ: 2041.65
+AngleX: -632.05
+AngleY: 642.46
+AngleZ: 2041.65
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 2403.00
+0.5 um: 672.00
+10 um: 129.00
+25 um: 4.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 286
+RSSI: -94
+Time: 490290
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.27
+Pressure: 1013.57
+AccX: 0.47
+AccY: -0.43
+AccZ: -0.88
+GyroX: -6.22
+GyroY: 9.61
+GyroZ: 4.10
+AccAngleX: -133.62
+AccAngleY: -133.74
+GyroAngleX: -2722.85
+GyroAngleY: 3929.47
+GyroAngleZ: 2048.61
+AngleX: -632.44
+AngleY: 642.92
+AngleZ: 2048.61
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 2409.00
+0.5 um: 660.00
+10 um: 118.00
+25 um: 4.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 287
+RSSI: -86
+Time: 491984
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.27
+Pressure: 1013.57
+AccX: 0.50
+AccY: -0.41
+AccZ: -0.87
+GyroX: -6.60
+GyroY: 8.96
+GyroZ: 4.50
+AccAngleX: -132.76
+AccAngleY: -133.19
+GyroAngleX: -2734.04
+GyroAngleY: 3944.65
+GyroAngleZ: 2056.23
+AngleX: -633.41
+AngleY: 642.28
+AngleZ: 2056.23
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 2379.00
+0.5 um: 658.00
+10 um: 120.00
+25 um: 4.00
+50 um: 2.00
+100 um: 0.00
+pmValid: 1
+
+Packet ID: 288
+RSSI: -88
+Time: 493678
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.28
+Pressure: 1013.57
+AccX: 0.56
+AccY: -0.32
+AccZ: -0.91
+GyroX: -79.08
+GyroY: 14.95
+GyroZ: 145.64
+AccAngleX: -137.35
+AccAngleY: -136.37
+GyroAngleX: -2867.99
+GyroAngleY: 3969.98
+GyroAngleZ: 2302.95
+AngleX: -754.76
+AngleY: 651.53
+AngleZ: 2302.95
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 289
+RSSI: -83
+Time: 495372
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.28
+Pressure: 1013.48
+AccX: 0.35
+AccY: -0.62
+AccZ: -0.77
+GyroX: 39.88
+GyroY: -28.47
+GyroZ: -38.19
+AccAngleX: -124.39
+AccAngleY: -113.60
+GyroAngleX: -2800.43
+GyroAngleY: 3921.75
+GyroAngleZ: 2238.26
+AngleX: -675.94
+AngleY: 588.96
+AngleZ: 2238.26
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 290
+RSSI: -73
+Time: 497075
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.30
+Pressure: 1013.51
+AccX: 0.52
+AccY: -0.52
+AccZ: -0.87
+GyroX: 0.11
+GyroY: -5.36
+GyroZ: -53.61
+AccAngleX: -123.85
+AccAngleY: -123.99
+GyroAngleX: -2800.23
+GyroAngleY: 3912.63
+GyroAngleZ: 2146.96
+AngleX: -664.71
+AngleY: 565.76
+AngleZ: 2146.96
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 291
+RSSI: -70
+Time: 498769
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.34
+Pressure: 1013.50
+AccX: 0.42
+AccY: -0.50
+AccZ: -0.81
+GyroX: 21.47
+GyroY: 18.52
+GyroZ: 30.83
+AccAngleX: -127.80
+AccAngleY: -126.36
+GyroAngleX: -2763.86
+GyroAngleY: 3944.00
+GyroAngleZ: 2199.19
+AngleX: -618.33
+AngleY: 582.67
+AngleZ: 2199.19
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 292
+RSSI: -87
+Time: 500463
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.36
+Pressure: 1013.52
+AccX: 0.52
+AccY: -0.57
+AccZ: -0.80
+GyroX: -16.89
+GyroY: 87.19
+GyroZ: 92.96
+AccAngleX: -116.57
+AccAngleY: -114.19
+GyroAngleX: -2792.48
+GyroAngleY: 4091.71
+GyroAngleZ: 2356.66
+AngleX: -636.34
+AngleY: 713.48
+AngleZ: 2356.66
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 293
+RSSI: -78
+Time: 502157
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.44
+Pressure: 1013.50
+AccX: 0.40
+AccY: -0.62
+AccZ: -0.90
+GyroX: -7.87
+GyroY: 67.53
+GyroZ: 68.93
+AccAngleX: -128.57
+AccAngleY: -124.46
+GyroAngleX: -2805.81
+GyroAngleY: 4206.10
+GyroAngleZ: 2473.42
+AngleX: -639.25
+AngleY: 808.83
+AngleZ: 2473.42
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 294
+RSSI: -81
+Time: 503851
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.51
+Pressure: 1013.51
+AccX: 0.42
+AccY: -0.46
+AccZ: -0.91
+GyroX: -16.16
+GyroY: 0.60
+GyroZ: 10.07
+AccAngleX: -136.58
+AccAngleY: -136.70
+GyroAngleX: -2833.19
+GyroAngleY: 4207.11
+GyroAngleZ: 2490.48
+AngleX: -656.02
+AngleY: 790.91
+AngleZ: 2490.48
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 295
+RSSI: -85
+Time: 505545
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.53
+Pressure: 1013.51
+AccX: 0.33
+AccY: -0.59
+AccZ: -0.83
+GyroX: 45.98
+GyroY: -27.62
+GyroZ: -122.40
+AccAngleX: -130.35
+AccAngleY: -126.17
+GyroAngleX: -2755.31
+GyroAngleY: 4160.33
+GyroAngleZ: 2283.13
+AngleX: -569.18
+AngleY: 726.72
+AngleZ: 2283.13
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 296
+RSSI: -83
+Time: 507239
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.57
+Pressure: 1013.49
+AccX: 0.47
+AccY: -0.47
+AccZ: -0.91
+GyroX: -20.08
+GyroY: 35.38
+GyroZ: 50.85
+AccAngleX: -133.28
+AccAngleY: -133.28
+GyroAngleX: -2789.33
+GyroAngleY: 4220.26
+GyroAngleZ: 2369.27
+AngleX: -593.81
+AngleY: 768.25
+AngleZ: 2369.27
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 297
+RSSI: -83
+Time: 508933
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.62
+Pressure: 1013.51
+AccX: 0.41
+AccY: -0.46
+AccZ: -0.83
+GyroX: 9.11
+GyroY: -8.90
+GyroZ: -12.07
+AccAngleX: -132.37
+AccAngleY: -131.99
+GyroAngleX: -2773.90
+GyroAngleY: 4205.19
+GyroAngleZ: 2348.82
+AngleX: -569.46
+AngleY: 735.48
+AngleZ: 2348.82
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 298
+RSSI: -81
+Time: 510627
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.76
+Pressure: 1013.45
+AccX: 0.33
+AccY: -0.57
+AccZ: -0.75
+GyroX: 33.21
+GyroY: -53.75
+GyroZ: 12.80
+AccAngleX: -125.96
+AccAngleY: -118.13
+GyroAngleX: -2717.64
+GyroAngleY: 4114.13
+GyroAngleZ: 2370.51
+AngleX: -505.46
+AngleY: 629.17
+AngleZ: 2370.51
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 299
+RSSI: -71
+Time: 512321
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.78
+Pressure: 1013.60
+AccX: 0.64
+AccY: -0.43
+AccZ: -1.03
+GyroX: -31.98
+GyroY: -31.72
+GyroZ: -34.57
+AccAngleX: -132.01
+AccAngleY: -133.05
+GyroAngleX: -2771.81
+GyroAngleY: 4060.39
+GyroAngleZ: 2311.95
+AngleX: -551.07
+AngleY: 561.26
+AngleZ: 2311.95
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 300
+RSSI: -72
+Time: 514019
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.81
+Pressure: 1013.61
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.88
+GyroX: -5.93
+GyroY: 9.53
+GyroZ: 5.02
+AccAngleX: -135.97
+AccAngleY: -135.79
+GyroAngleX: -2781.88
+GyroAngleY: 4076.56
+GyroAngleZ: 2320.46
+AngleX: -552.64
+AngleY: 563.17
+AngleZ: 2320.46
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 301
+RSSI: -72
+Time: 515713
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.83
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.90
+GyroX: -6.13
+GyroY: 9.47
+GyroZ: 4.93
+AccAngleX: -137.19
+AccAngleY: -136.76
+GyroAngleX: -2792.26
+GyroAngleY: 4092.60
+GyroAngleZ: 2328.80
+AngleX: -554.51
+AngleY: 564.89
+AngleZ: 2328.80
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 302
+RSSI: -71
+Time: 517407
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.85
+Pressure: 1013.58
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -5.96
+GyroY: 9.30
+GyroZ: 5.05
+AccAngleX: -137.34
+AccAngleY: -136.89
+GyroAngleX: -2802.36
+GyroAngleY: 4108.35
+GyroAngleZ: 2337.35
+AngleX: -556.06
+AngleY: 566.29
+AngleZ: 2337.35
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 303
+RSSI: -75
+Time: 519101
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.87
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.31
+GyroY: 9.28
+GyroZ: 5.26
+AccAngleX: -136.85
+AccAngleY: -136.48
+GyroAngleX: -2813.06
+GyroAngleY: 4124.08
+GyroAngleZ: 2346.27
+AngleX: -558.16
+AngleY: 567.65
+AngleZ: 2346.27
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 304
+RSSI: -76
+Time: 520795
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.89
+Pressure: 1013.63
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.89
+GyroX: -6.19
+GyroY: 9.54
+GyroZ: 5.02
+AccAngleX: -136.75
+AccAngleY: -136.42
+GyroAngleX: -2823.55
+GyroAngleY: 4140.25
+GyroAngleZ: 2354.77
+AngleX: -560.01
+AngleY: 569.41
+AngleZ: 2354.77
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 305
+RSSI: -80
+Time: 522497
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.91
+Pressure: 1013.59
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.63
+GyroY: 9.13
+GyroZ: 4.82
+AccAngleX: -136.78
+AccAngleY: -136.41
+GyroAngleX: -2834.84
+GyroAngleY: 4155.79
+GyroAngleZ: 2362.97
+AngleX: -562.61
+AngleY: 570.53
+AngleZ: 2362.97
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 306
+RSSI: -77
+Time: 524191
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.93
+Pressure: 1013.63
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.91
+GyroX: -5.73
+GyroY: 9.33
+GyroZ: 4.89
+AccAngleX: -137.83
+AccAngleY: -137.29
+GyroAngleX: -2844.55
+GyroAngleY: 4171.60
+GyroAngleZ: 2371.26
+AngleX: -563.63
+AngleY: 571.86
+AngleZ: 2371.26
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 16962.00
+0.5 um: 16962.00
+10 um: 16962.00
+25 um: 16962.00
+50 um: 16962.00
+100 um: 16962.00
+pmValid: 0
+
+Packet ID: 307
+RSSI: -75
+Time: 525885
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.95
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.27
+GyroY: 9.42
+GyroZ: 5.15
+AccAngleX: -137.34
+AccAngleY: -136.90
+GyroAngleX: -2855.17
+GyroAngleY: 4187.56
+GyroAngleZ: 2379.99
+AngleX: -565.51
+AngleY: 573.33
+AngleZ: 2379.99
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 308
+RSSI: -76
+Time: 527579
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 10.97
+Pressure: 1013.61
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.34
+GyroY: 9.27
+GyroZ: 4.91
+AccAngleX: -137.21
+AccAngleY: -136.78
+GyroAngleX: -2865.92
+GyroAngleY: 4203.27
+GyroAngleZ: 2388.31
+AngleX: -567.48
+AngleY: 574.52
+AngleZ: 2388.31
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 309
+RSSI: -76
+Time: 529273
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.00
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.13
+GyroY: 9.15
+GyroZ: 5.12
+AccAngleX: -137.31
+AccAngleY: -136.85
+GyroAngleX: -2876.30
+GyroAngleY: 4218.76
+GyroAngleZ: 2396.98
+AngleX: -569.05
+AngleY: 575.47
+AngleZ: 2396.98
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 310
+RSSI: -76
+Time: 530967
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.02
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.89
+GyroX: -6.41
+GyroY: 9.33
+GyroZ: 5.29
+AccAngleX: -136.41
+AccAngleY: -136.14
+GyroAngleX: -2887.15
+GyroAngleY: 4234.57
+GyroAngleZ: 2405.95
+AngleX: -571.04
+AngleY: 576.73
+AngleZ: 2405.95
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 311
+RSSI: -77
+Time: 532661
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.04
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.01
+GyroY: 9.09
+GyroZ: 5.37
+AccAngleX: -137.10
+AccAngleY: -136.68
+GyroAngleX: -2897.33
+GyroAngleY: 4249.96
+GyroAngleZ: 2415.04
+AngleX: -572.33
+AngleY: 577.55
+AngleZ: 2415.04
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 312
+RSSI: -75
+Time: 534355
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.07
+Pressure: 1013.60
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.89
+GyroX: -6.07
+GyroY: 9.44
+GyroZ: 5.20
+AccAngleX: -137.15
+AccAngleY: -136.74
+GyroAngleX: -2907.61
+GyroAngleY: 4265.95
+GyroAngleZ: 2423.85
+AngleX: -573.70
+AngleY: 578.93
+AngleZ: 2423.85
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 313
+RSSI: -76
+Time: 536049
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.09
+Pressure: 1013.57
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.21
+GyroY: 9.33
+GyroZ: 5.11
+AccAngleX: -136.88
+AccAngleY: -136.52
+GyroAngleX: -2918.13
+GyroAngleY: 4281.75
+GyroAngleZ: 2432.50
+AngleX: -575.27
+AngleY: 580.11
+AngleZ: 2432.50
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 314
+RSSI: -76
+Time: 537743
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.12
+Pressure: 1013.58
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.90
+GyroX: -6.01
+GyroY: 9.09
+GyroZ: 5.00
+AccAngleX: -138.08
+AccAngleY: -137.50
+GyroAngleX: -2928.31
+GyroAngleY: 4297.15
+GyroAngleZ: 2440.98
+AngleX: -576.50
+AngleY: 580.84
+AngleZ: 2440.98
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 315
+RSSI: -75
+Time: 539437
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.16
+Pressure: 1013.57
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.10
+GyroY: 8.96
+GyroZ: 5.08
+AccAngleX: -136.92
+AccAngleY: -136.55
+GyroAngleX: -2938.64
+GyroAngleY: 4312.33
+GyroAngleZ: 2449.58
+AngleX: -577.84
+AngleY: 581.38
+AngleZ: 2449.58
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 316
+RSSI: -76
+Time: 541135
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.19
+Pressure: 1013.61
+AccX: 0.48
+AccY: -0.39
+AccZ: -0.89
+GyroX: -5.98
+GyroY: 9.36
+GyroZ: 4.85
+AccAngleX: -136.91
+AccAngleY: -136.56
+GyroAngleX: -2948.79
+GyroAngleY: 4328.22
+GyroAngleZ: 2457.81
+AngleX: -578.96
+AngleY: 582.59
+AngleZ: 2457.81
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 317
+RSSI: -76
+Time: 542829
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.22
+Pressure: 1013.57
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.89
+GyroX: -6.44
+GyroY: 9.10
+GyroZ: 5.11
+AccAngleX: -137.01
+AccAngleY: -136.62
+GyroAngleX: -2959.69
+GyroAngleY: 4343.64
+GyroAngleZ: 2466.46
+AngleX: -580.81
+AngleY: 583.31
+AngleZ: 2466.46
+Lng: 0.00
+Lat: 0.00
+Speed: 0.00
+Alt: 0.00
+Satellites: 0
+SatValid: 0
+AltValid: 0
+LocValid: 0
+0.3 um: 7168.00
+0.5 um: 3584.00
+10 um: 5888.00
+25 um: 6912.00
+50 um: 3584.00
+100 um: 5888.00
+pmValid: 0
+
+Packet ID: 318
+RSSI: -111
+Time: 544523
+Temp RAW: 4095.00
+Temp1: 329.92
+Temp2: 11.25
+Pressure: 1013.64
+AccX: 0.48
+AccY: -0.38
+AccZ: -0.90
+GyroX: -5.95
+GyroY: 9.50
+GyroZ: 5.14
+AccAngleX: -137.36
+AccAngleY: -136.90
+GyroAngleX: -2969.76
+GyroAngleY: 4359.73
+GyroAngleZ: 2475.16
+AngleX: -581.81
+AngleY: 0.00
+AngleZ: 0.00
+Lng: -0.00
+Lat: ovf
+Speed: -6554741.50
+Alt: -24.32
+Satellites: 850766803
+SatValid: 106
+AltValid: 65
+LocValid: 207
+0.3 um: ovf
+0.5 um: 0.00
+10 um: -0.00
+25 um: 0.00
+50 um: ovf
+100 um: 0.00
+pmValid: 131
+

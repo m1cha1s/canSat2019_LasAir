@@ -20,7 +20,8 @@ struct CanSatPacket {
   int satelites;
   bool satValid, altValid, locValid;
   float um03, um05, um10, um25, um50, um100;
-} packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+  bool pmValid;
+} packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, false};
 const int packet_size = sizeof(packet);
 
 struct pms5003data {
@@ -177,6 +178,7 @@ void logAll() {
   logDataF("25 um: ", packet.um25);
   logDataF("50 um: ", packet.um50);
   logDataF("100 um: ", packet.um100);
+  logDataB("pmValid: ", packet.pmValid);
   SerialUSB.println("");
   LOG.println("");
 }
@@ -197,7 +199,7 @@ static void smartDelay(unsigned long ms)
 
 void loop() {
   LOG = SD.open("dataLOG.txt", FILE_WRITE);
-  readPMSdata(&Serial1);
+  packet.pmValid = readPMSdata(&Serial1);
   mpu6050.update();
   double t, p;
   bmp.measureTemperatureAndPressure(t, p);
@@ -237,7 +239,7 @@ void loop() {
   packet.um10 = data.particles_10um;
   packet.um25 = data.particles_25um;
   packet.um50 = data.particles_50um;
-  packet.um100 = data.particles_100um
+  packet.um100 = data.particles_100um;
 
   radio.transmit((uint8_t *)(&packet), packet_size);
   radio.flush();
