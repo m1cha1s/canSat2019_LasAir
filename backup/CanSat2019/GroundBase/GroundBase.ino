@@ -14,8 +14,8 @@ struct CanSatPacket {
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float pm1, pm25, pm10;
-} packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0};
+  float 03um, 05um, 10um, 25um, 50um, 100um;
+} packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
 int packet_size = sizeof(packet);
 
 File LOG;
@@ -42,8 +42,8 @@ void setup() {
   }
 
   // recvLOG = SD.open("recvLOG.txt", FILE_WRITE);
-  
-  // start radio module  
+
+  // start radio module
   radio.begin();
 }
 
@@ -98,9 +98,12 @@ void logAll() {
   logDataB("SatValid: ", packet.satValid);
   logDataB("AltValid: ", packet.altValid);
   logDataB("LocValid: ", packet.locValid);
-  logDataF("PM 1: ", packet.pm1);
-  logDataF("PM 2.5: ", packet.pm25);
-  logDataF("PM 10: ", packet.pm10);
+  logDataF("0.3 um: ", packet.03um);
+  logDataF("0.5 um: ", packet.05um);
+  logDataF("10 um: ", packet.10um);
+  logDataF("25 um: ", packet.25um);
+  logDataF("50 um: ", packet.50um);
+  logDataF("100 um: ", packet.100um);
   SerialUSB.println("");
   LOG.println("");
 }
@@ -114,8 +117,8 @@ void loop() {
   digitalWrite(ledPin, HIGH);
 
   logAll();
-  
+
   LOG.close();
   digitalWrite(ledPin, LOW);
-  
+
 }

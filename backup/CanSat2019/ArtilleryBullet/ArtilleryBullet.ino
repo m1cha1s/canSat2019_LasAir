@@ -75,7 +75,7 @@ boolean readPMSdata(Stream *s) {
   if (! s->available()) {
     return false;
   }
-  
+
   // Read a byte at a time until we get to the special '0x42' start-byte
   if (s->peek() != 0x42) {
     s->read();
@@ -86,8 +86,8 @@ boolean readPMSdata(Stream *s) {
   if (s->available() < 32) {
     return false;
   }
-    
-  uint8_t buffer[32];    
+
+  uint8_t buffer[32];
   uint16_t sum = 0;
   s->readBytes(buffer, 32);
 
@@ -102,7 +102,7 @@ boolean readPMSdata(Stream *s) {
   }
   Serial.println();
   */
-  
+
   // The data comes in endian'd, this solves it so it works on all platforms
   uint16_t buffer_u16[15];
   for (uint8_t i=0; i<15; i++) {
@@ -171,9 +171,12 @@ void logAll() {
   logDataB("SatValid: ", packet.satValid);
   logDataB("AltValid: ", packet.altValid);
   logDataB("LocValid: ", packet.locValid);
-  logDataF("PM 1: ", packet.pm1);
-  logDataF("PM 2.5: ", packet.pm25);
-  logDataF("PM 10: ", packet.pm10);
+  logDataF("0.3 um: ", packet.03um);
+  logDataF("0.5 um: ", packet.05um);
+  logDataF("10 um: ", packet.10um);
+  logDataF("25 um: ", packet.25um);
+  logDataF("50 um: ", packet.50um);
+  logDataF("100 um: ", packet.100um);
   SerialUSB.println("");
   LOG.println("");
 }
@@ -181,7 +184,7 @@ void logAll() {
 static void smartDelay(unsigned long ms)
 {
   unsigned long start = millis();
-  do 
+  do
   {
     while (Serial.available()) {
       char c = Serial.read();
@@ -229,14 +232,17 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.pm1 = data.pm10_env;
-  packet.pm25 = data.pm25_env;
-  packet.pm10 = data.pm100_env;
+  packet.03um = data.particles_03um;
+  packet.05um = data.particles_05um;
+  packet.10um = data.particles_10um;
+  packet.25um = data.particles_25um;
+  packet.50um = data.particles_50um;
+  packet.100um = data.particles_100um
 
   radio.transmit((uint8_t *)(&packet), packet_size);
   radio.flush();
   logAll();
   LOG.close();
-  
+
   smartDelay(250);
 }
