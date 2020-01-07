@@ -10,14 +10,14 @@ struct CanSatPacket {
   float temp1;
   float temp2;
   float pressure;
-  float accX, accY, accZ, gyroX, gyroY, gyroZ, accAngleX, accAngleY, gyroAngleX, gyroAngleY, gyroAngleZ, angleX, angleY, angleZ;
+  float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
   float um03, um05, um10, um25, um50, um100;
   bool pmValid;
-} packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, false};
-int packet_size = sizeof(packet);
+} packet;
+const int packet_size = sizeof(packet);
 
 File LOG;
 
@@ -42,7 +42,7 @@ void setup() {
     while(1) {}
   }
 
-  // recvLOG = SD.open("recvLOG.txt", FILE_WRITE);
+  LOG = SD.open("recvLOG.txt", FILE_WRITE);
 
   // start radio module
   radio.begin();
@@ -50,9 +50,9 @@ void setup() {
 
 void logDataF(char* title, float val) {
   SerialUSB.print(title);
-  SerialUSB.println(val);
+  SerialUSB.println(val,10);
   LOG.print(title);
-  LOG.println(val);
+  LOG.println(val,10);
 }
 
 void logDataI(char* title, int val) {
@@ -73,24 +73,21 @@ void logAll() {
   logDataI("Packet ID: ", packet.id);
   logDataI("RSSI: ", radio.get_rssi_last());
   logDataI("Time: ", packet.tm);
-  logDataF("Temp RAW: ", packet.raw_temp);
+  logDataI("Temp RAW: ", packet.raw_temp);
   logDataF("Temp1: ", packet.temp1);
   logDataF("Temp2: ", packet.temp2);
   logDataF("Pressure: ", packet.pressure);
-  logDataF("AccX: ", packet.accX);
-  logDataF("AccY: ", packet.accY);
-  logDataF("AccZ: ", packet.accZ);
-  logDataF("GyroX: ", packet.gyroX);
-  logDataF("GyroY: ", packet.gyroY);
-  logDataF("GyroZ: ", packet.gyroZ);
-  logDataF("AccAngleX: ", packet.accAngleX);
-  logDataF("AccAngleY: ", packet.accAngleY);
-  logDataF("GyroAngleX: ", packet.gyroAngleX);
-  logDataF("GyroAngleY: ", packet.gyroAngleY);
-  logDataF("GyroAngleZ: ", packet.gyroAngleZ);
+  logDataF("AccX (m/s²): ", packet.accX);
+  logDataF("AccY (m/s²): ", packet.accY);
+  logDataF("AccZ (m/s²): ", packet.accZ);
+  logDataF("GyroX (deg/s): ", packet.gyroX);
+  logDataF("GyroY (deg/s): ", packet.gyroY);
+  logDataF("GyroZ (deg/s): ", packet.gyroZ);
   logDataF("AngleX: ", packet.angleX);
   logDataF("AngleY: ", packet.angleY);
   logDataF("AngleZ: ", packet.angleZ);
+  logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
+  logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
   logDataF("Lng: ", packet.lng);
   logDataF("Lat: ", packet.lat);
   logDataF("Speed: ", packet.speed);
@@ -110,17 +107,12 @@ void logAll() {
   LOG.println("");
 }
 
-
-
 void loop() {
-  LOG = SD.open("recvLOG.txt", FILE_WRITE);
-
+  digitalWrite(ledPin, LOW);
   radio.receive((char *)(&packet));
   digitalWrite(ledPin, HIGH);
-
+  
   logAll();
 
-  LOG.close();
-  digitalWrite(ledPin, LOW);
-
+  LOG.flush();
 }
