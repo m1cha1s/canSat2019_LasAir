@@ -58,7 +58,7 @@ File LOG;
 
 void setup() {
   Serial1.begin(9600);
-  Serial.begin(9600);
+  Serial.begin(4800);
   Wire.begin();
   mpu6050.begin();
   mpu6050.calcGyroOffsets(true);
@@ -191,7 +191,7 @@ static void smartDelay(unsigned long ms)
     while (Serial.available()) {
       char c = Serial.read();
       gps.encode(c);
-   //   SerialUSB.print(c);
+      SerialUSB.print(c);
     }
   } while (millis() - start < ms);
   // SerialUSB.println();
