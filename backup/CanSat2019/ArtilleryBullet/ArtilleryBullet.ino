@@ -1,6 +1,6 @@
 #include <CanSatKit.h>
 #include <cmath>
-#include <MPU6050_tockn.h>
+#include <TinyMPU6050.h>
 #include <Wire.h>
 #include <TinyGPS++.h>
 #include <SD.h>
@@ -15,13 +15,13 @@ struct CanSatPacket {
   float temp1;
   float temp2;
   float pressure;
-  float accX, accY, accZ, gyroX, gyroY, gyroZ, accAngleX, accAngleY, gyroAngleX, gyroAngleY, gyroAngleZ, angleX, angleY, angleZ;
+  float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
   float um03, um05, um10, um25, um50, um100;
   bool pmValid;
-} packet = {0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, false, false, false, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, false};
+} packet;
 const int packet_size = sizeof(packet);
 
 struct pms5003data {
@@ -57,58 +57,61 @@ Radio radio(Pins::Radio::ChipSelect,
 File LOG;
 
 void setup() {
+  packet.id = 0;
+  packet.tm = 0;
+  Serial.begin(9600);
   Serial1.begin(9600);
-  Serial.begin(4800);
   Wire.begin();
-  mpu6050.begin();
-  mpu6050.calcGyroOffsets(true);
+  mpu6050.Initialize();
+  mpu6050.Calibrate();
   bmp.begin();
   bmp.setOversampling(16);
   radio.begin();
   analogReadResolution(12);
   if (!SD.begin(11)) {
     SerialUSB.println("SD >> Card failed, or not present");
-    while(1) {}
+    while (1) {}
   }
+  LOG = SD.open("dataLOG.txt", FILE_WRITE);
 }
 
-boolean readPMSdata(Stream *s) {
-  if (! s->available()) {
+boolean readPMSdata() {
+  if (!Serial1.available()) {
     return false;
   }
 
   // Read a byte at a time until we get to the special '0x42' start-byte
-  if (s->peek() != 0x42) {
-    s->read();
+  if (Serial1.peek() != 0x42) {
+    Serial1.read();
     return false;
   }
 
   // Now read all 32 bytes
-  if (s->available() < 32) {
+  if (Serial1.available() < 32) {
     return false;
   }
 
   uint8_t buffer[32];
   uint16_t sum = 0;
-  s->readBytes(buffer, 32);
+  Serial1.readBytes(buffer, 32);
 
   // get checksum ready
-  for (uint8_t i=0; i<30; i++) {
+  for (uint8_t i = 0; i < 30; i++) {
     sum += buffer[i];
   }
 
   /* debugging
-  for (uint8_t i=2; i<32; i++) {
+    for (uint8_t i=2; i<32; i++) {
     Serial.print("0x"); Serial.print(buffer[i], HEX); Serial.print(", ");
-  }
-  Serial.println();
+    }
+    Serial.println();
   */
 
   // The data comes in endian'd, this solves it so it works on all platforms
   uint16_t buffer_u16[15];
-  for (uint8_t i=0; i<15; i++) {
-    buffer_u16[i] = buffer[2 + i*2 + 1];
-    buffer_u16[i] += (buffer[2 + i*2] << 8);
+  for (uint8_t i = 0; i < 15; i++) {
+    buffer_u16[i] = buffer[2 + i * 2 + 1];
+    buffer_u16[i] += (buffer[2 + i * 2] << 8);
   }
 
   // put it into a nice struct :)
@@ -123,22 +126,22 @@ boolean readPMSdata(Stream *s) {
 }
 
 void logDataF(char* title, float val) {
-  //SerialUSB.print(title);
-  //SerialUSB.println(val);
+ // SerialUSB.print(title);
+ // SerialUSB.println(val,10);
   LOG.print(title);
-  LOG.println(val);
+  LOG.println(val,10);
 }
 
 void logDataI(char* title, int val) {
-  //SerialUSB.print(title);
-  //SerialUSB.println(val);
+//  SerialUSB.print(title);
+//  SerialUSB.println(val);
   LOG.print(title);
   LOG.println(val);
 }
 
 void logDataB(char* title, bool val) {
-  //SerialUSB.print(title);
-  //SerialUSB.println(val);
+//  SerialUSB.print(title);
+//  SerialUSB.println(val);
   LOG.print(title);
   LOG.println(val);
 }
@@ -146,24 +149,21 @@ void logDataB(char* title, bool val) {
 void logAll() {
   logDataI("Packet ID: ", packet.id);
   logDataI("Time: ", packet.tm);
-  logDataF("Temp RAW: ", packet.raw_temp);
+  logDataI("Temp RAW: ", packet.raw_temp);
   logDataF("Temp1: ", packet.temp1);
   logDataF("Temp2: ", packet.temp2);
   logDataF("Pressure: ", packet.pressure);
-  logDataF("AccX: ", packet.accX);
-  logDataF("AccY: ", packet.accY);
-  logDataF("AccZ: ", packet.accZ);
-  logDataF("GyroX: ", packet.gyroX);
-  logDataF("GyroY: ", packet.gyroY);
-  logDataF("GyroZ: ", packet.gyroZ);
-  logDataF("AccAngleX: ", packet.accAngleX);
-  logDataF("AccAngleY: ", packet.accAngleY);
-  logDataF("GyroAngleX: ", packet.gyroAngleX);
-  logDataF("GyroAngleY: ", packet.gyroAngleY);
-  logDataF("GyroAngleZ: ", packet.gyroAngleZ);
+  logDataF("AccX (m/s²): ", packet.accX);
+  logDataF("AccY (m/s²): ", packet.accY);
+  logDataF("AccZ (m/s²): ", packet.accZ);
+  logDataF("GyroX (deg/s): ", packet.gyroX);
+  logDataF("GyroY (deg/s): ", packet.gyroY);
+  logDataF("GyroZ (deg/s): ", packet.gyroZ);
   logDataF("AngleX: ", packet.angleX);
   logDataF("AngleY: ", packet.angleY);
   logDataF("AngleZ: ", packet.angleZ);
+  logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
+  logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
   logDataF("Lng: ", packet.lng);
   logDataF("Lat: ", packet.lat);
   logDataF("Speed: ", packet.speed);
@@ -179,32 +179,34 @@ void logAll() {
   logDataF("50 um: ", packet.um50);
   logDataF("100 um: ", packet.um100);
   logDataB("pmValid: ", packet.pmValid);
-  SerialUSB.println("");
+//  SerialUSB.println("");
   LOG.println("");
 }
 
-static void smartDelay(unsigned long ms)
-{
-  unsigned long start = millis();
-  do
-  {
-    while (Serial.available()) {
-      char c = Serial.read();
-      gps.encode(c);
-      SerialUSB.print(c);
-    }
-  } while (millis() - start < ms);
-  // SerialUSB.println();
+void readGPSData() {
+  while (Serial.available()) {
+    char c = Serial.read();
+    gps.encode(c);
+  //  SerialUSB.print(c);
+  }
 }
 
 void loop() {
-  LOG = SD.open("dataLOG.txt", FILE_WRITE);
-  packet.pmValid = readPMSdata(&Serial1);
-  mpu6050.update();
+  unsigned long t1 = millis();
+
+  // read PM
+  packet.pmValid = readPMSdata();
+  // read gyro
+  mpu6050.Execute();
+
+  // read analog termometer
   double t, p;
   bmp.measureTemperatureAndPressure(t, p);
   int raw_temp = analogRead(lm35_pin);
   float temp = lm35_raw_to_temperature(raw_temp);
+
+  // read GPS
+  readGPSData();
 
   packet.id++;
   packet.tm = millis();
@@ -212,20 +214,17 @@ void loop() {
   packet.temp1 = temp;
   packet.temp2 = t;
   packet.pressure = p;
-  packet.accX = mpu6050.getAccX();
-  packet.accY = mpu6050.getAccY();
-  packet.accZ = mpu6050.getAccZ();
-  packet.gyroX = mpu6050.getGyroX();
-  packet.gyroY = mpu6050.getGyroY();
-  packet.gyroZ = mpu6050.getGyroZ();
-  packet.accAngleX = mpu6050.getAccAngleX();
-  packet.accAngleY = mpu6050.getAccAngleY();
-  packet.gyroAngleX = mpu6050.getGyroAngleX();
-  packet.gyroAngleY = mpu6050.getGyroAngleY();
-  packet.gyroAngleZ = mpu6050.getGyroAngleZ();
-  packet.angleX = mpu6050.getAngleX();
-  packet.angleY = mpu6050.getAngleY();
-  packet.angleZ = mpu6050.getAngleZ();
+  packet.accX = mpu6050.GetAccX();
+  packet.accY = mpu6050.GetAccY();
+  packet.accZ = mpu6050.GetAccZ();
+  packet.gyroX = mpu6050.GetGyroX();
+  packet.gyroY = mpu6050.GetGyroY();
+  packet.gyroZ = mpu6050.GetGyroZ();
+  packet.angleX = mpu6050.GetAngX();
+  packet.angleY = mpu6050.GetAngY();
+  packet.angleZ = mpu6050.GetAngZ();
+  packet.accDeadzone = mpu6050.GetAccelDeadzone();
+  packet.gyroDeadzone = mpu6050.GetGyroDeadzone();
   packet.lng = gps.location.lng();
   packet.lat = gps.location.lat();
   packet.speed = gps.speed.kmph();
@@ -241,10 +240,19 @@ void loop() {
   packet.um50 = data.particles_50um;
   packet.um100 = data.particles_100um;
 
+  // packet_size = 120 bytes
+  // transmission takes 1250ms
   radio.transmit((uint8_t *)(&packet), packet_size);
   radio.flush();
+  
   logAll();
-  LOG.close();
+  LOG.flush();
 
-  smartDelay(250);
+  unsigned long tdiff = millis()-t1;
+
+//  SerialUSB.print("Timediff: ");
+//  SerialUSB.println(tdiff);
+//  SerialUSB.println(packet_size);
+
+  if(tdiff<=250) delay(250-tdiff);
 }
