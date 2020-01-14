@@ -19,7 +19,7 @@ struct CanSatPacket {
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float um03, um05, um10, um25, um50, um100;
+  float um03, um05, um10, um25, um50, um100, pm10, pm25, pm100;
   bool pmValid;
 } packet;
 const int packet_size = sizeof(packet);
@@ -125,60 +125,66 @@ boolean readPMSdata() {
   return true;
 }
 
-void logDataF(char* title, float val) {
+void logDataF(float val) {
  // SerialUSB.print(title);
  // SerialUSB.println(val,10);
-  LOG.print(title);
-  LOG.println(val,10);
+  //LOG.print(title);
+  LOG.print(val,10);
+  LOG.print(" ; ");
 }
 
-void logDataI(char* title, int val) {
+void logDataI(int val) {
 //  SerialUSB.print(title);
 //  SerialUSB.println(val);
-  LOG.print(title);
+  //LOG.print(title);
   LOG.println(val);
+  LOG.print(" ; ");
 }
 
-void logDataB(char* title, bool val) {
+void logDataB(bool val) {
 //  SerialUSB.print(title);
 //  SerialUSB.println(val);
-  LOG.print(title);
+  //LOG.print(title);
   LOG.println(val);
+  LOG.print(" ; ");
 }
 
 void logAll() {
-  logDataI("Packet ID: ", packet.id);
-  logDataI("Time: ", packet.tm);
-  logDataI("Temp RAW: ", packet.raw_temp);
-  logDataF("Temp1: ", packet.temp1);
-  logDataF("Temp2: ", packet.temp2);
-  logDataF("Pressure: ", packet.pressure);
-  logDataF("AccX (m/s²): ", packet.accX);
-  logDataF("AccY (m/s²): ", packet.accY);
-  logDataF("AccZ (m/s²): ", packet.accZ);
-  logDataF("GyroX (deg/s): ", packet.gyroX);
-  logDataF("GyroY (deg/s): ", packet.gyroY);
-  logDataF("GyroZ (deg/s): ", packet.gyroZ);
-  logDataF("AngleX: ", packet.angleX);
-  logDataF("AngleY: ", packet.angleY);
-  logDataF("AngleZ: ", packet.angleZ);
-  logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
-  logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
-  logDataF("Lng: ", packet.lng);
-  logDataF("Lat: ", packet.lat);
-  logDataF("Speed: ", packet.speed);
-  logDataF("Alt: ", packet.alt);
-  logDataI("Satellites: ", packet.satelites);
-  logDataB("SatValid: ", packet.satValid);
-  logDataB("AltValid: ", packet.altValid);
-  logDataB("LocValid: ", packet.locValid);
-  logDataF("0.3 um: ", packet.um03);
-  logDataF("0.5 um: ", packet.um05);
-  logDataF("10 um: ", packet.um10);
-  logDataF("25 um: ", packet.um25);
-  logDataF("50 um: ", packet.um50);
-  logDataF("100 um: ", packet.um100);
-  logDataB("pmValid: ", packet.pmValid);
+  logDataI(packet.id);
+  logDataI(packet.tm);
+  logDataI(packet.raw_temp);
+  logDataF(packet.temp1);
+  logDataF(packet.temp2);
+  logDataF(packet.pressure);
+  logDataF(packet.accX);
+  logDataF(packet.accY);
+  logDataF(packet.accZ);
+  logDataF(packet.gyroX);
+  logDataF(packet.gyroY);
+  logDataF(packet.gyroZ);
+  logDataF(packet.angleX);
+  logDataF(packet.angleY);
+  logDataF(packet.angleZ);
+  logDataF(packet.accDeadzone);
+  logDataF(packet.gyroDeadzone);
+  logDataF(packet.lng);
+  logDataF(packet.lat);
+  logDataF(packet.speed);
+  logDataF(packet.alt);
+  logDataI(packet.satelites);
+  logDataB(packet.satValid);
+  logDataB(packet.altValid);
+  logDataB(packet.locValid);
+  logDataF(packet.um03);
+  logDataF(packet.um05);
+  logDataF(packet.um10);
+  logDataF(packet.um25);
+  logDataF(packet.um50);
+  logDataF(packet.um100);
+  logDataF(packet.pm10);
+  logDataF(packet.pm25);
+  logDataF(packet.pm100);
+  logDataB(packet.pmValid);
 //  SerialUSB.println("");
   LOG.println("");
 }
@@ -239,6 +245,9 @@ void loop() {
   packet.um25 = data.particles_25um;
   packet.um50 = data.particles_50um;
   packet.um100 = data.particles_100um;
+  packet.pm10 = data.pm10_standard;
+  packet.pm25 = data.pm25_standard;
+  packet.pm100 = data.pm100_standard;
 
   // packet_size = 120 bytes
   // transmission takes 1250ms
