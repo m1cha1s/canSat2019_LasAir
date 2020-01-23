@@ -14,7 +14,7 @@ struct CanSatPacket {
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float um03, um05, um10, um25, um50, um100, pm10, pm25, pm100;
+  float pm10, pm25, pm100;
   bool pmValid;
 } packet;
 const int packet_size = sizeof(packet);
@@ -50,25 +50,27 @@ void setup() {
 
 void logDataF(char* title, float val) {
   SerialUSB.print(title);
-  SerialUSB.println(val,10);
-  LOG.print(title);
-  LOG.println(val,10);
+  SerialUSB.print(val,10);
+  //LOG.print(title);
+  LOG.print(val,10);
+  LOG.print(" ; ");
 }
 
 void logDataI(char* title, int val) {
   SerialUSB.print(title);
-  SerialUSB.println(val);
-  LOG.print(title);
-  LOG.println(val);
+  SerialUSB.println(val, 10);
+  //LOG.print(title);
+  LOG.print(val, 10);
+  LOG.print(" ; ");
 }
 
 void logDataB(char* title, bool val) {
   SerialUSB.print(title);
-  SerialUSB.println(val);
-  LOG.print(title);
-  LOG.println(val);
+  SerialUSB.println(val, 10);
+  //LOG.print(title);
+  LOG.print(val, 10);
+  LOG.print(" ; ");
 }
-
 void logAll() {
   logDataI("Packet ID: ", packet.id);
   logDataI("RSSI: ", radio.get_rssi_last());
@@ -96,12 +98,6 @@ void logAll() {
   logDataB("SatValid: ", packet.satValid);
   logDataB("AltValid: ", packet.altValid);
   logDataB("LocValid: ", packet.locValid);
-  logDataF("0.3 um: ", packet.um03);
-  logDataF("0.5 um: ", packet.um05);
-  logDataF("10 um: ", packet.um10);
-  logDataF("25 um: ", packet.um25);
-  logDataF("50 um: ", packet.um50);
-  logDataF("100 um: ", packet.um100);
   logDataB("pmValid: ", packet.pmValid);
   logDataF("pm10: ", packet.pm10);
   logDataF("pm25: ", packet.pm25);

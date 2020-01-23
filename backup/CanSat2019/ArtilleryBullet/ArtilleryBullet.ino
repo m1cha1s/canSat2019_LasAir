@@ -19,7 +19,7 @@ struct CanSatPacket {
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float um03, um05, um10, um25, um50, um100, pm10, pm25, pm100;
+  float pm10, pm25, pm100;
   bool pmValid;
 } packet;
 const int packet_size = sizeof(packet);
@@ -126,26 +126,26 @@ boolean readPMSdata() {
 }
 
 void logDataF(float val) {
- // SerialUSB.print(title);
- // SerialUSB.println(val,10);
+  //SerialUSB.print(title);
+  //SerialUSB.print(val,10);
   //LOG.print(title);
   LOG.print(val,10);
   LOG.print(" ; ");
 }
 
 void logDataI(int val) {
-//  SerialUSB.print(title);
-//  SerialUSB.println(val);
+  //SerialUSB.print(title);
+  //SerialUSB.println(val, 10);
   //LOG.print(title);
-  LOG.println(val);
+  LOG.print(val, 10);
   LOG.print(" ; ");
 }
 
 void logDataB(bool val) {
-//  SerialUSB.print(title);
-//  SerialUSB.println(val);
+  //SerialUSB.print(title);
+  //SerialUSB.println(val, 10);
   //LOG.print(title);
-  LOG.println(val);
+  LOG.print(val, 10);
   LOG.print(" ; ");
 }
 
@@ -175,12 +175,6 @@ void logAll() {
   logDataB(packet.satValid);
   logDataB(packet.altValid);
   logDataB(packet.locValid);
-  logDataF(packet.um03);
-  logDataF(packet.um05);
-  logDataF(packet.um10);
-  logDataF(packet.um25);
-  logDataF(packet.um50);
-  logDataF(packet.um100);
   logDataF(packet.pm10);
   logDataF(packet.pm25);
   logDataF(packet.pm100);
@@ -239,12 +233,6 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.um03 = data.particles_03um;
-  packet.um05 = data.particles_05um;
-  packet.um10 = data.particles_10um;
-  packet.um25 = data.particles_25um;
-  packet.um50 = data.particles_50um;
-  packet.um100 = data.particles_100um;
   packet.pm10 = data.pm10_standard;
   packet.pm25 = data.pm25_standard;
   packet.pm100 = data.pm100_standard;
