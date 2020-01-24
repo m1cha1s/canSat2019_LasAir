@@ -10,7 +10,7 @@ struct CanSatPacket {
   float temp1;
   float temp2;
   float pressure;
-  float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
+  //float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
@@ -79,17 +79,17 @@ void logAll() {
   logDataF("Temp1: ", packet.temp1);
   logDataF("Temp2: ", packet.temp2);
   logDataF("Pressure: ", packet.pressure);
-  logDataF("AccX (m/s²): ", packet.accX);
-  logDataF("AccY (m/s²): ", packet.accY);
-  logDataF("AccZ (m/s²): ", packet.accZ);
-  logDataF("GyroX (deg/s): ", packet.gyroX);
-  logDataF("GyroY (deg/s): ", packet.gyroY);
-  logDataF("GyroZ (deg/s): ", packet.gyroZ);
-  logDataF("AngleX: ", packet.angleX);
-  logDataF("AngleY: ", packet.angleY);
-  logDataF("AngleZ: ", packet.angleZ);
-  logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
-  logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
+  //logDataF("AccX (m/s²): ", packet.accX);
+  //logDataF("AccY (m/s²): ", packet.accY);
+  //logDataF("AccZ (m/s²): ", packet.accZ);
+  //logDataF("GyroX (deg/s): ", packet.gyroX);
+  //logDataF("GyroY (deg/s): ", packet.gyroY);
+  //logDataF("GyroZ (deg/s): ", packet.gyroZ);
+  //logDataF("AngleX: ", packet.angleX);
+  ///logDataF("AngleY: ", packet.angleY);
+  //logDataF("AngleZ: ", packet.angleZ);
+  //logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
+  //logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
   logDataF("Lng: ", packet.lng);
   logDataF("Lat: ", packet.lat);
   logDataF("Speed: ", packet.speed);
@@ -107,9 +107,9 @@ void logAll() {
 }
 
 void loop() {
-  digitalWrite(ledPin, LOW);
-  radio.receive((char *)(&packet));
   digitalWrite(ledPin, HIGH);
+  radio.receive((packet));
+  digitalWrite(ledPin, LOW);
   
   logAll();
 

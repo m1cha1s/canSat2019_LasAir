@@ -1,6 +1,6 @@
 #include <CanSatKit.h>
 #include <cmath>
-#include <TinyMPU6050.h>
+//#include <TinyMPU6050.h>
 #include <Wire.h>
 #include <TinyGPS++.h>
 #include <SD.h>
@@ -15,7 +15,7 @@ struct CanSatPacket {
   float temp1;
   float temp2;
   float pressure;
-  float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
+  //float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
@@ -43,7 +43,7 @@ float lm35_raw_to_temperature(int raw) {
   return temperature;
 }
 
-MPU6050 mpu6050(Wire);
+//MPU6050 mpu6050(Wire);
 TinyGPSPlus gps;
 BMP280 bmp;
 
@@ -62,8 +62,8 @@ void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
   Wire.begin();
-  mpu6050.Initialize();
-  mpu6050.Calibrate();
+  //mpu6050.Initialize();
+  //mpu6050.Calibrate();
   bmp.begin();
   bmp.setOversampling(16);
   radio.begin();
@@ -156,17 +156,17 @@ void logAll() {
   logDataF(packet.temp1);
   logDataF(packet.temp2);
   logDataF(packet.pressure);
-  logDataF(packet.accX);
-  logDataF(packet.accY);
-  logDataF(packet.accZ);
-  logDataF(packet.gyroX);
-  logDataF(packet.gyroY);
-  logDataF(packet.gyroZ);
-  logDataF(packet.angleX);
-  logDataF(packet.angleY);
-  logDataF(packet.angleZ);
-  logDataF(packet.accDeadzone);
-  logDataF(packet.gyroDeadzone);
+  //logDataF(packet.accX);
+  //logDataF(packet.accY);
+  //logDataF(packet.accZ);
+  //logDataF(packet.gyroX);
+  //logDataF(packet.gyroY);
+  //logDataF(packet.gyroZ);
+  //logDataF(packet.angleX);
+  //logDataF(packet.angleY);
+  //logDataF(packet.angleZ);
+  //logDataF(packet.accDeadzone);
+  //logDataF(packet.gyroDeadzone);
   logDataF(packet.lng);
   logDataF(packet.lat);
   logDataF(packet.speed);
@@ -197,7 +197,7 @@ void loop() {
   // read PM
   packet.pmValid = readPMSdata();
   // read gyro
-  mpu6050.Execute();
+  //mpu6050.Execute();
 
   // read analog termometer
   double t, p;
@@ -214,17 +214,17 @@ void loop() {
   packet.temp1 = temp;
   packet.temp2 = t;
   packet.pressure = p;
-  packet.accX = mpu6050.GetAccX();
-  packet.accY = mpu6050.GetAccY();
-  packet.accZ = mpu6050.GetAccZ();
-  packet.gyroX = mpu6050.GetGyroX();
-  packet.gyroY = mpu6050.GetGyroY();
-  packet.gyroZ = mpu6050.GetGyroZ();
-  packet.angleX = mpu6050.GetAngX();
-  packet.angleY = mpu6050.GetAngY();
-  packet.angleZ = mpu6050.GetAngZ();
-  packet.accDeadzone = mpu6050.GetAccelDeadzone();
-  packet.gyroDeadzone = mpu6050.GetGyroDeadzone();
+  //packet.accX = mpu6050.GetAccX();
+  //packet.accY = mpu6050.GetAccY();
+  //packet.accZ = mpu6050.GetAccZ();
+  //packet.gyroX = mpu6050.GetGyroX();
+  //packet.gyroY = mpu6050.GetGyroY();
+  //packet.gyroZ = mpu6050.GetGyroZ();
+  //packet.angleX = mpu6050.GetAngX();
+  //packet.angleY = mpu6050.GetAngY();
+  //packet.angleZ = mpu6050.GetAngZ();
+  //packet.accDeadzone = mpu6050.GetAccelDeadzone();
+  //packet.gyroDeadzone = mpu6050.GetGyroDeadzone();
   packet.lng = gps.location.lng();
   packet.lat = gps.location.lat();
   packet.speed = gps.speed.kmph();
@@ -239,7 +239,7 @@ void loop() {
 
   // packet_size = 120 bytes
   // transmission takes 1250ms
-  radio.transmit((uint8_t *)(&packet), packet_size);
+  radio.transmit((char *)(&packet));
   radio.flush();
   
   logAll();
@@ -250,6 +250,6 @@ void loop() {
 //  SerialUSB.print("Timediff: ");
 //  SerialUSB.println(tdiff);
 //  SerialUSB.println(packet_size);
-
+  delay(1);
   if(tdiff<=250) delay(250-tdiff);
 }
