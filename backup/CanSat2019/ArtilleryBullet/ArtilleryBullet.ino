@@ -1,6 +1,6 @@
 #include <CanSatKit.h>
 #include <cmath>
-#include <TinyMPU6050.h>
+//#include <TinyMPU6050.h>
 #include <Wire.h>
 #include <TinyGPS++.h>
 #include <SD.h>
@@ -15,11 +15,11 @@ struct CanSatPacket {
   float temp1;
   float temp2;
   float pressure;
-  float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
+  //float accX, accY, accZ, gyroX, gyroY, gyroZ, angleX, angleY, angleZ, accDeadzone, gyroDeadzone;
   float lng, lat, alt, speed;
   int satelites;
   bool satValid, altValid, locValid;
-  float um03, um05, um10, um25, um50, um100;
+  float pm10, pm25, pm100;
   bool pmValid;
 } packet;
 const int packet_size = sizeof(packet);
@@ -43,7 +43,7 @@ float lm35_raw_to_temperature(int raw) {
   return temperature;
 }
 
-MPU6050 mpu6050(Wire);
+//MPU6050 mpu6050(Wire);
 TinyGPSPlus gps;
 BMP280 bmp;
 
@@ -62,8 +62,8 @@ void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
   Wire.begin();
-  mpu6050.Initialize();
-  mpu6050.Calibrate();
+  //mpu6050.Initialize();
+  //mpu6050.Calibrate();
   bmp.begin();
   bmp.setOversampling(16);
   radio.begin();
@@ -125,60 +125,60 @@ boolean readPMSdata() {
   return true;
 }
 
-void logDataF(char* title, float val) {
- // SerialUSB.print(title);
- // SerialUSB.println(val,10);
-  LOG.print(title);
-  LOG.println(val,10);
+void logDataF(float val) {
+  //SerialUSB.print(title);
+  //SerialUSB.print(val,10);
+  //LOG.print(title);
+  LOG.print(val,10);
+  LOG.print(" ; ");
 }
 
-void logDataI(char* title, int val) {
-//  SerialUSB.print(title);
-//  SerialUSB.println(val);
-  LOG.print(title);
-  LOG.println(val);
+void logDataI(int val) {
+  //SerialUSB.print(title);
+  //SerialUSB.println(val, 10);
+  //LOG.print(title);
+  LOG.print(val, 10);
+  LOG.print(" ; ");
 }
 
-void logDataB(char* title, bool val) {
-//  SerialUSB.print(title);
-//  SerialUSB.println(val);
-  LOG.print(title);
-  LOG.println(val);
+void logDataB(bool val) {
+  //SerialUSB.print(title);
+  //SerialUSB.println(val, 10);
+  //LOG.print(title);
+  LOG.print(val, 10);
+  LOG.print(" ; ");
 }
 
 void logAll() {
-  logDataI("Packet ID: ", packet.id);
-  logDataI("Time: ", packet.tm);
-  logDataI("Temp RAW: ", packet.raw_temp);
-  logDataF("Temp1: ", packet.temp1);
-  logDataF("Temp2: ", packet.temp2);
-  logDataF("Pressure: ", packet.pressure);
-  logDataF("AccX (m/s²): ", packet.accX);
-  logDataF("AccY (m/s²): ", packet.accY);
-  logDataF("AccZ (m/s²): ", packet.accZ);
-  logDataF("GyroX (deg/s): ", packet.gyroX);
-  logDataF("GyroY (deg/s): ", packet.gyroY);
-  logDataF("GyroZ (deg/s): ", packet.gyroZ);
-  logDataF("AngleX: ", packet.angleX);
-  logDataF("AngleY: ", packet.angleY);
-  logDataF("AngleZ: ", packet.angleZ);
-  logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
-  logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
-  logDataF("Lng: ", packet.lng);
-  logDataF("Lat: ", packet.lat);
-  logDataF("Speed: ", packet.speed);
-  logDataF("Alt: ", packet.alt);
-  logDataI("Satellites: ", packet.satelites);
-  logDataB("SatValid: ", packet.satValid);
-  logDataB("AltValid: ", packet.altValid);
-  logDataB("LocValid: ", packet.locValid);
-  logDataF("0.3 um: ", packet.um03);
-  logDataF("0.5 um: ", packet.um05);
-  logDataF("10 um: ", packet.um10);
-  logDataF("25 um: ", packet.um25);
-  logDataF("50 um: ", packet.um50);
-  logDataF("100 um: ", packet.um100);
-  logDataB("pmValid: ", packet.pmValid);
+  logDataI(packet.id);
+  logDataI(packet.tm);
+  logDataI(packet.raw_temp);
+  logDataF(packet.temp1);
+  logDataF(packet.temp2);
+  logDataF(packet.pressure);
+  //logDataF(packet.accX);
+  //logDataF(packet.accY);
+  //logDataF(packet.accZ);
+  //logDataF(packet.gyroX);
+  //logDataF(packet.gyroY);
+  //logDataF(packet.gyroZ);
+  //logDataF(packet.angleX);
+  //logDataF(packet.angleY);
+  //logDataF(packet.angleZ);
+  //logDataF(packet.accDeadzone);
+  //logDataF(packet.gyroDeadzone);
+  logDataF(packet.lng);
+  logDataF(packet.lat);
+  logDataF(packet.speed);
+  logDataF(packet.alt);
+  logDataI(packet.satelites);
+  logDataB(packet.satValid);
+  logDataB(packet.altValid);
+  logDataB(packet.locValid);
+  logDataF(packet.pm10);
+  logDataF(packet.pm25);
+  logDataF(packet.pm100);
+  logDataB(packet.pmValid);
 //  SerialUSB.println("");
   LOG.println("");
 }
@@ -197,7 +197,7 @@ void loop() {
   // read PM
   packet.pmValid = readPMSdata();
   // read gyro
-  mpu6050.Execute();
+  //mpu6050.Execute();
 
   // read analog termometer
   double t, p;
@@ -214,17 +214,17 @@ void loop() {
   packet.temp1 = temp;
   packet.temp2 = t;
   packet.pressure = p;
-  packet.accX = mpu6050.GetAccX();
-  packet.accY = mpu6050.GetAccY();
-  packet.accZ = mpu6050.GetAccZ();
-  packet.gyroX = mpu6050.GetGyroX();
-  packet.gyroY = mpu6050.GetGyroY();
-  packet.gyroZ = mpu6050.GetGyroZ();
-  packet.angleX = mpu6050.GetAngX();
-  packet.angleY = mpu6050.GetAngY();
-  packet.angleZ = mpu6050.GetAngZ();
-  packet.accDeadzone = mpu6050.GetAccelDeadzone();
-  packet.gyroDeadzone = mpu6050.GetGyroDeadzone();
+  //packet.accX = mpu6050.GetAccX();
+  //packet.accY = mpu6050.GetAccY();
+  //packet.accZ = mpu6050.GetAccZ();
+  //packet.gyroX = mpu6050.GetGyroX();
+  //packet.gyroY = mpu6050.GetGyroY();
+  //packet.gyroZ = mpu6050.GetGyroZ();
+  //packet.angleX = mpu6050.GetAngX();
+  //packet.angleY = mpu6050.GetAngY();
+  //packet.angleZ = mpu6050.GetAngZ();
+  //packet.accDeadzone = mpu6050.GetAccelDeadzone();
+  //packet.gyroDeadzone = mpu6050.GetGyroDeadzone();
   packet.lng = gps.location.lng();
   packet.lat = gps.location.lat();
   packet.speed = gps.speed.kmph();
@@ -233,16 +233,13 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.um03 = data.particles_03um;
-  packet.um05 = data.particles_05um;
-  packet.um10 = data.particles_10um;
-  packet.um25 = data.particles_25um;
-  packet.um50 = data.particles_50um;
-  packet.um100 = data.particles_100um;
+  packet.pm10 = data.pm10_standard;
+  packet.pm25 = data.pm25_standard;
+  packet.pm100 = data.pm100_standard;
 
   // packet_size = 120 bytes
   // transmission takes 1250ms
-  radio.transmit((uint8_t *)(&packet), packet_size);
+  radio.transmit((char *)(&packet));
   radio.flush();
   
   logAll();
@@ -253,6 +250,6 @@ void loop() {
 //  SerialUSB.print("Timediff: ");
 //  SerialUSB.println(tdiff);
 //  SerialUSB.println(packet_size);
-
+  delay(1);
   if(tdiff<=250) delay(250-tdiff);
 }
