@@ -1,12 +1,11 @@
 #include <CanSatKit.h>
-#include <SD.h>
 #include <SPI.h>
+#include <SD.h>
 using namespace CanSatKit;
 
 struct CanSatPacket {
   int id;
-  unsigned long tm;
-  int raw_temp;
+  float tm;
   float temp1;
   float temp2;
   float pressure;
@@ -20,6 +19,7 @@ struct CanSatPacket {
 const int packet_size = sizeof(packet);
 
 File LOG;
+int sd_active;
 
 int ledPin = 13;
 
@@ -37,12 +37,16 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   SerialUSB.begin(115200);
 
+  // delay(5000);
+
+  sd_active = 1;
   if (!SD.begin(11)) {
-    SerialUSB.println("SD >> Card failed, or not present");
-    while(1) {}
+    sd_active = 0;
   }
 
-  LOG = SD.open("recvLOG.txt", FILE_WRITE);
+  if (sd_active) {
+    LOG = SD.open("recvLOG.txt", FILE_WRITE);
+  }
 
   // start radio module
   radio.begin();
@@ -50,32 +54,34 @@ void setup() {
 
 void logDataF(char* title, float val) {
   SerialUSB.print(title);
-  SerialUSB.print(val,10);
-  //LOG.print(title);
-  LOG.print(val,10);
-  LOG.print(" ; ");
+  SerialUSB.println(val, 10);
+  if (sd_active) {
+    LOG.print(val, 10);
+    LOG.print(";");
+  }
 }
 
 void logDataI(char* title, int val) {
   SerialUSB.print(title);
-  SerialUSB.println(val, 10);
-  //LOG.print(title);
-  LOG.print(val, 10);
-  LOG.print(" ; ");
+  SerialUSB.println(val);
+  if (sd_active) {
+    LOG.print(val);
+    LOG.print(";");
+  }
 }
 
 void logDataB(char* title, bool val) {
   SerialUSB.print(title);
-  SerialUSB.println(val, 10);
-  //LOG.print(title);
-  LOG.print(val, 10);
-  LOG.print(" ; ");
+  SerialUSB.println(val);
+  if (sd_active) {
+    LOG.print(val);
+    LOG.print(";");
+  }
 }
 void logAll() {
   logDataI("Packet ID: ", packet.id);
   logDataI("RSSI: ", radio.get_rssi_last());
-  logDataI("Time: ", packet.tm);
-  logDataI("Temp RAW: ", packet.raw_temp);
+  logDataF("Time: ", packet.tm);
   logDataF("Temp1: ", packet.temp1);
   logDataF("Temp2: ", packet.temp2);
   logDataF("Pressure: ", packet.pressure);
@@ -101,17 +107,25 @@ void logAll() {
   logDataB("pmValid: ", packet.pmValid);
   logDataF("pm10: ", packet.pm10);
   logDataF("pm25: ", packet.pm25);
-  logDataF("pm100: ",packet.pm100);
-  SerialUSB.println("");
-  LOG.println("");
+  logDataF("pm100: ", packet.pm100);
+  SerialUSB.println();
+  if (sd_active) {
+    LOG.println();
+  }
 }
 
 void loop() {
+  if (!sd_active) {
+    SerialUSB.println("SDCard is not working!");
+  }
+
   digitalWrite(ledPin, HIGH);
-  radio.receive((packet));
+  radio.receive((char *)(&packet));
   digitalWrite(ledPin, LOW);
-  
+
   logAll();
 
-  LOG.flush();
+  if (sd_active) {
+    LOG.flush();
+  }
 }
