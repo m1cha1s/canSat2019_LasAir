@@ -3,6 +3,7 @@
 //#include <TinyMPU6050.h>
 #include <Wire.h>
 #include <TinyGPS++.h>
+#include <SPI.h>
 #include <SD.h>
 
 
@@ -10,8 +11,7 @@ using namespace CanSatKit;
 //14
 struct CanSatPacket {
   int id;
-  unsigned long tm;
-  int raw_temp;
+  float tm;
   float temp1;
   float temp2;
   float pressure;
@@ -55,6 +55,7 @@ Radio radio(Pins::Radio::ChipSelect,
             CodingRate_4_8);
 
 File LOG;
+int sd_active;
 
 void setup() {
   packet.id = 0;
@@ -68,11 +69,15 @@ void setup() {
   bmp.setOversampling(16);
   radio.begin();
   analogReadResolution(12);
+
+  sd_active = 1;
   if (!SD.begin(11)) {
-    SerialUSB.println("SD >> Card failed, or not present");
-    while (1) {}
+    sd_active = 0;
   }
-  LOG = SD.open("dataLOG.txt", FILE_WRITE);
+
+  if (sd_active) {
+    LOG = SD.open("dataLOG.txt", FILE_WRITE);
+  }
 }
 
 boolean readPMSdata() {
@@ -125,74 +130,83 @@ boolean readPMSdata() {
   return true;
 }
 
-void logDataF(float val) {
-  //SerialUSB.print(title);
-  //SerialUSB.print(val,10);
-  //LOG.print(title);
-  LOG.print(val,10);
-  LOG.print(" ; ");
+void logDataF(char* title, float val) {
+  SerialUSB.print(title);
+  SerialUSB.println(val, 10);
+  if (sd_active) {
+    LOG.print(val, 10);
+    LOG.print(";");
+  }
 }
 
-void logDataI(int val) {
-  //SerialUSB.print(title);
-  //SerialUSB.println(val, 10);
-  //LOG.print(title);
-  LOG.print(val, 10);
-  LOG.print(" ; ");
+void logDataI(char* title, int val) {
+  SerialUSB.print(title);
+  SerialUSB.println(val);
+  if (sd_active) {
+    LOG.print(val);
+    LOG.print(";");
+  }
 }
 
-void logDataB(bool val) {
-  //SerialUSB.print(title);
-  //SerialUSB.println(val, 10);
-  //LOG.print(title);
-  LOG.print(val, 10);
-  LOG.print(" ; ");
+void logDataB(char * title, bool val) {
+  SerialUSB.print(title);
+  SerialUSB.println(val);
+  if (sd_active) {
+    LOG.print(val);
+    LOG.print(";");
+  }
 }
 
 void logAll() {
-  logDataI(packet.id);
-  logDataI(packet.tm);
-  logDataI(packet.raw_temp);
-  logDataF(packet.temp1);
-  logDataF(packet.temp2);
-  logDataF(packet.pressure);
-  //logDataF(packet.accX);
-  //logDataF(packet.accY);
-  //logDataF(packet.accZ);
-  //logDataF(packet.gyroX);
-  //logDataF(packet.gyroY);
-  //logDataF(packet.gyroZ);
-  //logDataF(packet.angleX);
-  //logDataF(packet.angleY);
-  //logDataF(packet.angleZ);
-  //logDataF(packet.accDeadzone);
-  //logDataF(packet.gyroDeadzone);
-  logDataF(packet.lng);
-  logDataF(packet.lat);
-  logDataF(packet.speed);
-  logDataF(packet.alt);
-  logDataI(packet.satelites);
-  logDataB(packet.satValid);
-  logDataB(packet.altValid);
-  logDataB(packet.locValid);
-  logDataF(packet.pm10);
-  logDataF(packet.pm25);
-  logDataF(packet.pm100);
-  logDataB(packet.pmValid);
-//  SerialUSB.println("");
-  LOG.println("");
+  logDataI("Packet ID: ", packet.id);
+  logDataI("RSSI: ", radio.get_rssi_last());
+  logDataF("Time: ", packet.tm);
+  logDataF("Temp1: ", packet.temp1);
+  logDataF("Temp2: ", packet.temp2);
+  logDataF("Pressure: ", packet.pressure);
+  //logDataF("AccX (m/s²): ", packet.accX);
+  //logDataF("AccY (m/s²): ", packet.accY);
+  //logDataF("AccZ (m/s²): ", packet.accZ);
+  //logDataF("GyroX (deg/s): ", packet.gyroX);
+  //logDataF("GyroY (deg/s): ", packet.gyroY);
+  //logDataF("GyroZ (deg/s): ", packet.gyroZ);
+  //logDataF("AngleX: ", packet.angleX);
+  ///logDataF("AngleY: ", packet.angleY);
+  //logDataF("AngleZ: ", packet.angleZ);
+  //logDataF("AccDeadzone (m/s²): ", packet.accDeadzone);
+  //logDataF("gyroDeadzone (deg/s): ", packet.gyroDeadzone);
+  logDataF("Lng: ", packet.lng);
+  logDataF("Lat: ", packet.lat);
+  logDataF("Speed: ", packet.speed);
+  logDataF("Alt: ", packet.alt);
+  logDataI("Satellites: ", packet.satelites);
+  logDataB("SatValid: ", packet.satValid);
+  logDataB("AltValid: ", packet.altValid);
+  logDataB("LocValid: ", packet.locValid);
+  logDataB("pmValid: ", packet.pmValid);
+  logDataF("pm10: ", packet.pm10);
+  logDataF("pm25: ", packet.pm25);
+  logDataF("pm100: ", packet.pm100);
+  SerialUSB.println();
+  if (sd_active) {
+    LOG.println();
+  }
 }
 
 void readGPSData() {
   while (Serial.available()) {
     char c = Serial.read();
     gps.encode(c);
-  //  SerialUSB.print(c);
+    //  SerialUSB.print(c);
   }
 }
 
 void loop() {
   unsigned long t1 = millis();
+
+  if (!sd_active) {
+    SerialUSB.println("SDCard is not working!");
+  }
 
   // read PM
   packet.pmValid = readPMSdata();
@@ -209,8 +223,7 @@ void loop() {
   readGPSData();
 
   packet.id++;
-  packet.tm = millis();
-  packet.raw_temp = raw_temp;
+  packet.tm = millis() / 1000.0;
   packet.temp1 = temp;
   packet.temp2 = t;
   packet.pressure = p;
@@ -239,17 +252,19 @@ void loop() {
 
   // packet_size = 120 bytes
   // transmission takes 1250ms
-  radio.transmit((char *)(&packet));
+  radio.transmit((uint8_t *)(&packet), packet_size);
   radio.flush();
-  
+
   logAll();
-  LOG.flush();
+  if (sd_active) {
+    LOG.flush();
+  }
 
-  unsigned long tdiff = millis()-t1;
+  unsigned long tdiff = millis() - t1;
 
-//  SerialUSB.print("Timediff: ");
-//  SerialUSB.println(tdiff);
-//  SerialUSB.println(packet_size);
-  delay(1);
-  if(tdiff<=250) delay(250-tdiff);
+  SerialUSB.print("Timediff: ");
+  SerialUSB.println(tdiff);
+  SerialUSB.println(packet_size);
+
+  if (tdiff <= 250) delay(250 - tdiff);
 }
