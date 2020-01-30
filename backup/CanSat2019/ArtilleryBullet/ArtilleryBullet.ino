@@ -6,6 +6,21 @@
 #include <SPI.h>
 #include <SD.h>
 
+#define  MEAN_NUMBER  10
+#define  MAX_PM   0
+#define  MIN_PM   32767
+int incomingByte = 0; // for incoming serial data
+const int MAX_FRAME_LEN = 64;
+char frameBuf[MAX_FRAME_LEN];
+int detectOff = 0;
+int frameLen = MAX_FRAME_LEN;
+bool inFrame = false;
+char printbuf[256];
+unsigned int calcChecksum = 0;
+unsigned int pm1_0=0, pm2_5=0, pm10_0=0;
+unsigned int tmp_max_pm1_0, tmp_max_pm2_5, tmp_max_pm10_0; 
+unsigned int tmp_min_pm1_0, tmp_min_pm2_5, tmp_min_pm10_0; 
+byte i=0;
 
 using namespace CanSatKit;
 //14
@@ -24,16 +39,15 @@ struct CanSatPacket {
 } packet;
 const int packet_size = sizeof(packet);
 
-struct pms5003data {
-  uint16_t framelen;
-  uint16_t pm10_standard, pm25_standard, pm100_standard;
-  uint16_t pm10_env, pm25_env, pm100_env;
-  uint16_t particles_03um, particles_05um, particles_10um, particles_25um, particles_50um, particles_100um;
-  uint16_t unused;
-  uint16_t checksum;
-};
+struct PMS7003_framestruct {
+    byte  frameHeader[2];
+    unsigned int  frameLen = MAX_FRAME_LEN;
+    unsigned int  concPM1_0_CF1;
+    unsigned int  concPM2_5_CF1;
+    unsigned int  concPM10_0_CF1;
+    unsigned int  checksum;
+} thisFrame;
 
-struct pms5003data data;
 
 const int lm35_pin = A0;
 
@@ -80,54 +94,100 @@ void setup() {
   }
 }
 
-boolean readPMSdata() {
-  if (!Serial1.available()) {
-    return false;
-  }
-
-  // Read a byte at a time until we get to the special '0x42' start-byte
-  if (Serial1.peek() != 0x42) {
-    Serial1.read();
-    return false;
-  }
-
-  // Now read all 32 bytes
-  if (Serial1.available() < 32) {
-    return false;
-  }
-
-  uint8_t buffer[32];
-  uint16_t sum = 0;
-  Serial1.readBytes(buffer, 32);
-
-  // get checksum ready
-  for (uint8_t i = 0; i < 30; i++) {
-    sum += buffer[i];
-  }
-
-  /* debugging
-    for (uint8_t i=2; i<32; i++) {
-    Serial.print("0x"); Serial.print(buffer[i], HEX); Serial.print(", ");
+bool pms7003_read() {
+#ifdef DEBUG  
+    Serial.println("----- Reading PMS7003 -----");
+#endif
+    Serial1.begin(9600);
+    bool packetReceived = false;
+    calcChecksum = 0;
+    while (!packetReceived) {
+        if (Serial1 .available() > 32) {
+            int drain = Serial1.available();
+#ifdef DEBUG
+                Serial.print("----- Draining buffer: -----");
+                Serial.println(Serial1.available(), DEC);
+#endif
+            for (int i = drain; i > 0; i--) {
+                Serial1.read();
+            }
+        }
+        if (Serial1.available() > 0) {
+#ifdef DEBUG
+                Serial.print("----- Available: -----");
+                Serial.println(Serial1.available(), DEC);
+#endif
+            incomingByte = Serial1.read();
+#ifdef DEBUG
+                Serial.print("----- READ: -----");
+                Serial.println(incomingByte, HEX);
+#endif
+            if (!inFrame) {
+                if (incomingByte == 0x42 && detectOff == 0) {
+                    frameBuf[detectOff] = incomingByte;
+                    thisFrame.frameHeader[0] = incomingByte;
+                    calcChecksum = incomingByte; // Checksum init!
+                    detectOff++;
+                }
+                else if (incomingByte == 0x4D && detectOff == 1) {
+                    frameBuf[detectOff] = incomingByte;
+                    thisFrame.frameHeader[1] = incomingByte;
+                    calcChecksum += incomingByte;
+                    inFrame = true;
+                    detectOff++;
+                }
+                else {
+                    Serial.print("----- Frame syncing... -----");
+                    Serial.print(incomingByte, HEX);
+                    Serial.println();
+                }
+            }
+            else {
+                frameBuf[detectOff] = incomingByte;
+                calcChecksum += incomingByte;
+                detectOff++;
+                unsigned int  val = (frameBuf[detectOff-1]&0xff)+(frameBuf[detectOff-2]<<8);
+                switch (detectOff) {
+                    case 4:
+                        thisFrame.frameLen = val;
+                        frameLen = val + detectOff;
+                        break;
+                    case 6:
+                        thisFrame.concPM1_0_CF1 = val;
+                        break;
+                    case 8:
+                        thisFrame.concPM2_5_CF1 = val;
+                        break;
+                    case 10:
+                        thisFrame.concPM10_0_CF1 = val;
+                        break;
+                    case 32:
+                        thisFrame.checksum = val;
+                        calcChecksum -= ((val>>8)+(val&0xFF));
+                        break;
+                    default:
+                        break;
+                }
+                if (detectOff >= frameLen) {
+#ifdef DEBUG          
+                    sprintf(printbuf, "PMS7003 ");
+                    sprintf(printbuf, "%s[%02x %02x] (%04x) ", printbuf,
+                        thisFrame.frameHeader[0], thisFrame.frameHeader[1], thisFrame.frameLen);
+                    sprintf(printbuf, "%sCF1=[%04x %04x %04x] ", printbuf,
+                        thisFrame.concPM1_0_CF1, thisFrame.concPM2_5_CF1, thisFrame.concPM10_0_CF1);
+                    sprintf(printbuf, "%scsum=%04x %s xsum=%04x", printbuf,
+                        thisFrame.checksum, (calcChecksum == thisFrame.checksum ? "==" : "!="), calcChecksum);
+                    Serial.println(printbuf);
+#endif        
+                    packetReceived = true;
+                    detectOff = 0;
+                    inFrame = false;
+                }
+            }
+        }
     }
-    Serial.println();
-  */
-
-  // The data comes in endian'd, this solves it so it works on all platforms
-  uint16_t buffer_u16[15];
-  for (uint8_t i = 0; i < 15; i++) {
-    buffer_u16[i] = buffer[2 + i * 2 + 1];
-    buffer_u16[i] += (buffer[2 + i * 2] << 8);
-  }
-
-  // put it into a nice struct :)
-  memcpy((void *)&data, (void *)buffer_u16, 30);
-
-  if (sum != data.checksum) {
-    SerialUSB.println("Checksum failure");
-    return false;
-  }
-  // success!
-  return true;
+    Serial1.end();
+    return (calcChecksum == thisFrame.checksum);
 }
 
 void logDataF(char* title, float val) {
@@ -204,12 +264,34 @@ void readGPSData() {
 void loop() {
   unsigned long t1 = millis();
 
+  if(i==0) { 
+    tmp_max_pm1_0  = MAX_PM;
+    tmp_max_pm2_5  = MAX_PM;
+    tmp_max_pm10_0 = MAX_PM;
+    tmp_min_pm1_0  = MIN_PM;
+    tmp_min_pm2_5  = MIN_PM;
+    tmp_min_pm10_0 = MIN_PM;
+  }
+  if (pms7003_read()) {
+    tmp_max_pm1_0  = max(thisFrame.concPM1_0_CF1, tmp_max_pm1_0);
+    tmp_max_pm2_5  = max(thisFrame.concPM2_5_CF1, tmp_max_pm2_5);
+    tmp_max_pm10_0 = max(thisFrame.concPM10_0_CF1, tmp_max_pm10_0);
+    tmp_min_pm1_0  = min(thisFrame.concPM1_0_CF1, tmp_min_pm1_0);
+    tmp_min_pm2_5  = min(thisFrame.concPM2_5_CF1, tmp_min_pm2_5);
+    tmp_min_pm10_0 = min(thisFrame.concPM10_0_CF1, tmp_min_pm10_0);
+    pm1_0 += thisFrame.concPM1_0_CF1;
+    pm2_5 += thisFrame.concPM2_5_CF1;
+    pm10_0 += thisFrame.concPM10_0_CF1;
+    i++;
+  }
+  pm1_0=pm2_5=pm10_0=i=0;
+  
   if (!sd_active) {
     SerialUSB.println("SDCard is not working!");
   }
 
   // read PM
-  packet.pmValid = readPMSdata();
+  packet.pmValid = pms7003_read();
   // read gyro
   //mpu6050.Execute();
 
@@ -246,9 +328,9 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.pm10 = data.pm10_standard;
-  packet.pm25 = data.pm25_standard;
-  packet.pm100 = data.pm100_standard;
+  packet.pm10 = (pm1_0-tmp_max_pm1_0-tmp_min_pm1_0)/(MEAN_NUMBER-2);
+  packet.pm25 = (pm2_5-tmp_max_pm2_5-tmp_min_pm2_5)/(MEAN_NUMBER-2);
+  packet.pm100 = (pm10_0-tmp_max_pm10_0-tmp_min_pm10_0)/(MEAN_NUMBER-2);
 
   // packet_size = 120 bytes
   // transmission takes 1250ms
