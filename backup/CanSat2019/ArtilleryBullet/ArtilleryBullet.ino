@@ -5,12 +5,24 @@
 #include <TinyGPS++.h>
 #include <SPI.h>
 #include <SD.h>
-#include <Plantower_PMS7003.h>
 
 //int sleepModePMS = 2;
 
-char output[256];
-Plantower_PMS7003 pms7003 = Plantower_PMS7003();
+#define  MEAN_NUMBER  10
+#define  MAX_PM   0
+#define  MIN_PM   32767
+int incomingByte = 0; // for incoming serial data
+const int MAX_FRAME_LEN = 64;
+char frameBuf[MAX_FRAME_LEN];
+int detectOff = 0;
+int frameLen = MAX_FRAME_LEN;
+bool inFrame = false;
+char printbuf[256];
+unsigned int calcChecksum = 0;
+unsigned int pm1_0=0, pm2_5=0, pm10_0=0;
+unsigned int tmp_max_pm1_0, tmp_max_pm2_5, tmp_max_pm10_0; 
+unsigned int tmp_min_pm1_0, tmp_min_pm2_5, tmp_min_pm10_0; 
+byte i=0;
 
 using namespace CanSatKit;
 //14
@@ -28,6 +40,18 @@ struct CanSatPacket {
   bool pmValid;
 } packet;
 const int packet_size = sizeof(packet);
+
+struct pms5003data {
+  uint16_t framelen;
+  uint16_t pm10_standard, pm25_standard, pm100_standard;
+  uint16_t pm10_env, pm25_env, pm100_env;
+  uint16_t particles_03um, particles_05um, particles_10um, particles_25um, particles_50um, particles_100um;
+  uint16_t unused;
+  uint16_t checksum;
+};
+
+struct pms5003data data;
+
 
 const int lm35_pin = A0;
 
@@ -66,7 +90,6 @@ void setup() {
   bmp.setOversampling(16);
   radio.begin();
   analogReadResolution(12);
-  pms7003.init(&Serial1);
 
   sd_active = 1;
   if (!SD.begin(11)) {
@@ -76,6 +99,57 @@ void setup() {
   if (sd_active) {
     LOG = SD.open("dataLOG.txt", FILE_WRITE);
   }
+}
+
+boolean readPMSdata(Stream *s) {
+  if (! s->available()) {
+    SerialUSB.println("PMS not aviable!!!");
+    return false;
+  }
+  
+  // Read a byte at a time until we get to the special '0x42' start-byte
+  if (s->peek() != 0x42) {
+    s->read();
+    return false;
+  }
+ 
+  // Now read all 32 bytes
+  if (s->available() < 32) {
+    return false;
+  }
+    
+  uint8_t buffer[32];    
+  uint16_t sum = 0;
+  s->readBytes(buffer, 32);
+ 
+  // get checksum ready
+  for (uint8_t i=0; i<30; i++) {
+    sum += buffer[i];
+  }
+ 
+  /* debugging
+  for (uint8_t i=2; i<32; i++) {
+    Serial.print("0x"); Serial.print(buffer[i], HEX); Serial.print(", ");
+  }
+  Serial.println();
+  */
+  
+  // The data comes in endian'd, this solves it so it works on all platforms
+  uint16_t buffer_u16[15];
+  for (uint8_t i=0; i<15; i++) {
+    buffer_u16[i] = buffer[2 + i*2 + 1];
+    buffer_u16[i] += (buffer[2 + i*2] << 8);
+  }
+ 
+  // put it into a nice struct :)
+  memcpy((void *)&data, (void *)buffer_u16, 30);
+ 
+  if (sum != data.checksum) {
+    SerialUSB.println("Checksum failure");
+    return false;
+  }
+  // success!
+  return true;
 }
 
 void logDataF(char* title, float val) {
@@ -132,9 +206,9 @@ void logAll() {
   logDataB("AltValid: ", packet.altValid);
   logDataB("LocValid: ", packet.locValid);
   logDataB("pmValid: ", packet.pmValid);
-  logDataF("pm10: ", packet.pm10);
-  logDataF("pm25: ", packet.pm25);
-  logDataF("pm100: ", packet.pm100);
+  logDataF("pm1.0: ", packet.pm10);
+  logDataF("pm2.5: ", packet.pm25);
+  logDataF("pm10.0: ", packet.pm100);
   SerialUSB.println();
   if (sd_active) {
     LOG.println();
@@ -150,9 +224,10 @@ void readGPSData() {
 }
 
 void loop() {
-  pms7003.updateFrame();
   digitalWrite(13, LOW);
   unsigned long t1 = millis();
+
+  bool pms = readPMSdata(&Serial1);
   
   if (!sd_active) {
     SerialUSB.println("SDCard is not working!");
@@ -162,7 +237,7 @@ void loop() {
   }
 
   // read PM
-  packet.pmValid = pms7003.hasNewData();
+  packet.pmValid = pms;
   // read gyro
   //mpu6050.Execute();
 
@@ -199,9 +274,9 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.pm10 = pms7003.getPM_1_0_atmos();
-  packet.pm25 = pms7003.getPM_2_5_atmos();
-  packet.pm100 = pms7003.getPM_10_0_atmos();
+  packet.pm10 = data.pm10_standard;
+  packet.pm25 = data.pm25_standard;
+  packet.pm100 = data.pm100_standard;
   
 
   // packet_size = 120 bytes
