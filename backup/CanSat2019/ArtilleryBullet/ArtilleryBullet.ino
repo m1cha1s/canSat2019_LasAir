@@ -6,6 +6,8 @@
 #include <SPI.h>
 #include <SD.h>
 
+//int sleepModePMS = 2;
+
 #define  MEAN_NUMBER  10
 #define  MAX_PM   0
 #define  MIN_PM   32767
@@ -72,10 +74,12 @@ File LOG;
 int sd_active;
 
 void setup() {
+  SerialUSB.begin(115200);
+  pinMode(13, OUTPUT);
+  digitalWrite(13, HIGH);
   packet.id = 0;
   packet.tm = 0;
   Serial.begin(9600);
-  Serial1.begin(9600);
   Wire.begin();
   //mpu6050.Initialize();
   //mpu6050.Calibrate();
@@ -262,6 +266,7 @@ void readGPSData() {
 }
 
 void loop() {
+  digitalWrite(13, LOW);
   unsigned long t1 = millis();
 
   if(i==0) { 
@@ -272,7 +277,8 @@ void loop() {
     tmp_min_pm2_5  = MIN_PM;
     tmp_min_pm10_0 = MIN_PM;
   }
-  if (pms7003_read()) {
+  bool pms = pms7003_read();
+  if (pms) {
     tmp_max_pm1_0  = max(thisFrame.concPM1_0_CF1, tmp_max_pm1_0);
     tmp_max_pm2_5  = max(thisFrame.concPM2_5_CF1, tmp_max_pm2_5);
     tmp_max_pm10_0 = max(thisFrame.concPM10_0_CF1, tmp_max_pm10_0);
@@ -284,14 +290,20 @@ void loop() {
     pm10_0 += thisFrame.concPM10_0_CF1;
     i++;
   }
-  pm1_0=pm2_5=pm10_0=i=0;
+  pm1_0=0;
+  pm2_5=0;
+  pm10_0=0;
+  i=0;
   
   if (!sd_active) {
     SerialUSB.println("SDCard is not working!");
   }
+  else {
+    SerialUSB.println("SDCard is working!");
+  }
 
   // read PM
-  packet.pmValid = pms7003_read();
+  packet.pmValid = pms;
   // read gyro
   //mpu6050.Execute();
 
@@ -328,9 +340,11 @@ void loop() {
   packet.satValid = gps.satellites.isValid();
   packet.altValid = gps.altitude.isValid();
   packet.locValid = gps.location.isValid();
-  packet.pm10 = (pm1_0-tmp_max_pm1_0-tmp_min_pm1_0)/(MEAN_NUMBER-2);
-  packet.pm25 = (pm2_5-tmp_max_pm2_5-tmp_min_pm2_5)/(MEAN_NUMBER-2);
-  packet.pm100 = (pm10_0-tmp_max_pm10_0-tmp_min_pm10_0)/(MEAN_NUMBER-2);
+  if(i == MEAN_NUMBER){
+    packet.pm10 = (pm1_0-tmp_max_pm1_0-tmp_min_pm1_0)/(MEAN_NUMBER-2);
+    packet.pm25 = (pm2_5-tmp_max_pm2_5-tmp_min_pm2_5)/(MEAN_NUMBER-2);
+    packet.pm100 = (pm10_0-tmp_max_pm10_0-tmp_min_pm10_0)/(MEAN_NUMBER-2);
+  }
 
   // packet_size = 120 bytes
   // transmission takes 1250ms
@@ -349,4 +363,5 @@ void loop() {
   SerialUSB.println(packet_size);
 
   if (tdiff <= 250) delay(250 - tdiff);
+  digitalWrite(13, HIGH);
 }
