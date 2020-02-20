@@ -12,7 +12,13 @@ print(data.head())
 
 for i in labels:
     for x in range(2):
-        plt.plot(i, labels[x])
+        v = 0
+        if x==0 :
+            v = 0
+        else:
+            v = 2
+        plt.plot(data[i], data[labels[v]])
         plt.xlabel(i)
-        plt.ylabel(labels[x])
-        plt.savefig("plots/"+i+"_"+labels[x]+"png")
+        plt.ylabel(labels[v])
+        plt.savefig("plots/"+i+"_"+labels[v]+".png")
+        plt.clf()
