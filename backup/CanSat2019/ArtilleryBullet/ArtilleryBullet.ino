@@ -216,8 +216,8 @@ void logAll() {
 }
 
 void readGPSData() {
-  while (Serial.available()) {
-    char c = Serial.read();
+  while (Serial1.available()) {
+    char c = Serial1.read();
     gps.encode(c);
     //  SerialUSB.print(c);
   }
@@ -227,7 +227,7 @@ void loop() {
   digitalWrite(13, LOW);
   unsigned long t1 = millis();
 
-  bool pms = readPMSdata(&Serial1);
+  bool pms = readPMSdata(&Serial);
   
   if (!sd_active) {
     SerialUSB.println("SDCard is not working!");

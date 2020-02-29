@@ -1,7 +1,11 @@
 #include <CanSatKit.h>
 #include <SPI.h>
 #include <SD.h>
+#include <LiquidCrystal.h>
 using namespace CanSatKit;
+
+const int rs = 0, en = 1, d4 = 2, d5 = 3, d6 = 4, d7 = 5;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 struct CanSatPacket {
   int id;
@@ -34,6 +38,7 @@ Radio radio(Pins::Radio::ChipSelect,
             CodingRate_4_8);        // see provided presentations to determine which setting is the best
 
 void setup() {
+  lcd.begin(16, 2);
   pinMode(ledPin, OUTPUT);
   SerialUSB.begin(115200);
 
@@ -50,6 +55,7 @@ void setup() {
 
   // start radio module
   radio.begin();
+  lcd.print("Hello, world!");
 }
 
 void logDataF(char* title, float val) {
@@ -114,15 +120,23 @@ void logAll() {
   }
 }
 
+char str[64];
+
 void loop() {
+  lcd.clear();
   if (!sd_active) {
     SerialUSB.println("SDCard is not working!");
   }
 
+  sprintf(str, "RSSI: %d", radio.get_rssi_last());
+  lcd.print(str);
+  
   digitalWrite(ledPin, HIGH);
   radio.receive((char *)(&packet));
   digitalWrite(ledPin, LOW);
 
+  
+  
   logAll();
 
   if (sd_active) {
